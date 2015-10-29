@@ -1,8 +1,8 @@
-Test = React.createClass({
+var About = React.createClass({
 	render: function(){
 		return(
 			<div>
-				test
+				about
 			</div>
 		)
 	}
