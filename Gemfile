@@ -23,6 +23,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'react-rails', '~> 1.4.0'
 gem 'react-router-rails', '~>0.13.3.1'
+gem 'bcrypt'
 
 
 # Use ActiveModel has_secure_password
