@@ -1,8 +1,8 @@
-var Home = React.createClass({
+var Categories = React.createClass({
 	render: function(){
 		return(
 			<div>
-				home index
+				categories index
 			</div>
 		)
 	}

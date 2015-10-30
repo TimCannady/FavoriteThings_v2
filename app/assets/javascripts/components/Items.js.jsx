@@ -1,8 +1,8 @@
-var About = React.createClass({
+var Items = React.createClass({
 	render: function(){
 		return(
 			<div>
-				about
+				items index
 			</div>
 		)
 	}

@@ -1,8 +1,8 @@
-var Home = React.createClass({
+var Users = React.createClass({
 	render: function(){
 		return(
 			<div>
-				home index
+				users index
 			</div>
 		)
 	}
