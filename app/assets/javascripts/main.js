@@ -1,3 +1,3 @@
-ReactRouter.run(routes, function (Handler) {
-  React.render(<Handler/>, document.body);
-});
+// ReactRouter.run(routes, function (Handler) {
+//   React.render(<Handler/>, document.body);
+// });

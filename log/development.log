@@ -5909,3 +5909,3108 @@ Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476
 
 
 Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:16:34 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:18:47 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 925ms (Views: 924.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/main.self-b1e88561b4a19fe7bc861a6833a4384f3f1374864d5e25ba821414f786525888.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:18:48 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:18:51 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 89ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/main.self-b1e88561b4a19fe7bc861a6833a4384f3f1374864d5e25ba821414f786525888.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:18:51 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:18:53 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/main.self-b1e88561b4a19fe7bc861a6833a4384f3f1374864d5e25ba821414f786525888.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:18:53 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:19:01 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 120ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:19:28 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 235ms (Views: 235.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/main.self-fb63755925abd9415398f68f04ef137488bdbcd24091fb80ee8c210b787cd7e5.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:19:28 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:19:36 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/main.self-fb63755925abd9415398f68f04ef137488bdbcd24091fb80ee8c210b787cd7e5.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:19:36 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:20:50 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 226ms (Views: 225.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:20:50 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:26:20 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1299ms (Views: 1298.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components/App.self-18af4e1152e3287aac8080212369d238707a69aa1167750135bde0f9135f394a.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:26:21 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:36:01 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 940ms (Views: 939.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components/App.self-18af4e1152e3287aac8080212369d238707a69aa1167750135bde0f9135f394a.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/main.self-b1e88561b4a19fe7bc861a6833a4384f3f1374864d5e25ba821414f786525888.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:36:03 -0700
+
+
+Started GET "/categories" for ::1 at 2015-10-29 18:36:12 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 933ms (Views: 932.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/main.self-b1e88561b4a19fe7bc861a6833a4384f3f1374864d5e25ba821414f786525888.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:36:13 -0700
+
+
+Started GET "/users" for ::1 at 2015-10-29 18:37:35 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"users"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1618ms (Views: 1617.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components/App.self-08a4a28d43fed9f3a923b2abfec31076385145aa4d7a33f3b8c24c21c442e637.js?body=1" for ::1 at 2015-10-29 18:37:37 -0700
+
+
+Started GET "/assets/components/Users.self-6981bbee26ecd946d69ccdae5a7f493be7de6762f15b2c8c45ec0938536e8d7d.js?body=1" for ::1 at 2015-10-29 18:37:37 -0700
+
+
+Started GET "/users" for ::1 at 2015-10-29 18:37:49 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"users"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 928ms (Views: 928.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components/App.self-08a4a28d43fed9f3a923b2abfec31076385145aa4d7a33f3b8c24c21c442e637.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components/Items.self-c27092084a263d4ff26a3e76b7e0489dd6ce26f6a07dc9ef03897973b1cfe6b6.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/main.self-b1e88561b4a19fe7bc861a6833a4384f3f1374864d5e25ba821414f786525888.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:37:50 -0700
+
+
+Started GET "/users" for ::1 at 2015-10-29 18:38:10 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"users"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 261ms (Views: 260.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components/App.self-08a4a28d43fed9f3a923b2abfec31076385145aa4d7a33f3b8c24c21c442e637.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components/Items.self-c27092084a263d4ff26a3e76b7e0489dd6ce26f6a07dc9ef03897973b1cfe6b6.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:38:10 -0700
+
+
+Started GET "/users" for ::1 at 2015-10-29 18:38:17 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"users"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 968ms (Views: 967.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components/App.self-08a4a28d43fed9f3a923b2abfec31076385145aa4d7a33f3b8c24c21c442e637.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components/Items.self-798ff36f49cd54f6d93eba15facbb46bc151378140b35cb3b6c4d152188f7248.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:38:18 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:38:46 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:39:17 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1589ms (Views: 1589.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components/Items.self-ba69d6f94aadb7960b75017274600542621acd9dea69858c10315434cd71d934.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:39:19 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:39:33 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 894ms (Views: 893.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:39:34 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:39:36 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components/Items.self-ba69d6f94aadb7960b75017274600542621acd9dea69858c10315434cd71d934.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:39:37 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:40:07 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 270ms (Views: 269.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:40:07 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:40:22 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 972ms (Views: 971.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components/App.self-fe15b5bdf2c4e240dc49c76f1a48dc2c65a896914c3ab005502129ec0bf579f1.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:40:23 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:40:39 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 717ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (7:25)
+   5 | 		return(
+   6 | 			<div>
+>  7 | 				{<RouteHandler items{"hammer"} />} 
+     |                          ^
+   8 | 			</div>
+   9 | 		)
+  10 | 	}):
+    3: <head>
+    4:   <title>FavoriteThings</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1789017061114912129_70294115952620'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (58.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.3ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:40:46 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 929ms (Views: 929.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components/App.self-54a49db108f265b3aa659f09d8256b8996ad49f5de0dd123b3cada95e7b9ec20.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:40:47 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:41:07 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 261ms (Views: 260.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components/App.self-54a49db108f265b3aa659f09d8256b8996ad49f5de0dd123b3cada95e7b9ec20.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components/Items.self-c27092084a263d4ff26a3e76b7e0489dd6ce26f6a07dc9ef03897973b1cfe6b6.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:41:07 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:41:20 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components/App.self-54a49db108f265b3aa659f09d8256b8996ad49f5de0dd123b3cada95e7b9ec20.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:41:20 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:41:32 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 988ms (Views: 987.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:41:33 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 18:41:51 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 933ms (Views: 932.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 18:41:52 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:40:39 -0700
+
+AbstractController::ActionNotFound (The action 'main' could not be found for AppController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (58.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.2ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:40:53 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 108ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:40:53 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:41:17 -0700
+
+ActionController::RoutingError (uninitialized constant AppController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.7ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:43:21 -0700
+
+ActionController::RoutingError (uninitialized constant AppController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.9ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:43:39 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:43:39 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:43:43 -0700
+
+LoadError (Unable to autoload constant AppController, expected /Users/timcannady/Desktop/FavoriteThings_v2/app/controllers/app_controller.rb to define it):
+  activesupport (4.2.3) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.9ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (102.6ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:44:12 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:44:12 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:44:25 -0700
+
+ActionController::RoutingError (uninitialized constant ApppController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (92.9ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:44:39 -0700
+
+LoadError (Unable to autoload constant AppController, expected /Users/timcannady/Desktop/FavoriteThings_v2/app/controllers/app_controller.rb to define it):
+  activesupport (4.2.3) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.8ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:45:03 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `log' for nil:NilClass):
+  app/controllers/app_controller.rb:7:in `main'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (47.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (101.0ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:45:08 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:45:08 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:45:15 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:45:15 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:45:32 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:45:32 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:47:33 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (759.0ms)
+Completed 500 Internal Server Error in 763ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (757: unexpected token at 'Warning: React.renderToString is deprecated. Please use ReactDOMServer.renderToString from require('react-dom/server') instead.
+["ok","<div data-reactid=\".6s63pb7k00\" data-react-checksum=\"266083515\"><div data-reactid=\".6s63pb7k00.0\">items index</div></div>"]'):
+    1: <%= react_router 'MyRoutes', 'HistoryLocation',{},{ prerender_location: @location_path } %>
+  app/views/app/main.html.erb:1:in `_app_views_app_main_html_erb___140127267464523947_70294071142780'
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.9ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.8ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:48:15 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 92ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:48:15 -0700
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (26.1ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "tim"], ["description", "tims first item"], ["photo_url", "www.google.com"], ["created_at", "2015-10-30 02:50:18.613940"], ["updated_at", "2015-10-30 02:50:18.613940"]]
+  [1m[36m (60.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT  "items".* FROM "items"  ORDER BY "items"."id" ASC LIMIT 1[0m
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:50:43 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 80ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:50:44 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:51:11 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+Completed 200 OK in 12ms (Views: 5.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:51:21 -0700
+
+SyntaxError (/Users/timcannady/Desktop/FavoriteThings_v2/app/controllers/app_controller.rb:8: syntax error, unexpected ':', expecting keyword_end
+		json: Item.all
+		     ^):
+  app/controllers/app_controller.rb:8: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.1ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.0ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (106.1ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:51:29 -0700
+
+SyntaxError (/Users/timcannady/Desktop/FavoriteThings_v2/app/controllers/app_controller.rb:8: syntax error, unexpected ':', expecting keyword_end
+		return json: Item.all
+		            ^):
+  app/controllers/app_controller.rb:8: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.7ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.2ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/timcannady/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (92.3ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:51:33 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 10ms (Views: 3.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:53:09 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered app/main.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 161ms (Views: 147.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:53:09 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:53:32 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 104.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:53:32 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 85.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:53:32 -0700
+
+
+Started GET "/items" for ::1 at 2015-10-29 19:53:51 -0700
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered app/main.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 89ms (Views: 77.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-10-29 19:53:52 -0700
+
+
+Started GET "/" for ::1 at 2015-11-02 11:19:23 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (3.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AppController#main as HTML
+  [1m[35mItem Load (19.7ms)[0m  SELECT "items".* FROM "items"
+  Rendered app/main.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 436ms (Views: 384.9ms | ActiveRecord: 30.7ms)
+
+
+Started GET "/assets/categories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/development/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/react_router.self-a3943585cbcc7a7882eca04c71f0b40439960cdb60833a1e4af8d3be28cf5b47.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/react_router_ujs.self-740638e0f3b66ee8dc9a4a0323cd82ea09bc801cac7ab6e1bdd1fbd8dd491728.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components/App.self-a8a72e195a6972031013a595baccc8a49fd7f06d02707824e5a6097b6d5b5548.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components/Categories.self-28e1f7147f3dd091a1b528361240eeae33d346ee5bf8f62aa4c60cf9cf8f685d.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components/Home.self-74b1981b7cf63be81514960eb5cb5b6478fe5a028f8d0772282fe80035f3fdc2.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components/Items.self-f172d47cd1c857ca66bda6e029db704fbce70d468462ed38f01460dd7cb80a1d.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components/Users.self-c571482b429a5bdba78a27a02109ac945683b33e69ae344bf0355533af2957a0.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components/routes.self-555b7ee1ce60cde3be4ac2227158d3a015474bafd3bdadcceb6da7d05223a05a.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/components.self-698deb65fbc18882fe94e84d63ce9b532e691bfbd6d7f69254e7510a4cac3e4b.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/categories.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/main.self-b9ff043d90db0a31102cd77a7647bdfdb7fd383005010221530ec5d547594286.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40c315cf46ea39d8f4e640e6.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
