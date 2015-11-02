@@ -19,8 +19,12 @@ var Users = React.createClass({
 			dataType: 'json',
 			success: function(data){
 				alert('success!')
-				alert(data)
-			},
+				this.setState({didFetchData: 'true', users: data})
+				// this.fetchUsersDone(data)
+				// arr = data.map(function(person){
+				// 	alert(person.f_name)
+				// })
+			}.bind(this),
 			error: function(data){
 				alert('error!')
 			}
@@ -28,11 +32,21 @@ var Users = React.createClass({
 
 	},
 
+	// fetchUsersDone: function(data){
+	// 	alert('done!')
+	// 	alert(data)
+	// },
+
 	render: function(){
+		person = this.state.users.map(function(person){
+			return <User f_name={person.f_name} />
+		})
+
 		return(
 			<div>
 				Fetched data: {this.state.didFetchData}
-				Users array: {this.state.users}
+				<br/>
+				Users array: {person}
 			</div>
 		)
 	}
