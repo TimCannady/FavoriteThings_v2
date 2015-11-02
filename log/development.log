@@ -9014,3 +9014,702 @@ Started GET "/assets/application.self-e37b71e3cdd5c261eff7d5891e02afa94e6e347a40
 
 
 Started GET "/assets/users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-11-02 11:19:25 -0800
+
+
+Started GET "/users" for ::1 at 2015-11-02 11:19:51 -0800
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"users"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for ::1 at 2015-11-02 11:19:55 -0800
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"items"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/categories" for ::1 at 2015-11-02 11:19:57 -0800
+Processing by AppController#main as HTML
+  Parameters: {"path"=>"categories"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered app/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (9.4ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kitchen"], ["description", "for all your cookin needs"], ["photo_url", "http://i.imgur.com/5KlZsXh.png"], ["created_at", "2015-11-02 19:31:39.298974"], ["updated_at", "2015-11-02 19:31:39.298974"]]
+  [1m[35m (68.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Bathroom"], ["description", "for all your cleaning needs"], ["photo_url", "http://i.imgur.com/arSO5D6.png"], ["created_at", "2015-11-02 19:31:39.384781"], ["updated_at", "2015-11-02 19:31:39.384781"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Beauty"], ["description", "for all your beauty needs"], ["photo_url", "http://i.imgur.com/eHUfzvu.png"], ["created_at", "2015-11-02 19:31:39.389174"], ["updated_at", "2015-11-02 19:31:39.389174"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Closet"], ["description", "for all your clothing needs"], ["photo_url", "http://i.imgur.com/OsGY7K5.jpg"], ["created_at", "2015-11-02 19:31:39.393670"], ["updated_at", "2015-11-02 19:31:39.393670"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Electronics"], ["description", "for all your 'phile needs"], ["photo_url", "http://i.imgur.com/u5bwgLH.png"], ["created_at", "2015-11-02 19:31:39.398197"], ["updated_at", "2015-11-02 19:31:39.398197"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Children"], ["description", "for all your child's needs"], ["photo_url", "http://i.imgur.com/JSVJBdk.jpg"], ["created_at", "2015-11-02 19:31:39.402991"], ["updated_at", "2015-11-02 19:31:39.402991"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hardware"], ["description", "for all your DIY needs"], ["photo_url", "http://i.imgur.com/TC7t4ol.png"], ["created_at", "2015-11-02 19:31:39.407731"], ["updated_at", "2015-11-02 19:31:39.407731"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Garage"], ["description", "for all your garage needs"], ["photo_url", "http://i.imgur.com/J5AXYZe.jpg"], ["created_at", "2015-11-02 19:31:39.412084"], ["updated_at", "2015-11-02 19:31:39.412084"]]
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kitchen"], ["description", "for all your cookin needs"], ["photo_url", "http://i.imgur.com/5KlZsXh.png"], ["created_at", "2015-11-02 19:32:27.728343"], ["updated_at", "2015-11-02 19:32:27.728343"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Bathroom"], ["description", "for all your cleaning needs"], ["photo_url", "http://i.imgur.com/arSO5D6.png"], ["created_at", "2015-11-02 19:32:27.734839"], ["updated_at", "2015-11-02 19:32:27.734839"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Beauty"], ["description", "for all your beauty needs"], ["photo_url", "http://i.imgur.com/eHUfzvu.png"], ["created_at", "2015-11-02 19:32:27.739046"], ["updated_at", "2015-11-02 19:32:27.739046"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Closet"], ["description", "for all your clothing needs"], ["photo_url", "http://i.imgur.com/OsGY7K5.jpg"], ["created_at", "2015-11-02 19:32:27.742973"], ["updated_at", "2015-11-02 19:32:27.742973"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Electronics"], ["description", "for all your 'phile needs"], ["photo_url", "http://i.imgur.com/u5bwgLH.png"], ["created_at", "2015-11-02 19:32:27.747409"], ["updated_at", "2015-11-02 19:32:27.747409"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Children"], ["description", "for all your child's needs"], ["photo_url", "http://i.imgur.com/JSVJBdk.jpg"], ["created_at", "2015-11-02 19:32:27.751901"], ["updated_at", "2015-11-02 19:32:27.751901"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hardware"], ["description", "for all your DIY needs"], ["photo_url", "http://i.imgur.com/TC7t4ol.png"], ["created_at", "2015-11-02 19:32:27.756975"], ["updated_at", "2015-11-02 19:32:27.756975"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Garage"], ["description", "for all your garage needs"], ["photo_url", "http://i.imgur.com/J5AXYZe.jpg"], ["created_at", "2015-11-02 19:32:27.761576"], ["updated_at", "2015-11-02 19:32:27.761576"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kitchen"], ["description", "for all your cookin needs"], ["photo_url", "http://i.imgur.com/5KlZsXh.png"], ["created_at", "2015-11-02 19:34:50.603570"], ["updated_at", "2015-11-02 19:34:50.603570"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Bathroom"], ["description", "for all your cleaning needs"], ["photo_url", "http://i.imgur.com/arSO5D6.png"], ["created_at", "2015-11-02 19:34:50.609858"], ["updated_at", "2015-11-02 19:34:50.609858"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Beauty"], ["description", "for all your beauty needs"], ["photo_url", "http://i.imgur.com/eHUfzvu.png"], ["created_at", "2015-11-02 19:34:50.613597"], ["updated_at", "2015-11-02 19:34:50.613597"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Closet"], ["description", "for all your clothing needs"], ["photo_url", "http://i.imgur.com/OsGY7K5.jpg"], ["created_at", "2015-11-02 19:34:50.617859"], ["updated_at", "2015-11-02 19:34:50.617859"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Electronics"], ["description", "for all your 'phile needs"], ["photo_url", "http://i.imgur.com/u5bwgLH.png"], ["created_at", "2015-11-02 19:34:50.621711"], ["updated_at", "2015-11-02 19:34:50.621711"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Children"], ["description", "for all your child's needs"], ["photo_url", "http://i.imgur.com/JSVJBdk.jpg"], ["created_at", "2015-11-02 19:34:50.625730"], ["updated_at", "2015-11-02 19:34:50.625730"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hardware"], ["description", "for all your DIY needs"], ["photo_url", "http://i.imgur.com/TC7t4ol.png"], ["created_at", "2015-11-02 19:34:50.629908"], ["updated_at", "2015-11-02 19:34:50.629908"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Garage"], ["description", "for all your garage needs"], ["photo_url", "http://i.imgur.com/J5AXYZe.jpg"], ["created_at", "2015-11-02 19:34:50.634342"], ["updated_at", "2015-11-02 19:34:50.634342"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "users" ("f_name", "l_name", "email", "photo_url", "city", "gender", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["f_name", "Davy"], ["l_name", "Jones"], ["email", "dj@gmail.com"], ["photo_url", "http://i.imgur.com/XzyOFHu.jpg"], ["city", "locker"], ["gender", "male"], ["password_hash", "$2a$10$8C76PavJ2JgIWgm0Gsyz5uBEhZKwbpfYKNxj7meaSiCXO3L6EsMfq"], ["created_at", "2015-11-02 19:34:50.710663"], ["updated_at", "2015-11-02 19:34:50.710663"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("f_name", "l_name", "email", "photo_url", "city", "gender", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["f_name", "Elizabeth"], ["l_name", "Swawn"], ["email", "es@gmail.com"], ["photo_url", "http://i.imgur.com/YTATPgj.jpg"], ["city", "Kingsport"], ["gender", "female"], ["password_hash", "$2a$10$hb0WGEiq6dE6L7KovwRFIeq/OQVE7.zAItJUOaF4VTWZ9obkpseZa"], ["created_at", "2015-11-02 19:34:50.786766"], ["updated_at", "2015-11-02 19:34:50.786766"]]
+  [1m[36m (4.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("f_name", "l_name", "email", "photo_url", "city", "gender", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["f_name", "Monkey"], ["l_name", "na"], ["email", "aveaekljae@gmail.com"], ["photo_url", "http://i.imgur.com/T6vAn3i.jpg"], ["city", "Banana"], ["gender", "female"], ["password_hash", "$2a$10$31fFFhdmUU2IGA.kwULwnO2HGTblw.pW0IBIQvmFnsiJq0KjslUJi"], ["created_at", "2015-11-02 19:34:50.859630"], ["updated_at", "2015-11-02 19:34:50.859630"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("f_name", "l_name", "email", "photo_url", "city", "gender", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["f_name", "Captain"], ["l_name", "Jack Sparrow"], ["email", "CAPTAINjs@gmail.com"], ["photo_url", "http://i.imgur.com/0LCOGdd.png"], ["city", "dunno"], ["gender", "male"], ["password_hash", "$2a$10$45GOJ0V7thzMszyKEi7Ize5/oTSerrbU7Fw8ECnwMT.TcIafr0s/2"], ["created_at", "2015-11-02 19:34:50.927499"], ["updated_at", "2015-11-02 19:34:50.927499"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("f_name", "l_name", "email", "photo_url", "city", "gender", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["f_name", "Mr"], ["l_name", "Barbosa"], ["email", "bb@gmail.com"], ["photo_url", "http://i.imgur.com/ehZU4Wg.png"], ["city", "Caribbean"], ["gender", "male"], ["password_hash", "$2a$10$I59r2T5n0JJ7PlT3qnF44uLaBRba1ek0ZIbJEn/tNfYc9qMcqp7MW"], ["created_at", "2015-11-02 19:34:51.003325"], ["updated_at", "2015-11-02 19:34:51.003325"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("f_name", "l_name", "email", "photo_url", "city", "gender", "password_hash", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["f_name", "Will"], ["l_name", "Turner"], ["email", "wt@gmail.com"], ["photo_url", "http://i.imgur.com/8NJgYHb.jpg"], ["city", "England"], ["gender", "male"], ["password_hash", "$2a$10$2ynIkN6N1iTPcULSZP5.K.ns.mCVisvRMJsNZ0S4ViotXKqJ.0L1y"], ["created_at", "2015-11-02 19:34:51.074894"], ["updated_at", "2015-11-02 19:34:51.074894"]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Shun Santoku Knife"], ["description", "for choppan"], ["photo_url", "http://i.imgur.com/Pzl2o8v.jpg"], ["created_at", "2015-11-02 19:34:51.086394"], ["updated_at", "2015-11-02 19:34:51.086394"]]
+  [1m[35m (2.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Philips Electric Toothbrush"], ["description", "for brushan"], ["photo_url", "http://gadgetreview.com/wp-content/uploads/2013/01/Sonicare%E2%80%99s-DiamondClean-Toothbrush.jpg"], ["created_at", "2015-11-02 19:34:51.094650"], ["updated_at", "2015-11-02 19:34:51.094650"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Blink Eyedrops"], ["description", "contact-friendly eyedrops!"], ["photo_url", "http://www.maxim.net.my/images/products/blink-contact-eye-drop-big.jpg"], ["created_at", "2015-11-02 19:34:51.099360"], ["updated_at", "2015-11-02 19:34:51.099360"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Braun Electric Razor"], ["description", "for buzzan"], ["photo_url", "http://i.imgur.com/V5umsmU.jpg"], ["created_at", "2015-11-02 19:34:51.103935"], ["updated_at", "2015-11-02 19:34:51.103935"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "LaMarzocco GS3"], ["description", "espresso machine"], ["photo_url", "http://www.clivecoffee.com/mm5/graphics/00000001/gs3-main_2.jpg"], ["created_at", "2015-11-02 19:34:51.108246"], ["updated_at", "2015-11-02 19:34:51.108246"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "French Press"], ["description", "for coffee"], ["photo_url", "http://cache.coffeehomedirect.com/art/french-press-basic.jpg"], ["created_at", "2015-11-02 19:34:51.112343"], ["updated_at", "2015-11-02 19:34:51.112343"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hammer"], ["description", "for hammerin"], ["photo_url", "http://i.imgur.com/Jkegzt5.png"], ["created_at", "2015-11-02 19:34:51.116320"], ["updated_at", "2015-11-02 19:34:51.116320"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "McIntosh Amp"], ["description", "for listenin"], ["photo_url", "http://i.imgur.com/XutNz5S.png"], ["created_at", "2015-11-02 19:34:51.120396"], ["updated_at", "2015-11-02 19:34:51.120396"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Molton Brown Soap"], ["description", "for cleanin"], ["photo_url", "http://i.imgur.com/jHVzFzf.png"], ["created_at", "2015-11-02 19:34:51.124593"], ["updated_at", "2015-11-02 19:34:51.124593"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Kona Jake the Snake"], ["description", "for bikin"], ["photo_url", "http://i.imgur.com/eQDrOpZ.jpg"], ["created_at", "2015-11-02 19:34:51.128876"], ["updated_at", "2015-11-02 19:34:51.128876"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mima Baby Stroller"], ["description", "for strollin"], ["photo_url", "http://i.imgur.com/JSVJBdk.jpg"], ["created_at", "2015-11-02 19:34:51.133327"], ["updated_at", "2015-11-02 19:34:51.133327"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "G-Star Basic V-Neck"], ["description", "for v-neckin"], ["photo_url", "http://i.imgur.com/AFt1gpl.jpg"], ["created_at", "2015-11-02 19:34:51.137642"], ["updated_at", "2015-11-02 19:34:51.137642"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Timex Weekender"], ["description", "for watch'in"], ["photo_url", "http://i.imgur.com/o0dKStA.jpg"], ["created_at", "2015-11-02 19:34:51.142024"], ["updated_at", "2015-11-02 19:34:51.142024"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Gel Eyedrops"], ["description", "for serious refreshin"], ["photo_url", "http://ecx.images-amazon.com/images/I/81kMGLTjcHL._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.146622"], ["updated_at", "2015-11-02 19:34:51.146622"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Loratadine Allergy Pills"], ["description", "for snifflin"], ["photo_url", "http://images.costco-static.com/image/media/350-529688-847__1.jpg"], ["created_at", "2015-11-02 19:34:51.151012"], ["updated_at", "2015-11-02 19:34:51.151012"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Gillette Body Wash"], ["description", "for washin"], ["photo_url", "http://ecx.images-amazon.com/images/I/81XLCuNZu3L._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.155360"], ["updated_at", "2015-11-02 19:34:51.155360"]]
+  [1m[36m (4.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Therabreath"], ["description", "for fresh breath"], ["photo_url", "http://www.tonsilstones.com/wp-content/uploads/2013/09/TheraBreath_OralRinse_160z.jpg"], ["created_at", "2015-11-02 19:34:51.161789"], ["updated_at", "2015-11-02 19:34:51.161789"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Large Klean Kanteen"], ["description", "for sippin"], ["photo_url", "http://ecx.images-amazon.com/images/I/71aN4X1gjqL._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.166633"], ["updated_at", "2015-11-02 19:34:51.166633"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gillette Clinical Deodorant"], ["description", "for dryin"], ["photo_url", "http://ecx.images-amazon.com/images/I/91NErSGjjSL._SY355_.jpg"], ["created_at", "2015-11-02 19:34:51.171901"], ["updated_at", "2015-11-02 19:34:51.171901"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "label.m Matt Paste"], ["description", "for stylin"], ["photo_url", "http://ecx.images-amazon.com/images/I/714iRGU7QPL._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.177076"], ["updated_at", "2015-11-02 19:34:51.177076"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grifiti Laptop Pads"], ["description", "for computin"], ["photo_url", "http://ecx.images-amazon.com/images/I/41IkTCVqr3L.jpg"], ["created_at", "2015-11-02 19:34:51.181468"], ["updated_at", "2015-11-02 19:34:51.181468"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Zeiss Cleaning Wipes"], ["description", "for computers and eye glasses"], ["photo_url", "http://ecx.images-amazon.com/images/I/510Tjp78V4L.jpg"], ["created_at", "2015-11-02 19:34:51.186130"], ["updated_at", "2015-11-02 19:34:51.186130"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Neutrogina Face Wash"], ["description", "for cleanin"], ["photo_url", "http://ecx.images-amazon.com/images/I/418b%2BOVF-3L.jpg"], ["created_at", "2015-11-02 19:34:51.190679"], ["updated_at", "2015-11-02 19:34:51.190679"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Wellness Tabs"], ["description", "for gettin healthy"], ["photo_url", "http://ecx.images-amazon.com/images/I/61rcuCQrB2L._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.195199"], ["updated_at", "2015-11-02 19:34:51.195199"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TUL Highlighters"], ["description", "for studyin"], ["photo_url", "http://ecx.images-amazon.com/images/I/51p7Z5fzYkL.jpg"], ["created_at", "2015-11-02 19:34:51.199347"], ["updated_at", "2015-11-02 19:34:51.199347"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "OXO Soap Dispenser"], ["description", "for soapin"], ["photo_url", "http://ecx.images-amazon.com/images/I/71MAYQLCmVL._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.204069"], ["updated_at", "2015-11-02 19:34:51.204069"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Holmes HEPA Filter"], ["description", "for under-bed cleanin"], ["photo_url", "http://ecx.images-amazon.com/images/I/41WJABKC58L.jpg"], ["created_at", "2015-11-02 19:34:51.208782"], ["updated_at", "2015-11-02 19:34:51.208782"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "OXO Hotpad"], ["description", "for cookin"], ["photo_url", "http://ecx.images-amazon.com/images/I/81OKZ5tkr%2BL._SL1500_.jpg"], ["created_at", "2015-11-02 19:34:51.213300"], ["updated_at", "2015-11-02 19:34:51.213300"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Razr Orochi Mobile Mouse"], ["description", "for high-dpi mousin"], ["photo_url", "http://ecx.images-amazon.com/images/I/31mz%2BMDsuOL.jpg"], ["created_at", "2015-11-02 19:34:51.218341"], ["updated_at", "2015-11-02 19:34:51.218341"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Method Dish Soap"], ["description", "for cleanin"], ["photo_url", "http://ecx.images-amazon.com/images/I/41onEoFwIYL.jpg"], ["created_at", "2015-11-02 19:34:51.223746"], ["updated_at", "2015-11-02 19:34:51.223746"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "GermGuardian HEPA Filter"], ["description", "high quality filter"], ["photo_url", "http://ecx.images-amazon.com/images/I/41sdQ-%2BW44L.jpg"], ["created_at", "2015-11-02 19:34:51.229065"], ["updated_at", "2015-11-02 19:34:51.229065"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Lutron Lamp Dimmer"], ["description", "for mood settin"], ["photo_url", "http://ecx.images-amazon.com/images/I/41gCDoU%2BjoL.jpg"], ["created_at", "2015-11-02 19:34:51.234014"], ["updated_at", "2015-11-02 19:34:51.234014"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Baratza Preciso Burr Grinder"], ["description", "for grindin"], ["photo_url", "http://i.imgur.com/saYfJ4K.jpg"], ["created_at", "2015-11-02 19:34:51.239074"], ["updated_at", "2015-11-02 19:34:51.239074"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Cuisenart Bullet Blender"], ["description", "for smoothie'in"], ["photo_url", "http://i.imgur.com/DqZhdTs.jpg"], ["created_at", "2015-11-02 19:34:51.243387"], ["updated_at", "2015-11-02 19:34:51.243387"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Dove Anti-Dandruff Shampoo"], ["description", "for cleanin"], ["photo_url", "http://i.imgur.com/sVneKCU.jpg"], ["created_at", "2015-11-02 19:34:51.247832"], ["updated_at", "2015-11-02 19:34:51.247832"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Energy 8 Subwoofer"], ["description", "for suban"], ["photo_url", "http://i.imgur.com/ogGGSJ6.jpg"], ["created_at", "2015-11-02 19:34:51.252125"], ["updated_at", "2015-11-02 19:34:51.252125"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "MacBook Air"], ["description", "for computin"], ["photo_url", "http://i.imgur.com/8nSywuc.jpg"], ["created_at", "2015-11-02 19:34:51.257163"], ["updated_at", "2015-11-02 19:34:51.257163"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Samsung TV"], ["description", "lnt-4681f"], ["photo_url", "http://i.imgur.com/pZdjvJL.gif"], ["created_at", "2015-11-02 19:34:51.261974"], ["updated_at", "2015-11-02 19:34:51.261974"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "photo_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tweezerman Tweezers"], ["description", "for pluckin"], ["photo_url", "http://i.imgur.com/BcRlij1.jpg"], ["created_at", "2015-11-02 19:34:51.266350"], ["updated_at", "2015-11-02 19:34:51.266350"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (10.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 2], ["created_at", "2015-11-02 19:34:51.341900"], ["updated_at", "2015-11-02 19:34:51.341900"]]
+  [1m[36m (6.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 2], ["created_at", "2015-11-02 19:34:51.362882"], ["updated_at", "2015-11-02 19:34:51.362882"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 2], ["created_at", "2015-11-02 19:34:51.368287"], ["updated_at", "2015-11-02 19:34:51.368287"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 2], ["created_at", "2015-11-02 19:34:51.374287"], ["updated_at", "2015-11-02 19:34:51.374287"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 2], ["created_at", "2015-11-02 19:34:51.380622"], ["updated_at", "2015-11-02 19:34:51.380622"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 3], ["created_at", "2015-11-02 19:34:51.387960"], ["updated_at", "2015-11-02 19:34:51.387960"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 3], ["created_at", "2015-11-02 19:34:51.394253"], ["updated_at", "2015-11-02 19:34:51.394253"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 3], ["created_at", "2015-11-02 19:34:51.399941"], ["updated_at", "2015-11-02 19:34:51.399941"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 3], ["created_at", "2015-11-02 19:34:51.405128"], ["updated_at", "2015-11-02 19:34:51.405128"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 8], ["created_at", "2015-11-02 19:34:51.410874"], ["updated_at", "2015-11-02 19:34:51.410874"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 8], ["created_at", "2015-11-02 19:34:51.416084"], ["updated_at", "2015-11-02 19:34:51.416084"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 4], ["created_at", "2015-11-02 19:34:51.420572"], ["updated_at", "2015-11-02 19:34:51.420572"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 4], ["created_at", "2015-11-02 19:34:51.425340"], ["updated_at", "2015-11-02 19:34:51.425340"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 4], ["created_at", "2015-11-02 19:34:51.430127"], ["updated_at", "2015-11-02 19:34:51.430127"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 5], ["created_at", "2015-11-02 19:34:51.435027"], ["updated_at", "2015-11-02 19:34:51.435027"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 5], ["created_at", "2015-11-02 19:34:51.440365"], ["updated_at", "2015-11-02 19:34:51.440365"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 5], ["created_at", "2015-11-02 19:34:51.446089"], ["updated_at", "2015-11-02 19:34:51.446089"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 6], ["created_at", "2015-11-02 19:34:51.450901"], ["updated_at", "2015-11-02 19:34:51.450901"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 6], ["created_at", "2015-11-02 19:34:51.455782"], ["updated_at", "2015-11-02 19:34:51.455782"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 6], ["created_at", "2015-11-02 19:34:51.460526"], ["updated_at", "2015-11-02 19:34:51.460526"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 7], ["created_at", "2015-11-02 19:34:51.465428"], ["updated_at", "2015-11-02 19:34:51.465428"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["item_id", 7], ["created_at", "2015-11-02 19:34:51.470356"], ["updated_at", "2015-11-02 19:34:51.470356"]]
+  [1m[35m (4.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 7], ["created_at", "2015-11-02 19:34:51.477783"], ["updated_at", "2015-11-02 19:34:51.477783"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 12], ["created_at", "2015-11-02 19:34:51.483068"], ["updated_at", "2015-11-02 19:34:51.483068"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 12], ["created_at", "2015-11-02 19:34:51.487922"], ["updated_at", "2015-11-02 19:34:51.487922"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 13], ["created_at", "2015-11-02 19:34:51.492559"], ["updated_at", "2015-11-02 19:34:51.492559"]]
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 13], ["created_at", "2015-11-02 19:34:51.496529"], ["updated_at", "2015-11-02 19:34:51.496529"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 13], ["created_at", "2015-11-02 19:34:51.500822"], ["updated_at", "2015-11-02 19:34:51.500822"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 14], ["created_at", "2015-11-02 19:34:51.505597"], ["updated_at", "2015-11-02 19:34:51.505597"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 14], ["created_at", "2015-11-02 19:34:51.510301"], ["updated_at", "2015-11-02 19:34:51.510301"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 11], ["created_at", "2015-11-02 19:34:51.515013"], ["updated_at", "2015-11-02 19:34:51.515013"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 11], ["created_at", "2015-11-02 19:34:51.520193"], ["updated_at", "2015-11-02 19:34:51.520193"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 11], ["created_at", "2015-11-02 19:34:51.525716"], ["updated_at", "2015-11-02 19:34:51.525716"]]
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.5ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["item_id", 15], ["created_at", "2015-11-02 19:34:51.533674"], ["updated_at", "2015-11-02 19:34:51.533674"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 15], ["created_at", "2015-11-02 19:34:51.539277"], ["updated_at", "2015-11-02 19:34:51.539277"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 15], ["created_at", "2015-11-02 19:34:51.545244"], ["updated_at", "2015-11-02 19:34:51.545244"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 16], ["created_at", "2015-11-02 19:34:51.550893"], ["updated_at", "2015-11-02 19:34:51.550893"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 16], ["created_at", "2015-11-02 19:34:51.556321"], ["updated_at", "2015-11-02 19:34:51.556321"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 16], ["created_at", "2015-11-02 19:34:51.561943"], ["updated_at", "2015-11-02 19:34:51.561943"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 17], ["created_at", "2015-11-02 19:34:51.567652"], ["updated_at", "2015-11-02 19:34:51.567652"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 17], ["created_at", "2015-11-02 19:34:51.572119"], ["updated_at", "2015-11-02 19:34:51.572119"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["item_id", 18], ["created_at", "2015-11-02 19:34:51.577707"], ["updated_at", "2015-11-02 19:34:51.577707"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 18], ["created_at", "2015-11-02 19:34:51.583807"], ["updated_at", "2015-11-02 19:34:51.583807"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 18], ["created_at", "2015-11-02 19:34:51.589394"], ["updated_at", "2015-11-02 19:34:51.589394"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 19], ["created_at", "2015-11-02 19:34:51.594417"], ["updated_at", "2015-11-02 19:34:51.594417"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 19], ["created_at", "2015-11-02 19:34:51.607838"], ["updated_at", "2015-11-02 19:34:51.607838"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 19], ["created_at", "2015-11-02 19:34:51.612579"], ["updated_at", "2015-11-02 19:34:51.612579"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 20], ["created_at", "2015-11-02 19:34:51.618045"], ["updated_at", "2015-11-02 19:34:51.618045"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 20], ["created_at", "2015-11-02 19:34:51.623182"], ["updated_at", "2015-11-02 19:34:51.623182"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 20], ["created_at", "2015-11-02 19:34:51.628312"], ["updated_at", "2015-11-02 19:34:51.628312"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 21], ["created_at", "2015-11-02 19:34:51.632793"], ["updated_at", "2015-11-02 19:34:51.632793"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 21], ["created_at", "2015-11-02 19:34:51.637211"], ["updated_at", "2015-11-02 19:34:51.637211"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 21], ["created_at", "2015-11-02 19:34:51.642182"], ["updated_at", "2015-11-02 19:34:51.642182"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["item_id", 22], ["created_at", "2015-11-02 19:34:51.647164"], ["updated_at", "2015-11-02 19:34:51.647164"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 22], ["created_at", "2015-11-02 19:34:51.652583"], ["updated_at", "2015-11-02 19:34:51.652583"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 22], ["created_at", "2015-11-02 19:34:51.657880"], ["updated_at", "2015-11-02 19:34:51.657880"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 23], ["created_at", "2015-11-02 19:34:51.663020"], ["updated_at", "2015-11-02 19:34:51.663020"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 23], ["created_at", "2015-11-02 19:34:51.667698"], ["updated_at", "2015-11-02 19:34:51.667698"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 24], ["created_at", "2015-11-02 19:34:51.672695"], ["updated_at", "2015-11-02 19:34:51.672695"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 24], ["created_at", "2015-11-02 19:34:51.677577"], ["updated_at", "2015-11-02 19:34:51.677577"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 24], ["created_at", "2015-11-02 19:34:51.682404"], ["updated_at", "2015-11-02 19:34:51.682404"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 25], ["created_at", "2015-11-02 19:34:51.687762"], ["updated_at", "2015-11-02 19:34:51.687762"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 25], ["created_at", "2015-11-02 19:34:51.693173"], ["updated_at", "2015-11-02 19:34:51.693173"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 26], ["created_at", "2015-11-02 19:34:51.699788"], ["updated_at", "2015-11-02 19:34:51.699788"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 5], ["item_id", 26], ["created_at", "2015-11-02 19:34:51.706077"], ["updated_at", "2015-11-02 19:34:51.706077"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 27], ["created_at", "2015-11-02 19:34:51.711818"], ["updated_at", "2015-11-02 19:34:51.711818"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 27], ["created_at", "2015-11-02 19:34:51.716958"], ["updated_at", "2015-11-02 19:34:51.716958"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 28], ["created_at", "2015-11-02 19:34:51.722789"], ["updated_at", "2015-11-02 19:34:51.722789"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 28], ["created_at", "2015-11-02 19:34:51.728195"], ["updated_at", "2015-11-02 19:34:51.728195"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 29], ["created_at", "2015-11-02 19:34:51.733228"], ["updated_at", "2015-11-02 19:34:51.733228"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 3], ["item_id", 29], ["created_at", "2015-11-02 19:34:51.738289"], ["updated_at", "2015-11-02 19:34:51.738289"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 29], ["created_at", "2015-11-02 19:34:51.743608"], ["updated_at", "2015-11-02 19:34:51.743608"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 30], ["created_at", "2015-11-02 19:34:51.748481"], ["updated_at", "2015-11-02 19:34:51.748481"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 30], ["created_at", "2015-11-02 19:34:51.753155"], ["updated_at", "2015-11-02 19:34:51.753155"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 31], ["created_at", "2015-11-02 19:34:51.758659"], ["updated_at", "2015-11-02 19:34:51.758659"]]
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 31], ["created_at", "2015-11-02 19:34:51.766449"], ["updated_at", "2015-11-02 19:34:51.766449"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 32], ["created_at", "2015-11-02 19:34:51.771517"], ["updated_at", "2015-11-02 19:34:51.771517"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 32], ["created_at", "2015-11-02 19:34:51.776607"], ["updated_at", "2015-11-02 19:34:51.776607"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 33], ["created_at", "2015-11-02 19:34:51.781375"], ["updated_at", "2015-11-02 19:34:51.781375"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 33], ["created_at", "2015-11-02 19:34:51.786773"], ["updated_at", "2015-11-02 19:34:51.786773"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 34], ["created_at", "2015-11-02 19:34:51.791732"], ["updated_at", "2015-11-02 19:34:51.791732"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 34], ["created_at", "2015-11-02 19:34:51.796282"], ["updated_at", "2015-11-02 19:34:51.796282"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 2], ["item_id", 35], ["created_at", "2015-11-02 19:34:51.800862"], ["updated_at", "2015-11-02 19:34:51.800862"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 35], ["created_at", "2015-11-02 19:34:51.805367"], ["updated_at", "2015-11-02 19:34:51.805367"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 36], ["created_at", "2015-11-02 19:34:51.810738"], ["updated_at", "2015-11-02 19:34:51.810738"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 6], ["item_id", 36], ["created_at", "2015-11-02 19:34:51.816093"], ["updated_at", "2015-11-02 19:34:51.816093"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 37], ["created_at", "2015-11-02 19:34:51.821712"], ["updated_at", "2015-11-02 19:34:51.821712"]]
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["item_id", 37], ["created_at", "2015-11-02 19:34:51.829659"], ["updated_at", "2015-11-02 19:34:51.829659"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 1], ["item_id", 38], ["created_at", "2015-11-02 19:34:51.834936"], ["updated_at", "2015-11-02 19:34:51.834936"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["item_id", 38], ["created_at", "2015-11-02 19:34:51.840444"], ["updated_at", "2015-11-02 19:34:51.840444"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 38], ["created_at", "2015-11-02 19:34:51.845645"], ["updated_at", "2015-11-02 19:34:51.845645"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 39], ["created_at", "2015-11-02 19:34:51.850798"], ["updated_at", "2015-11-02 19:34:51.850798"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 4], ["item_id", 39], ["created_at", "2015-11-02 19:34:51.856066"], ["updated_at", "2015-11-02 19:34:51.856066"]]
+  [1m[36m (4.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["item_id", 40], ["created_at", "2015-11-02 19:34:51.863460"], ["updated_at", "2015-11-02 19:34:51.863460"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["user_id", 6], ["item_id", 40], ["created_at", "2015-11-02 19:34:51.868585"], ["updated_at", "2015-11-02 19:34:51.868585"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("user_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["item_id", 40], ["created_at", "2015-11-02 19:34:51.874636"], ["updated_at", "2015-11-02 19:34:51.874636"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 17], ["item_id", 2], ["created_at", "2015-11-02 19:34:51.890250"], ["updated_at", "2015-11-02 19:34:51.890250"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 17], ["item_id", 6], ["created_at", "2015-11-02 19:34:51.902102"], ["updated_at", "2015-11-02 19:34:51.902102"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 17], ["item_id", 7], ["created_at", "2015-11-02 19:34:51.906967"], ["updated_at", "2015-11-02 19:34:51.906967"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 17], ["item_id", 19], ["created_at", "2015-11-02 19:34:51.911957"], ["updated_at", "2015-11-02 19:34:51.911957"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 17], ["item_id", 26], ["created_at", "2015-11-02 19:34:51.917373"], ["updated_at", "2015-11-02 19:34:51.917373"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 17], ["item_id", 27], ["created_at", "2015-11-02 19:34:51.922358"], ["updated_at", "2015-11-02 19:34:51.922358"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 17], ["item_id", 29], ["created_at", "2015-11-02 19:34:51.927744"], ["updated_at", "2015-11-02 19:34:51.927744"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 17], ["item_id", 31], ["created_at", "2015-11-02 19:34:51.932597"], ["updated_at", "2015-11-02 19:34:51.932597"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 17], ["item_id", 34], ["created_at", "2015-11-02 19:34:51.937260"], ["updated_at", "2015-11-02 19:34:51.937260"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 17], ["item_id", 35], ["created_at", "2015-11-02 19:34:51.941655"], ["updated_at", "2015-11-02 19:34:51.941655"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 5], ["created_at", "2015-11-02 19:34:51.946705"], ["updated_at", "2015-11-02 19:34:51.946705"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 18], ["item_id", 10], ["created_at", "2015-11-02 19:34:51.951184"], ["updated_at", "2015-11-02 19:34:51.951184"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 7], ["created_at", "2015-11-02 19:34:51.956152"], ["updated_at", "2015-11-02 19:34:51.956152"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 18], ["item_id", 3], ["created_at", "2015-11-02 19:34:51.961902"], ["updated_at", "2015-11-02 19:34:51.961902"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 4], ["created_at", "2015-11-02 19:34:51.967484"], ["updated_at", "2015-11-02 19:34:51.967484"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 18], ["item_id", 15], ["created_at", "2015-11-02 19:34:51.972784"], ["updated_at", "2015-11-02 19:34:51.972784"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 18], ["created_at", "2015-11-02 19:34:51.978826"], ["updated_at", "2015-11-02 19:34:51.978826"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 18], ["item_id", 20], ["created_at", "2015-11-02 19:34:51.984240"], ["updated_at", "2015-11-02 19:34:51.984240"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 24], ["created_at", "2015-11-02 19:34:51.989411"], ["updated_at", "2015-11-02 19:34:51.989411"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 18], ["item_id", 27], ["created_at", "2015-11-02 19:34:51.994763"], ["updated_at", "2015-11-02 19:34:51.994763"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 33], ["created_at", "2015-11-02 19:34:51.999291"], ["updated_at", "2015-11-02 19:34:51.999291"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 18], ["item_id", 36], ["created_at", "2015-11-02 19:34:52.003564"], ["updated_at", "2015-11-02 19:34:52.003564"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 18], ["item_id", 40], ["created_at", "2015-11-02 19:34:52.008323"], ["updated_at", "2015-11-02 19:34:52.008323"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 21], ["item_id", 5], ["created_at", "2015-11-02 19:34:52.013949"], ["updated_at", "2015-11-02 19:34:52.013949"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 21], ["item_id", 9], ["created_at", "2015-11-02 19:34:52.019170"], ["updated_at", "2015-11-02 19:34:52.019170"]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 21], ["item_id", 22], ["created_at", "2015-11-02 19:34:52.025197"], ["updated_at", "2015-11-02 19:34:52.025197"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 21], ["item_id", 28], ["created_at", "2015-11-02 19:34:52.030843"], ["updated_at", "2015-11-02 19:34:52.030843"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 21], ["item_id", 30], ["created_at", "2015-11-02 19:34:52.035887"], ["updated_at", "2015-11-02 19:34:52.035887"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 21], ["item_id", 32], ["created_at", "2015-11-02 19:34:52.041030"], ["updated_at", "2015-11-02 19:34:52.041030"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 21], ["item_id", 33], ["created_at", "2015-11-02 19:34:52.045646"], ["updated_at", "2015-11-02 19:34:52.045646"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 21], ["item_id", 35], ["created_at", "2015-11-02 19:34:52.050226"], ["updated_at", "2015-11-02 19:34:52.050226"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 21], ["item_id", 37], ["created_at", "2015-11-02 19:34:52.055338"], ["updated_at", "2015-11-02 19:34:52.055338"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 21], ["item_id", 38], ["created_at", "2015-11-02 19:34:52.060470"], ["updated_at", "2015-11-02 19:34:52.060470"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 21], ["item_id", 39], ["created_at", "2015-11-02 19:34:52.065194"], ["updated_at", "2015-11-02 19:34:52.065194"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 23], ["item_id", 8], ["created_at", "2015-11-02 19:34:52.070117"], ["updated_at", "2015-11-02 19:34:52.070117"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 23], ["item_id", 22], ["created_at", "2015-11-02 19:34:52.074836"], ["updated_at", "2015-11-02 19:34:52.074836"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 23], ["item_id", 23], ["created_at", "2015-11-02 19:34:52.080217"], ["updated_at", "2015-11-02 19:34:52.080217"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 23], ["item_id", 28], ["created_at", "2015-11-02 19:34:52.085164"], ["updated_at", "2015-11-02 19:34:52.085164"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 23], ["item_id", 32], ["created_at", "2015-11-02 19:34:52.090344"], ["updated_at", "2015-11-02 19:34:52.090344"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 23], ["item_id", 33], ["created_at", "2015-11-02 19:34:52.095681"], ["updated_at", "2015-11-02 19:34:52.095681"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 10], ["created_at", "2015-11-02 19:34:52.101596"], ["updated_at", "2015-11-02 19:34:52.101596"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 19], ["item_id", 3], ["created_at", "2015-11-02 19:34:52.107102"], ["updated_at", "2015-11-02 19:34:52.107102"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 4], ["created_at", "2015-11-02 19:34:52.112483"], ["updated_at", "2015-11-02 19:34:52.112483"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 19], ["item_id", 5], ["created_at", "2015-11-02 19:34:52.117783"], ["updated_at", "2015-11-02 19:34:52.117783"]]
+  [1m[35m (2.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 16], ["created_at", "2015-11-02 19:34:52.124068"], ["updated_at", "2015-11-02 19:34:52.124068"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 19], ["item_id", 17], ["created_at", "2015-11-02 19:34:52.129298"], ["updated_at", "2015-11-02 19:34:52.129298"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 18], ["created_at", "2015-11-02 19:34:52.134639"], ["updated_at", "2015-11-02 19:34:52.134639"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 19], ["item_id", 20], ["created_at", "2015-11-02 19:34:52.140806"], ["updated_at", "2015-11-02 19:34:52.140806"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 21], ["created_at", "2015-11-02 19:34:52.147246"], ["updated_at", "2015-11-02 19:34:52.147246"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 19], ["item_id", 23], ["created_at", "2015-11-02 19:34:52.152478"], ["updated_at", "2015-11-02 19:34:52.152478"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 24], ["created_at", "2015-11-02 19:34:52.157660"], ["updated_at", "2015-11-02 19:34:52.157660"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 19], ["item_id", 25], ["created_at", "2015-11-02 19:34:52.162645"], ["updated_at", "2015-11-02 19:34:52.162645"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 19], ["item_id", 40], ["created_at", "2015-11-02 19:34:52.167566"], ["updated_at", "2015-11-02 19:34:52.167566"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 24], ["item_id", 8], ["created_at", "2015-11-02 19:34:52.172684"], ["updated_at", "2015-11-02 19:34:52.172684"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 24], ["item_id", 11], ["created_at", "2015-11-02 19:34:52.177509"], ["updated_at", "2015-11-02 19:34:52.177509"]]
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 24], ["item_id", 19], ["created_at", "2015-11-02 19:34:52.185545"], ["updated_at", "2015-11-02 19:34:52.185545"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 20], ["item_id", 13], ["created_at", "2015-11-02 19:34:52.192932"], ["updated_at", "2015-11-02 19:34:52.192932"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["category_id", 20], ["item_id", 14], ["created_at", "2015-11-02 19:34:52.199057"], ["updated_at", "2015-11-02 19:34:52.199057"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "labels" ("category_id", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["category_id", 22], ["item_id", 12], ["created_at", "2015-11-02 19:34:52.205567"], ["updated_at", "2015-11-02 19:34:52.205567"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
