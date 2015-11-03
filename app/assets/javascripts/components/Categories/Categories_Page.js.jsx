@@ -33,6 +33,8 @@ var CategoriesPage = React.createClass({
 
 		return(
 			<div>
+				<Header />
+				<br />
 				{category}
 			</div>
 		)

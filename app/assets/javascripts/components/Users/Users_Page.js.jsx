@@ -39,8 +39,8 @@ var UsersPage = React.createClass({
 
 		return(
 			<div>
-				Fetched data: {this.state.didFetchData}
-				<br/>
+				<Header />
+				<br />
 				{person}
 			</div>
 		)

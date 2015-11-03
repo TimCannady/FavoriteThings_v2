@@ -33,6 +33,8 @@ var ItemsPage = React.createClass({
 
 		return(
 			<div>
+				<Header />
+				<br />
 				{item}
 			</div>
 		)
