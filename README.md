@@ -1,15 +1,14 @@
 ## Purpose & Goals
 general: 
-* port sinatra to rails
+* port an app from Sinatra to Rails
 
-* incorporate react (using react-rails)
+* incorporate React (using react-rails for the first time)
 
-* incorporate front-end routing (using react-router-rails or a home-built router)
+* incorporate front-end routing / SPA (using react-router-rails for the first time)
 
 stretch:
 
 * use ES6
-
 
 ## Models
 * User
