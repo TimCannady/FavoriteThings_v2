@@ -2,7 +2,9 @@ var User = React.createClass({
 	render: function(){
 		return(
 			<div>
-				{this.props.f_name}
+				name: {this.props.f_name}
+				<br/>
+				id: {this.props.id}
 			</div>
 		)
 	}

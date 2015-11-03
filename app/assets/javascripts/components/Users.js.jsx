@@ -39,13 +39,11 @@ var Users = React.createClass({
 
 	render: function(){
 		person = this.state.users.map(function(person){
-			return <User f_name={person.f_name} />
+			return <User f_name={person.f_name} key={person.id} id={person.id}/>
 		})
 
 		return(
 			<div>
-				Fetched data: {this.state.didFetchData}
-				<br/>
 				Users array: {person}
 			</div>
 		)
