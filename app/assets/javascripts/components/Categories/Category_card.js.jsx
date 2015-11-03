@@ -2,7 +2,9 @@ var CategoryCard = React.createClass({
 	render: function(){
 		return(
 			<div>
-				category name: {this.props.name}
+				<Link to="itemShow" params={{id: this.props.id}} >
+					category name: {this.props.name}
+				</Link>
 				<br/>
 				category id: {this.props.id}
 				<br/>

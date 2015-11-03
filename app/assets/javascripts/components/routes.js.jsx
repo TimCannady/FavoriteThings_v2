@@ -9,7 +9,7 @@ this.MyRoutes = (
     <Route name='userShow' handler={UserShow} path='/users/:id' />
 
     <Route name='categories' handler={CategoriesPage} />
-    <Route name='categorieShow' handler={CategoryShow} path='/categories/:id' />
+    <Route name='categoryShow' handler={CategoryShow} path='/categories/:id' />
 
     <Route name='items' handler={ItemsPage} />
     <Route name='itemShow' handler={ItemShow} path='/items/:id' />

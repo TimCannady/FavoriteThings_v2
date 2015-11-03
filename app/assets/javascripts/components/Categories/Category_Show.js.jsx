@@ -31,7 +31,7 @@ var CategoryShow = React.createClass({
 
 	render: function(){
 		var categoryItem = this.state.categoryItems.map(function(item){
-			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} />
+			return <CategoryCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} />
 		})
 		return(
 			<div>
