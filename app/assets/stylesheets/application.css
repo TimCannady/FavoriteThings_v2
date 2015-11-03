@@ -68,6 +68,7 @@ div {
 .nav {
 	display: flex;
 	justify-content: flex-end;
+	/*align-items: flex-start;*/
 	width: 20%;
 	border: 1px solid red;
 }
@@ -87,3 +88,10 @@ div {
 	height: 150px;
 }
 /*End Header*/
+
+
+/*Body*/
+.card-img{
+	width: 10%;
+
+/*End Body*/

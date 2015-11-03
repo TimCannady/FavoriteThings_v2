@@ -7,6 +7,8 @@ var CategoryCard = React.createClass({
 				category id: {this.props.id}
 				<br/>
 				category description: {this.props.description}
+				<br/>
+				<img src={this.props.photo_url} className="card-img" />
 			</div>
 		)
 	}

@@ -29,7 +29,7 @@ var CategoriesPage = React.createClass({
 
 	render: function(){
 		var categoryArray = this.state.categories.map(function(category){
-			return <CategoryCard name={category.name} description={category.description} key={category.id} id={category.id} />
+			return <CategoryCard name={category.name} description={category.description} key={category.id} id={category.id} photo_url={category.photo_url} />
 		})
 
 		return(

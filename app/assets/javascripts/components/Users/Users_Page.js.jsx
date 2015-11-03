@@ -35,7 +35,7 @@ var UsersPage = React.createClass({
 
 	render: function(){
 		var personArray = this.state.users.map(function(person){
-			return <UserCard f_name={person.f_name} key={person.id} id={person.id}/>
+			return <UserCard f_name={person.f_name} key={person.id} id={person.id} photo_url={person.photo_url} />
 		})
 
 		return(
