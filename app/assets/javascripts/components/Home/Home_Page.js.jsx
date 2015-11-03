@@ -2,7 +2,8 @@ var HomePage = React.createClass({
 	render: function(){
 		return(
 			<div>
-				home index
+				<Header />
+				homepage
 			</div>
 		)
 	}

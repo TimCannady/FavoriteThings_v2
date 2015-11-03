@@ -3,6 +3,7 @@ var CategoriesPage = React.createClass({
 	getInitialState: function(){
 		return{
 			didFetchData: false,
+			headerImage: "categories.png",
 			categories: []
 		}
 	},
@@ -27,13 +28,15 @@ var CategoriesPage = React.createClass({
 	},
 
 	render: function(){
-		var category = this.state.categories.map(function(category){
-			return <CategoryCard name={category.name} description={category.description} key={category.id} id={category.id} />
+		var categoryArray = this.state.categories.map(function(category){
+			return <CategoryCard name={category.name} description={category.description} key={category.id} id={category.id} photo_url={category.photo_url} />
 		})
 
 		return(
 			<div>
-				{category}
+				<Header img_src={this.state.headerImage} />
+				<br />
+				{categoryArray}
 			</div>
 		)
 	}
