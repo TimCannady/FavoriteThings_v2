@@ -3,6 +3,7 @@ var UsersPage = React.createClass({
 	getInitialState: function(){
 		return {
 			didFetchData: false,
+			headerImage: "users.png",
 			users: []
 		}
 	},
@@ -33,15 +34,15 @@ var UsersPage = React.createClass({
 	// },
 
 	render: function(){
-		var person = this.state.users.map(function(person){
+		var personArray = this.state.users.map(function(person){
 			return <UserCard f_name={person.f_name} key={person.id} id={person.id}/>
 		})
 
 		return(
 			<div>
-				<Header />
+				<Header img_src={this.state.headerImage}/>
 				<br />
-				{person}
+				{personArray}
 			</div>
 		)
 	}

@@ -3,6 +3,7 @@ var ItemsPage = React.createClass({
 	getInitialState: function(){
 		return {
 			didFetchData: false,
+			headerImage: "http://www.w3schools.com/html/html5.gif",
 			items: []
 		}
 	},
@@ -27,15 +28,15 @@ var ItemsPage = React.createClass({
 	},
 
 	render: function(){
-		var item = this.state.items.map(function(item){
+		var itemArray = this.state.items.map(function(item){
 			return <ItemCard name={item.name} key={item.id} id={item.id} />
 		})
 
 		return(
 			<div>
-				<Header />
+				<Header img_src={this.state.headerImage} />
 				<br />
-				{item}
+				{itemArray}
 			</div>
 		)
 	}

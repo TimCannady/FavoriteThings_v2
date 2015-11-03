@@ -64,16 +64,27 @@ div {
  	border: 1px solid grey;
  }
 
+
 #nav {
-	float: right;
+	display: flex;
+	justify-content: flex-end;
 	/*border: 1px solid red;*/
 }
 
 .nav-button{
-	border: 3px solid grey;
+	border: 2px solid grey;
 	border-radius: 20%;
+	text-decoration: none;
 }
 
-#header {
+
+#header-img-wrapper{
+	/*width: 200px;*/
 	border: 2px solid green;
+	display: flex;
+	justify-content: center;
+}
+
+.header-img{
+	height: 150px;
 }
