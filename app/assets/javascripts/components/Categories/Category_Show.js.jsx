@@ -4,7 +4,8 @@ var CategoryShow = React.createClass({
 		return{
 			didFetchData: false,
 			categoryName: [],
-			categoryItems: []
+			categoryItems: [],
+			headerImage: "categories.png"
 		}
 	},
 
@@ -34,6 +35,8 @@ var CategoryShow = React.createClass({
 		})
 		return(
 			<div>
+				<Header img_src={this.state.headerImage} />
+				<br />
 				Category Name: {this.state.categoryName}
 				{categoryItem}				
 			</div>
