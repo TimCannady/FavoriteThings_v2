@@ -77,6 +77,11 @@ div {
 	text-decoration: none;
 	border: 2px solid grey;
 }
+
+.header {
+	 background-image: url("header_background.jpg");
+	 
+}
 .header-img-wrapper{
 	display: flex;
 	justify-content: center;
