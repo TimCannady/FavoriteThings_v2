@@ -5,7 +5,7 @@ var UserShow = React.createClass({
 			didFetchData: false,
 			userName: [],
 			userItems: [],
-			headerImage: "user.png"
+			headerImage: "../users.png"
 		}
 	},
 
