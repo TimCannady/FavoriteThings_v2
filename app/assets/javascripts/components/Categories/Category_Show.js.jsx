@@ -5,7 +5,7 @@ var CategoryShow = React.createClass({
 			didFetchData: false,
 			categoryName: [],
 			categoryItems: [],
-			headerImage: "categories.png"
+			headerImage: "../categories.png"
 		}
 	},
 

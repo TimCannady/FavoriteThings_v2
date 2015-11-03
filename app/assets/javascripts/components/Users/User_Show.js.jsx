@@ -5,7 +5,7 @@ var UserShow = React.createClass({
 			didFetchData: false,
 			userName: [],
 			userItems: [],
-			headerImage: "user.png"
+			headerImage: "../users.png"
 		}
 	},
 
@@ -21,7 +21,7 @@ var UserShow = React.createClass({
 			data: "data",
 			dataType: 'json',
 			success: function(data){
-				this.setState({didFetchData: 'true', userName: data.user_name, userItems: data.items})
+				this.setState({didFetchData: 'true', userName: data.user_name, userItems: data.items, headerImage: data.photo_url})
 			}.bind(this),
 			error: function(data){
 				alert('error!')
