@@ -1,8 +1,8 @@
 var Header = React.createClass({
 	render: function(){
 		return(
-			<div id="header">
-				<div id="header-img-wrapper">
+			<div className="header">
+				<div className="header-img-wrapper">
 					<img src={this.props.img_src} className="header-img" />
 				</div>
 				<Nav />
