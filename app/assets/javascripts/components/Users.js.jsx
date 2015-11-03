@@ -20,10 +20,6 @@ var Users = React.createClass({
 			success: function(data){
 				alert('success!')
 				this.setState({didFetchData: 'true', users: data})
-				// this.fetchUsersDone(data)
-				// arr = data.map(function(person){
-				// 	alert(person.f_name)
-				// })
 			}.bind(this),
 			error: function(data){
 				alert('error!')
@@ -32,9 +28,10 @@ var Users = React.createClass({
 
 	},
 
-	// fetchUsersDone: function(data){
-	// 	alert('done!')
+	// fetchUsers: function(){
+	// 	data = App.request('GET', '/users')
 	// 	alert(data)
+	// 	this.setState({didFetchData: 'true', users: data})
 	// },
 
 	render: function(){
@@ -44,6 +41,8 @@ var Users = React.createClass({
 
 		return(
 			<div>
+				Fetched data: {this.state.didFetchData}
+				<br/>
 				Users array: {person}
 			</div>
 		)
