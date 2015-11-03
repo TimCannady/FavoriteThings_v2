@@ -1,4 +1,4 @@
-var User = React.createClass({
+var UserCard = React.createClass({
 	render: function(){
 		return(
 			<div>

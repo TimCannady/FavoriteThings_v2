@@ -8,10 +8,10 @@ var Users = React.createClass({
 	},
 
 	componentDidMount: function(){
-		this.fetchUsers()
+		this.fetchData()
 	},
 
-	fetchUsers: function(data){
+	fetchData: function(data){
 		$.ajax({
 			type: "GET",
 			url: "/users",
@@ -25,25 +25,24 @@ var Users = React.createClass({
 				alert('error!')
 			}
 		})
-
 	},
 
-	// fetchUsers: function(){
+	// fetchData: function(){
 	// 	data = App.request('GET', '/users')
 	// 	alert(data)
 	// 	this.setState({didFetchData: 'true', users: data})
 	// },
 
 	render: function(){
-		person = this.state.users.map(function(person){
-			return <User f_name={person.f_name} key={person.id} id={person.id}/>
+		var person = this.state.users.map(function(person){
+			return <UserCard f_name={person.f_name} key={person.id} id={person.id}/>
 		})
 
 		return(
 			<div>
 				Fetched data: {this.state.didFetchData}
 				<br/>
-				Users array: {person}
+				{person}
 			</div>
 		)
 	}
