@@ -1,4 +1,4 @@
-var Home = React.createClass({
+var HomePage = React.createClass({
 	render: function(){
 		return(
 			<div>

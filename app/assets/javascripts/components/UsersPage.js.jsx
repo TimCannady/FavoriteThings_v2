@@ -1,4 +1,4 @@
-var Users = React.createClass({
+var UsersPage = React.createClass({
 
 	getInitialState: function(){
 		return {
@@ -18,7 +18,6 @@ var Users = React.createClass({
 			data: "data",
 			dataType: 'json',
 			success: function(data){
-				alert('success!')
 				this.setState({didFetchData: 'true', users: data})
 			}.bind(this),
 			error: function(data){

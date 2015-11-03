@@ -1,4 +1,4 @@
-var Items = React.createClass({
+var ItemsPage = React.createClass({
 
 	getInitialState: function(){
 		return {
@@ -18,7 +18,6 @@ var Items = React.createClass({
 			data: "data",
 			dataType: 'json',
 			success: function(data){
-				alert('success!')
 				this.setState({didFetchData: 'true', items: data})
 			}.bind(this),
 			error: function(data){

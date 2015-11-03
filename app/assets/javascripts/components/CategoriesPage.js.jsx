@@ -1,4 +1,4 @@
-var Categories = React.createClass({
+var CategoriesPage = React.createClass({
 
 	getInitialState: function(){
 		return{
@@ -18,7 +18,6 @@ var Categories = React.createClass({
 			data: "data",
 			dataType: 'json',
 			success: function(data){
-				alert('success!')
 				this.setState({didFetchData: 'true', categories: data})
 			}.bind(this),
 			error: function(data){

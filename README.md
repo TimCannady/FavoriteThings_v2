@@ -37,3 +37,7 @@ stretch:
 ---
 ---
 ![Item](http://i.imgur.com/L80QkJy.png)
+
+## Architecture & Design Notes
+
+High-level view of how to design pages. For example, should the <AppComponent / > just render the router? With this, maybe each page would be a parent component, like <UserPage /> which renders sub-components like <Header /> , <UserList /> , <UserCard /> and <Footer />. Anothe approach could be to instead have the header and footer components buit into <AppComponent /> and use some if/then logic to decide which header to render.
