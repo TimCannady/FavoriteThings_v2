@@ -1,6 +1,7 @@
  RouteHandler = ReactRouter.RouteHandler
 
-var App = React.createClass({
+var AppComponent = React.createClass({
+
 	render: function(){
 		return(
 			<div>
