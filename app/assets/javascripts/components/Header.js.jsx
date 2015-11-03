@@ -1,7 +1,7 @@
 var Header = React.createClass({
 	render: function(){
 		return(
-			<div>
+			<div id="header">
 				header
 				<Nav />
 			</div>

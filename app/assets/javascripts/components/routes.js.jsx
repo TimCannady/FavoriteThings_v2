@@ -1,4 +1,5 @@
 var Route = ReactRouter.Route;
+var Link = ReactRouter.Link
 
 this.MyRoutes = (
   <Route handler={AppComponent}>
