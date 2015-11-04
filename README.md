@@ -9,6 +9,8 @@ General:
 
 * use front-end routing / SPA in a solo project 
 
+* experiment with *display: flexbox* in place of media queries
+
 Stretch:
 
 * incorporate ES6
@@ -111,5 +113,7 @@ To setup locally:
 * rails s
 * localhost:3000
 
-## Architecture & Design Notes
+## Architecture, Design Notes & Lessons Learned
 High-level view of how to design pages. For example, should the AppComponent just render the router? With this, maybe each page would be a parent component, like UserPage which renders sub-components like Header, UserList, UserCard and Footer. Another approach could be to instead have the header and footer components buit into AppComponent and use some if/then logic to decide which header to render.
+
+No justify-self for flexbox.

@@ -36,9 +36,10 @@ var UserShow = React.createClass({
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
-				<br />
-				User Name: {this.state.userName}
-				{userItem}				
+				
+				<section className="body-wrapper">
+					{userItem}				
+				</section>
 			</div>
 		)
 	}

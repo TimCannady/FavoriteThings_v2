@@ -28,7 +28,7 @@
 		figure, figcaption, footer, header, hgroup, 
 		menu, nav, output, ruby, section, summary,
 		time, mark, audio, video {
-			margin: 0;
+			margin: 0px 0px 0px 0px;
 			padding: 0;
 			border: 0;
 			font-size: 100%;
@@ -75,10 +75,11 @@ a{
 		display: inline-block;	
 		height: 150px;
 /*		width: 150px;*/
-		border: 2px solid green;
+		/*border: 2px solid green;*/
 	}
 	.header-img{
 		height: 100%;
+		border-radius: 5%;
 	}
 	.nav {
 		right: 0;
@@ -89,12 +90,14 @@ a{
 	.nav-button{
 		border-radius: 10%;
 		text-decoration: none;
-		border: 2px solid grey;
+		border: 2px solid lightgrey;
 		color: white;
-		font-size: 16px;
+		font-size: 12px;
 		font-family: Helvetica Neue;
 		margin: 3px;
 		text-align: center;
+		padding: 20px;
+		margin-top: 40px;
 	}
 /*============End Header============*/
 
