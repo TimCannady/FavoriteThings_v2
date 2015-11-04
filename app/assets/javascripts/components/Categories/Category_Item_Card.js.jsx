@@ -1,16 +1,13 @@
 var CategoryItemCard = React.createClass({
 	render: function(){
 		return(
-			<div>
-				<Link to="itemShow" params={{id: this.props.id}} >
-					item name: {this.props.name}
+			<div className="card-wrapper">
+				<Link to="itemShow" params={{id: this.props.id}} className="card-text" >
+					<div className="card-img-wrapper">
+						 <img src={this.props.photo_url} className="card-img" />
+					</div>
+					{this.props.description}
 				</Link>
-				<br/>
-				item id: {this.props.id}
-				<br/>
-				item description: {this.props.description}
-				<br/>
-				<img src={this.props.photo_url} className="card-img" />
 			</div>
 		)
 	}

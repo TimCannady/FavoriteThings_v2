@@ -36,9 +36,10 @@ var CategoryShow = React.createClass({
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
-				<br />
-				Category Name: {this.state.categoryName}
-				{categoryItem}				
+
+				<section className="body-wrapper">
+					{categoryItem}		
+				</section>		
 			</div>
 		)
 	}
