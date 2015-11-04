@@ -5,6 +5,7 @@ var Header = React.createClass({
 				<div className="header-img-wrapper">
 					<img src={this.props.img_src} className="header-img" />
 				</div>
+				
 				<Nav />
 			</div>
 		)

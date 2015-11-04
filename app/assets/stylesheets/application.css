@@ -63,34 +63,39 @@
 a{
 	text-decoration: none;
 }
-
 /*============Header============*/
-.nav {
-	display: flex;
-	justify-content: flex-end;
-	/*align-items: flex-start;*/
-	width: 20%;
-	border: 1px solid red;
-}
-.nav-button{
-	border-radius: 20%;
-	text-decoration: none;
-	border: 2px solid grey;
-}
-
 .header {
-	background-image: url("header_background.jpg");
-	 
-}
-.header-img-wrapper{
 	display: flex;
-	justify-content: center;
-	height: 150px ;	
-	border: 2px solid green;
+/*	justify-content: center;*/
+	background-image: url("header_background.jpg");
+	justify-content: flex;
 }
-.header-img{
-	height: 100%;
-}
+	.header-img-wrapper{
+		margin: auto;
+		display: inline-block;	
+		height: 150px;
+/*		width: 150px;*/
+		border: 2px solid green;
+	}
+	.header-img{
+		height: 100%;
+	}
+	.nav {
+		right: 0;
+		position: absolute;
+		align-self: flex-start;
+		/*border: 1px solid red;*/
+	}
+	.nav-button{
+		border-radius: 10%;
+		text-decoration: none;
+		border: 2px solid grey;
+		color: white;
+		font-size: 16px;
+		font-family: Helvetica Neue;
+		margin: 3px;
+		text-align: center;
+	}
 /*============End Header============*/
 
 
