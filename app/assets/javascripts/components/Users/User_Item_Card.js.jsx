@@ -10,7 +10,7 @@ var UserItemCard = React.createClass({
 				</Link>
 
 				<br/>
-				
+
 				<Link to="itemShow" params={{id: this.props.id}} className="add-item-button" >
 					+
 				</Link>

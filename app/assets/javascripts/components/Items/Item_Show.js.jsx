@@ -33,12 +33,9 @@ var ItemShow = React.createClass({
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
-				<br />
-				<img src={this.state.itemPhotoUrl} />
-				<br />
-				Name: {this.state.itemName} 
-				<br />
-				Description: {this.state.itemDescription} 
+				<div className="body-wrapper">
+					<ItemShowCard itemPhotoUrl={this.state.itemPhotoUrl} itemName={this.state.itemName} itemDescription={this.state.itemDescription} />
+				</div>
 			</div>
 		)
 	}

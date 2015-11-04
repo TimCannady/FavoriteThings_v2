@@ -10,11 +10,10 @@ var CategoryItemCard = React.createClass({
 				</Link>
 
 				<br/>
-				
+
 				<Link to="itemShow" params={{id: this.props.id}} className="add-item-button" >
 					+
 				</Link>
-
 			</div>
 		)
 	}
