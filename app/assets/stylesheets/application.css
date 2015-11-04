@@ -60,9 +60,9 @@
 		}
 /*============End Browser Reset============*/
 
-div {
- 	border: 1px solid grey;
- }
+a{
+	text-decoration: none;
+}
 
 /*============Header============*/
 .nav {
@@ -79,7 +79,7 @@ div {
 }
 
 .header {
-	 background-image: url("header_background.jpg");
+	background-image: url("header_background.jpg");
 	 
 }
 .header-img-wrapper{
@@ -96,19 +96,29 @@ div {
 
 /*============Body============*/
 .body-wrapper{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
-
 .card-wrapper{
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
+	/*margin: 0.5%;*/
 }
-
+.card-text{
+	color: #ff5400;
+	font-size: 16px;
+	font-family: Helvetica Neue;
+}
+.card-img-wrapper{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 1px solid skyblue;
+}
 .card-img{
-	height: 40%
+	height: 200px;
 }
 /*============End Body============*/
