@@ -1,4 +1,4 @@
-var UsersIndex = React.createClass({
+var UserIndex = React.createClass({
 
 	getInitialState: function(){
 		return {
