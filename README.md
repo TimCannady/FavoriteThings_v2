@@ -1,17 +1,21 @@
 ## FavoriteThings
 *Share the products you love - expensive and modest alike. At FavoriteThings it's all about sharing the stuff you can't live without.*
 
-## Purpose & Goals
-general: 
+## Personal Goals
+General: 
 * port an app from Sinatra to Rails
 
-* incorporate React (using react-rails for the first time)
+* use React in a solo project
 
-* incorporate front-end routing / SPA (using react-router-rails for the first time)
+* use front-end routing / SPA in a solo project 
 
-stretch:
+Stretch:
 
-* use ES6
+* incorporate ES6
+
+* use the Imgur API or AWS/S3 for image hosting
+
+* oAuth
 
 ## Demo
 Heroko link TBD
@@ -29,18 +33,22 @@ username: es@gmail.com
 password: test -->
 
 ## Technologies
-
 Frontend:
 * HTML + CSS
-* React.js (gems incl: [react-rails](https://github.com/reactjs/react-rails), [react-router](https://github.com/rackt/react-router), [react-router-rails](https://github.com/mariopeixoto/react-router-rails))
+* React.js 
 * jQuery
 
 Backend:
 * Ruby/Rails
 * Postgresql
 
-## How it Works
+Ruby Gems:
+* [bcrypt-ruby](https://github.com/codahale/bcrypt-ruby)
+* [react-rails](https://github.com/reactjs/react-rails)
+* [react-router](https://github.com/rackt/react-router)
+* [react-router-rails](https://github.com/mariopeixoto/react-router-rails)
 
+## How it Works
 1) Ruby uses five models. *Italics* are join tables:
   * User
   * *Like*
@@ -86,7 +94,6 @@ Backend:
 ![Item](http://i.imgur.com/L80QkJy.png)
 
 ## Invitation
-
 Feel free to clone, tinker, refactor, break and rebuild, submit pull requests, issues or feature ideas. Get in touch [on Twitter](https://twitter.com/TCannadySF)!
 
 To setup locally:
@@ -97,5 +104,4 @@ To setup locally:
 * localhost:3000
 
 ## Architecture & Design Notes
-
 High-level view of how to design pages. For example, should the AppComponent just render the router? With this, maybe each page would be a parent component, like UserPage which renders sub-components like Header, UserList, UserCard and Footer. Another approach could be to instead have the header and footer components buit into AppComponent and use some if/then logic to decide which header to render.
