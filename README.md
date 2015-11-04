@@ -120,7 +120,7 @@ High-level view of how to design pages. For example, should the AppComponent jus
 
 No justify-self for flexbox.
 
-[React's](https://facebook.github.io/react/docs/two-way-binding-helpers.html) [valueLink for two-way binding. [Tutorial](https://auth0.com/blog/2015/04/09/adding-authentication-to-your-react-flux-app/).
+[React's](https://facebook.github.io/react/docs/two-way-binding-helpers.html) valueLink for two-way binding. [Tutorial](https://auth0.com/blog/2015/04/09/adding-authentication-to-your-react-flux-app/).
 
 <!--
 
