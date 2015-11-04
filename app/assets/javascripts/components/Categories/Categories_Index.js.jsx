@@ -1,10 +1,10 @@
-var ItemsPage = React.createClass({
+var CategoriesIndex = React.createClass({
 
 	getInitialState: function(){
-		return {
+		return{
 			didFetchData: false,
-			headerImage: "http://www.w3schools.com/html/html5.gif",
-			items: []
+			headerImage: "categories.png",
+			categories: []
 		}
 	},
 
@@ -15,11 +15,11 @@ var ItemsPage = React.createClass({
 	fetchData: function(data){
 		$.ajax({
 			type: "GET",
-			url: "/items",
+			url: "/categories",
 			data: "data",
 			dataType: 'json',
 			success: function(data){
-				this.setState({didFetchData: 'true', items: data})
+				this.setState({didFetchData: 'true', categories: data})
 			}.bind(this),
 			error: function(data){
 				alert('error!')
@@ -28,8 +28,8 @@ var ItemsPage = React.createClass({
 	},
 
 	render: function(){
-		var itemArray = this.state.items.map(function(item){
-			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} />
+		var categoryArray = this.state.categories.map(function(category){
+			return <CategoryCard name={category.name} description={category.description} key={category.id} id={category.id} photo_url={category.photo_url} />
 		})
 
 		return(
@@ -38,7 +38,7 @@ var ItemsPage = React.createClass({
 				<br />
 
 				<section className="body-wrapper" >
-					{itemArray}
+					{categoryArray}
 				</section>
 			</div>
 		)
