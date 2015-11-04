@@ -14,7 +14,7 @@
  *= require_self
  */
 
-/*Begin Browser Reset via http://meyerweb.com/eric/tools/css/reset/*/
+/*============Begin Browser Reset via http://meyerweb.com/eric/tools/css/reset/============*/
 		html, body, div, span, applet, object, iframe,
 		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 		a, abbr, acronym, address, big, cite, code,
@@ -58,13 +58,13 @@
 			border-collapse: collapse;
 			border-spacing: 0;
 		}
-/*End Browser Reset*/
+/*============End Browser Reset============*/
 
 div {
  	border: 1px solid grey;
  }
 
-/*Header*/
+/*============Header============*/
 .nav {
 	display: flex;
 	justify-content: flex-end;
@@ -92,11 +92,24 @@ div {
 .header-img{
 	height: 150px;
 }
-/*End Header*/
+/*============End Header============*/
 
 
-/*Body*/
+/*============Body============*/
+.body-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card-wrapper{
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
+
 .card-img{
-	width: 10%;
-
-/*End Body*/
+	height: 40%
+}
+/*============End Body============*/

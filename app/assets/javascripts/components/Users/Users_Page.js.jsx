@@ -42,7 +42,10 @@ var UsersPage = React.createClass({
 			<div>
 				<Header img_src={this.state.headerImage}/>
 				<br />
-				{personArray}
+
+				<section className="body-wrapper" >
+					{personArray}
+				</section>
 			</div>
 		)
 	}

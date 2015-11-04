@@ -1,7 +1,7 @@
 var UserCard = React.createClass({
 	render: function(){
 		return(
-			<div>
+			<div className="card-wrapper">
 				<Link to="userShow" params={{id: this.props.id}} >
 					user name: {this.props.f_name}
 				</Link>

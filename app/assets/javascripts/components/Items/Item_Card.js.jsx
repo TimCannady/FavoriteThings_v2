@@ -1,7 +1,7 @@
 var ItemCard = React.createClass({
 	render: function(){
 		return(
-			<div>
+			<div className="card-wrapper">
 				<Link to="itemShow" params={{id: this.props.id}} > 
 					item name: {this.props.name}
 				</Link>

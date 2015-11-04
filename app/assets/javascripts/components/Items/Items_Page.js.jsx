@@ -36,7 +36,10 @@ var ItemsPage = React.createClass({
 			<div>
 				<Header img_src={this.state.headerImage} />
 				<br />
-				{itemArray}
+
+				<section className="body-wrapper" >
+					{itemArray}
+				</section>
 			</div>
 		)
 	}

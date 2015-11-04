@@ -36,7 +36,10 @@ var CategoriesPage = React.createClass({
 			<div>
 				<Header img_src={this.state.headerImage} />
 				<br />
-				{categoryArray}
+
+				<section className="body-wrapper" >
+					{categoryArray}
+				</section>
 			</div>
 		)
 	}
