@@ -9,6 +9,8 @@ General:
 
 * use front-end routing / SPA in a solo project 
 
+* use React-based user auth
+
 * experiment with *display: flexbox* in place of media queries
 
 Stretch:
@@ -117,3 +119,21 @@ To setup locally:
 High-level view of how to design pages. For example, should the AppComponent just render the router? With this, maybe each page would be a parent component, like UserPage which renders sub-components like Header, UserList, UserCard and Footer. Another approach could be to instead have the header and footer components buit into AppComponent and use some if/then logic to decide which header to render.
 
 No justify-self for flexbox.
+
+[React's](https://facebook.github.io/react/docs/two-way-binding-helpers.html) [valueLink for two-way binding. [Tutorial](https://auth0.com/blog/2015/04/09/adding-authentication-to-your-react-flux-app/).
+
+<!--
+
+TO-DO
+
+Login / Signup
+
+CRUD item (attribute to the logged-in user)
+
+Like/Unlike (conditional based on the logged-in user)
+
+jQuery header
+
+--> 
+
+
