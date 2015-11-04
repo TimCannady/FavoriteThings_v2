@@ -15,10 +15,10 @@ Stretch:
 
 * use the Imgur API or AWS/S3 for image hosting
 
-* oAuth
+* OAuth
 
 ## Demo
-Heroko link TBD
+Heroku link TBD
 <!-- 
 Feel free to create a new account, including a photo URL.
 
@@ -60,20 +60,15 @@ Ruby Gems:
 
 3) jQuery for async loading
 
-4) React-Rails gem for some helpers
+4) React-Rails gem provides helpers to connect React and Rails
 
-5) React-Router for front-end routing and browser history
+5) React-Router gem for front-end routing, pushState browser history
 
-6) React-Router-Rails to handle data between the Rails enpoints and the React-Router
-
-## Models
-* User
-* Like
-* Item
-* Label
-* Category
+6) React-Router-Rails gem to handle data between the Rails enpoints and the React-Router
 
 ## DB Schema
+
+![Schema](http://i.imgur.com/OIyZD4Y.png)
 
 ## App Structure
 
@@ -92,6 +87,19 @@ Ruby Gems:
 ---
 ---
 ![Item](http://i.imgur.com/L80QkJy.png)
+
+## Project Management
+
+Tabs:
+
+![Project Manager](http://i.imgur.com/jlZrg41.png)
+
+Use cases:
+![Use Cases](http://i.imgur.com/jbIC3zs.png)
+
+Road map:
+![Road Map](http://i.imgur.com/us2fDOB.png)
+![Road Map](http://i.imgur.com/NyyKoWV.png)
 
 ## Invitation
 Feel free to clone, tinker, refactor, break and rebuild, submit pull requests, issues or feature ideas. Get in touch [on Twitter](https://twitter.com/TCannadySF)!
