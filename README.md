@@ -128,6 +128,8 @@ No justify-self for flexbox.
 
 
 Front-end sessions. Session is a back-end thing. Consider localStorage, sessionStorage, cookies, tokens, or something more secure. 
+
+Lifecycle! How initial render fires before ajax completes. 
 <!--
 
 TO-DO
