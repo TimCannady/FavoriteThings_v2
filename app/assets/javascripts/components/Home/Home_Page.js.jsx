@@ -34,7 +34,7 @@ var HomePage = React.createClass({
 				this.setState({didFetchData: 'true', userID: data.user_id})
 			}.bind(this),
 			error: function(data){
-				alert('error! couldnt fetch user id')
+				// alert('error! couldnt fetch user id')
 			}
 		})
 	},
@@ -42,8 +42,9 @@ var HomePage = React.createClass({
 	render: function(){
 		if(this.state.userID == null){
 			return(
-				<div>
-					Loading....
+				<div>	
+					<Header />
+					Fetching user data. Have you <Link to="login">logged in...? </Link>
 				</div>
 			)
 		}else{
