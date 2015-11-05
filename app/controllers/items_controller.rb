@@ -10,9 +10,14 @@ class ItemsController < ApplicationController
 	end
 
 	def like
-		user = User.find(params[:userID])
-		item = Item.where(id: params[:itemID]).first
-		user.items << item
+		if user = User.find(params[:userID])
+			if item = Item.where(id: params[:itemID]).first
+				user.items << item
+				render json: {head: :ok}
+			end
+		else
+			render :status => 404
+		end
 	end
 end
 

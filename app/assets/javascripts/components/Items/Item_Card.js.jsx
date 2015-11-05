@@ -34,19 +34,38 @@ var ItemCard = React.createClass({
 				this.setState({didFetchData: 'true', userID: data.user_id})
 			}.bind(this),
 			error: function(data){
-				// alert('error! couldnt fetch user id')
+				alert('error! couldnt fetch user id')
 			}
 		})
 	},
 
+	// addLike: function(){
+	// 	var data = {
+	// 	   itemID: this.state.id,
+	// 	}
+	// 	$.ajax({
+	// 		type: "GET",
+	// 		url: "/items/" + this.state.,
+	// 		data: data,
+	// 		dataType: 'json',
+	// 		success: function(data){
+	// 			this.setState({didFetchData: 'true', userID: data.user_id})
+	// 		}.bind(this),
+	// 		error: function(data){
+	// 			alert('error! couldnt fetch user id')
+	// 		}
+	// 	})
+	// },
+
 	addLike: function(){
 		var data = {
-		   itemID: this.state.id,
+		   itemID: this.state.itemID,
+		   userID: this.state.userID
 		}
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
-			url: '/items/' + this.state.id + '/like',
+			url: '/items/' + this.state.userID + '/like',
 			data: data
 			})
 			.done(function(data) {
