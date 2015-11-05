@@ -131,12 +131,12 @@ Front-end sessions. Session is a back-end thing. Consider localStorage, sessionS
 
 Ajax + lifecycle! How initial render fires before ajax completes. Can patch with a conditional "loading".
 
-Ajax + From Submit + ReactRouter: debugging context and this to get transitionTo('home)') / pushState to work after a successful login.
+Ajax + From Submit + ReactRouter: debugging context and this to get transitionTo('home)') / pushState to work after a successful login.	
 <!--
 
 TO-DO
 
-Login / Signup
+Signup - CRUD user
 
 CRUD item (attribute to the logged-in user)
 
