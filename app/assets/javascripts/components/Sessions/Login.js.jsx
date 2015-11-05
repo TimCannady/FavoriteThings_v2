@@ -1,15 +1,14 @@
-var Router = ReactRouter;
-var Route = ReactRouter.Route;
-var Routes = ReactRouter.Routes;
-var Navigation = ReactRouter.Navigation;
-
-var History = ReactRouter.History;
-var Navigation = ReactRouter.Navigation;
+// var Router = ReactRouter;
+// var Route = ReactRouter.Route;
+// var Routes = ReactRouter.Routes;
+// var Navigation = ReactRouter.Navigation;
+// var History = ReactRouter.History;
+// var Navigation = ReactRouter.Navigation;
 
 var Login = React.createClass({
 
-	mixins: [ History ],
-	mixins: [ Navigation ],
+	// mixins: [ History ],
+	// mixins: [ Navigation ],
 
 	getInitialState: function(){
 		return{
@@ -37,10 +36,10 @@ var Login = React.createClass({
 			.done(function(data) {
 				App.logIn(data.email)
 				alert('login successful!')
-				// this.transitionTo('home')
-				// this.history.pushState(null, '/home')
 				history.pushState({},'','/')
 				window.location.reload()
+				// this.transitionTo('home')
+				// this.history.pushState(null, '/home')
 				// History.pushState(null, '/home')
 				// self.clearForm()
 			}.bind(this))
