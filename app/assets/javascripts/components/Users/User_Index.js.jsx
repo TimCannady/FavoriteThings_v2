@@ -10,6 +10,9 @@ var UserIndex = React.createClass({
 
 	componentDidMount: function(){
 		this.fetchData()
+		App.checkLoggedIn()
+		App.logIn()
+		App.logOut()
 	},
 
 	fetchData: function(data){

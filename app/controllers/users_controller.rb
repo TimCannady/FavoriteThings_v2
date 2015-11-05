@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+	include ApplicationHelper #include methods from application_helper.rb
+
 	def index
 		users = User.all
 		render json: users

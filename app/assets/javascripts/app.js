@@ -1,5 +1,38 @@
 App = {};
 
+var rand = function() {
+    return Math.random().toString(36).substr(2); // remove `0.`
+};
+
+var token = function() {
+    return rand() + rand(); // to make it longer
+};
+
+
+	App.checkLoggedIn = function(){
+		if(localStorage.getItem('token') == null){
+			// alert('youre logged out')
+			return false
+		}else{
+			// alert('youre logged in')
+			// alert(localStorage.getItem('token'))
+			return true
+		}
+	}
+
+	App.logIn = function(){
+		// alert('logging in')
+		localStorage.token = token()
+		// alert(localStorage.getItem('token'))
+	}
+
+	App.logOut = function(){
+		// alert('logging out')
+		localStorage.removeItem('token')
+		// alert(localStorage.getItem('token'))
+	}
+
+
 // App.request = function(method, path, data){
 //   return new Promise(function(resolve, reject){
 //     var request = $.ajax({

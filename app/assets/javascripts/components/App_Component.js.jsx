@@ -1,4 +1,4 @@
-	 RouteHandler = ReactRouter.RouteHandler
+RouteHandler = ReactRouter.RouteHandler
 
 var AppComponent = React.createClass({
 
