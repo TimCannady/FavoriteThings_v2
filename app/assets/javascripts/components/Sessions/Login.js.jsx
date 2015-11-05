@@ -23,7 +23,7 @@ var Login = React.createClass({
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
-			url: '/sessions',
+			url: '/users',
 			data: data
 		})
 			.done(function(data) {

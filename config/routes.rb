@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
   get "/*path" => "app#main"
 
-  post "/sessions" => "sessions#create"
+  post "/users" => "users#create"
 
   root 'app#main'
 end
