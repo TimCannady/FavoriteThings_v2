@@ -14,7 +14,7 @@ App = {};
 	App.logIn = function(email){
 		// alert('logging in')
 		localStorage.email = email
-		alert(localStorage.getItem('email'))
+		// alert(localStorage.getItem('email'))
 	}
 
 	App.currentUserEmail = function(){
@@ -28,26 +28,28 @@ App = {};
 	}
 
 	App.currentUserID = function(){
-		alert('checking user id')
+		// alert('checking user id')
 		if(App.checkLoggedIn()){
-			alert('theres a logged in user')
+			// alert('theres a logged in user')
 			var email = App.currentUserEmail()
 			App.fetchUserID(email)
 		}else{
-			alert('theres not a logged in user')
+			// alert('theres not a logged in user')
 			// alert(localStorage.getItem('email'))
 		}
 	}
 
 	App.fetchUserID = function(email){
-		alert('fetching user id for ' + email)
+		// alert('fetching user id for ' + email)
 		$.ajax({
 			type: "GET",
 			url: "/users/email",
 			data: {email: email},
 			dataType: 'json',
 			success: function(data){
-				this.setState({didFetchData: 'true', userID: data.id})
+				// alert('success')
+				// alert(data.user_id)
+				this.setState({didFetchData: 'true', userID: data.user_id})
 			}.bind(this),
 			error: function(data){
 				alert('error! couldnt fetch user id')

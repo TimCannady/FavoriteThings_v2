@@ -9,12 +9,4 @@ class SessionsController < ApplicationController
 		end
 	end
 
-	# def id
-	# 	p "*********"
-	# 	p "*********"
-	# 	p params
-	# 	user_id = User.where(email: params[:email]).first.id
-	# 	render json: {id: user_id}
-	# end
-	
 end

@@ -3,12 +3,14 @@ var HomePage = React.createClass({
 	getInitialState: function(){
 		return{
 			didFetchData: false,
-			userID: [],
+			userID: null,
 		}
 	},
 
 	componentWillMount: function(){
-		this.setState({userID: App.currentUserID()})
+		newState = App.currentUserID()
+		// this.setState({userID: 2})
+		this.setState({userID: newState})
 	},
 
 	render: function(){
