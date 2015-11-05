@@ -1,14 +1,13 @@
 module ApplicationHelper
 	def create_user
 	  @user = User.new(
-	  	email: params[:email]
 
-	    # first_name: params[:first_name],
-	    # last_name: params[:last_name],
-	    # email: params[:email],
-	    # city: params[:city],
-	    # gender: params[:gender],
-	    # photo_url: params[:photo_url]
+	    f_name: params[:f_name],
+	    l_name: params[:l_name],
+	    email: params[:email],
+	    city: params[:city],
+	    gender: params[:gender],
+	    photo_url: params[:photo_url]
 
 	    )
 	  @user.password = params[:password]

@@ -13,8 +13,40 @@ var SignupForm = React.createClass({
 		}
 	},
 
-	submit: function(){
+	submit: function(e){
+		// var self 
+		e.preventDefault()
+		// self = this
 
+		var data = {
+		   email: this.state.email,
+		   password: this.state.password,
+		   f_name: this.state.fName,
+		   l_name: this.state.lName,
+		   city: this.state.city,
+		   gender: this.state.gender,
+		   photo_url: this.state.photoUrl,
+		}
+
+		 // Submit form via jQuery/AJAX
+		$.ajax({
+			type: 'POST',
+			url: '/users',
+			data: data
+			})
+			.done(function(data) {
+				App.logIn(data.email)
+				alert('user creation successful!')
+				history.pushState({},'','/')
+				window.location.reload()
+				// this.transitionTo('home')
+				// this.history.pushState(null, '/home')
+				// History.pushState(null, '/home')
+				// self.clearForm()
+			}.bind(this))
+			.fail(function(data) {
+				alert('Failed to create new user')
+			});
 	},
 
 	handleEmailChange: function(event) {

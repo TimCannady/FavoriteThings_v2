@@ -18,10 +18,16 @@ class UsersController < ApplicationController
 		}
 	end
 
-	# def create
-	# 	create_user
-	# 	render json: {email: params[:email]}
-	# end
+	def create
+		if create_user
+			p "************"
+			p "************"
+			p "created user!"
+			render json: {email: params[:email]} #return the email so the user can be logged in 
+		else
+			render :status => 404
+		end
+	end
 
 	def id
 		user = User.where(email: params[:email]).first
