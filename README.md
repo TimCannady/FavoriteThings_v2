@@ -1,5 +1,5 @@
 ## FavoriteThings
-*Share the products you love - expensive and modest alike. At FavoriteThings it's all about sharing the stuff you can't live without.*
+*Share the products you own and love - expensive and modest alike. At FavoriteThings it's all about curating and discovering tried-and-true products that we couldn't live without.*
 
 <!--
 Add a little more. Open the app store and see how they describes themselves. 
