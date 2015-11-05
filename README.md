@@ -129,7 +129,9 @@ No justify-self for flexbox.
 
 Front-end sessions. Session is a back-end thing. Consider localStorage, sessionStorage, cookies, tokens, or something more secure. 
 
-Lifecycle! How initial render fires before ajax completes. 
+Ajax + lifecycle! How initial render fires before ajax completes. Can patch with a conditional "loading".
+
+Ajax + From Submit + ReactRouter: debugging context and this to get transitionTo('home)') / pushState to work after a successful login.
 <!--
 
 TO-DO
