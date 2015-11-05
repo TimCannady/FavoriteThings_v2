@@ -32,6 +32,10 @@ class UsersController < ApplicationController
 		end
 	end
 
+	def like
+		
+	end
+
 	def id
 		user = User.where(email: params[:email]).first
 		user_id = user.id
