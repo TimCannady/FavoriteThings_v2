@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-	include ApplicationHelper #include methods from application_helper.rb
+	# include ApplicationHelper # include methods from application_helper.rb
 
 	def index
 		users = User.all

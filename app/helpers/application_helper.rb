@@ -1,5 +1,4 @@
 module ApplicationHelper
-
 	def create_user
 	  @user = User.new(
 	    first_name: params[:first_name],
@@ -26,7 +25,9 @@ module ApplicationHelper
 	  session[:user_name] = nil
 	end
 
-	def logged_in?
+
+
+	def logged_in
 	  session[:user_name]
 	end
 
@@ -43,5 +44,4 @@ module ApplicationHelper
 	def user_has_liked?
 	  all_items[item_id]
 	end
-	
 end

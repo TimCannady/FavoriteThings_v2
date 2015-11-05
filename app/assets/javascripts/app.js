@@ -32,6 +32,30 @@ var token = function() {
 		// alert(localStorage.getItem('token'))
 	}
 
+	App.currentUserID = function(){
+		if(checkLoggedIn()){
+			alert('theres alogged in user')
+			fetchData()
+		}else{
+			alert('theres not a logged in user')
+		}
+	}
+
+	App.fetchData = function(data){
+		$.ajax({
+			type: "GET",
+			url: "/users",
+			data: "data",
+			dataType: 'json',
+			success: function(data){
+				this.setState({didFetchData: 'true', users: data})
+			}.bind(this),
+			error: function(data){
+				alert('error!')
+			}
+		})
+	}
+
 
 // App.request = function(method, path, data){
 //   return new Promise(function(resolve, reject){
