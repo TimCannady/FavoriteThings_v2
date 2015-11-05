@@ -11,6 +11,9 @@ class UsersController < ApplicationController
 		user_name = user.f_name + " " + user.l_name
 		photo_url = user.photo_url
 		items = user.items
+		p "*******"
+		p "*******"
+		p items
 		render json: {
 			items: items,
 			user_name: user_name,

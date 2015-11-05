@@ -49,72 +49,208 @@ garage = Category.create(
 
 ##################################################################################
 ##################################################################################
-@davy =  User.new(
-  f_name: "Davy",
-  l_name: "Jones",
-  email: "dj@gmail.com",
-  photo_url: "http://i.imgur.com/XzyOFHu.jpg",
-  city: "locker",
-  gender: "male"
-)
-@davy.password = "test"
-@davy.save!
+# @davy =  User.new(
+#   f_name: "Davy",
+#   l_name: "Jones",
+#   email: "dj@gmail.com",
+#   photo_url: "http://i.imgur.com/XzyOFHu.jpg",
+#   city: "locker",
+#   gender: "male"
+# )
+# @davy.password = "test"
+# @davy.save!
 
 
-@elizabeth =  User.new(
-  f_name: "Elizabeth",
-  l_name: "Swawn",
-  email: "es@gmail.com",
-  photo_url: "http://i.imgur.com/YTATPgj.jpg",
-  city: "Kingsport",
-  gender: "female"
-)
-@elizabeth.password = "test"
-@elizabeth.save!
+# @elizabeth =  User.new(
+#   f_name: "Elizabeth",
+#   l_name: "Swawn",
+#   email: "es@gmail.com",
+#   photo_url: "http://i.imgur.com/YTATPgj.jpg",
+#   city: "Kingsport",
+#   gender: "female"
+# )
+# @elizabeth.password = "test"
+# @elizabeth.save!
 
-@monkey =  User.new(
-  f_name: "Monkey",
-  l_name: "na",
-  email: "aveaekljae@gmail.com",
-  photo_url: "http://i.imgur.com/T6vAn3i.jpg",
-  city: "Banana",
-  gender: "female"
-)
-@monkey.password = "test"
-@monkey.save!
+# @monkey =  User.new(
+#   f_name: "Monkey",
+#   l_name: "na",
+#   email: "aveaekljae@gmail.com",
+#   photo_url: "http://i.imgur.com/T6vAn3i.jpg",
+#   city: "Banana",
+#   gender: "female"
+# )
+# @monkey.password = "test"
+# @monkey.save!
 
-@jack =  User.new(
-  f_name: "Captain",
-  l_name: "Jack Sparrow",
-  email: "CAPTAINjs@gmail.com",
-  photo_url: "http://i.imgur.com/0LCOGdd.png",
-  city: "dunno",
-  gender: "male"
-)
-@jack.password = "test"
-@jack.save!
+# @jack =  User.new(
+#   f_name: "Captain",
+#   l_name: "Jack Sparrow",
+#   email: "CAPTAINjs@gmail.com",
+#   photo_url: "http://i.imgur.com/0LCOGdd.png",
+#   city: "dunno",
+#   gender: "male"
+# )
+# @jack.password = "test"
+# @jack.save!
 
-@barbosa =  User.new(
-  f_name: "Mr",
-  l_name: "Barbosa",
-  email: "bb@gmail.com",
-  photo_url: "http://i.imgur.com/ehZU4Wg.png",
-  city: "Caribbean",
-  gender: "male"
-)
-@barbosa.password = "test"
-@barbosa.save!
+# @barbosa =  User.new(
+#   f_name: "Mr",
+#   l_name: "Barbosa",
+#   email: "bb@gmail.com",
+#   photo_url: "http://i.imgur.com/ehZU4Wg.png",
+#   city: "Caribbean",
+#   gender: "male"
+# )
+# @barbosa.password = "test"
+# @barbosa.save!
 
-@will =  User.new(
-  f_name: "Will",
-  l_name: "Turner",
-  email: "wt@gmail.com",
-  photo_url: "http://i.imgur.com/8NJgYHb.jpg",
-  city: "England",
-  gender: "male"
-)
-@will.password = "test"
-@will.save!
+# @will =  User.new(
+#   f_name: "Will",
+#   l_name: "Turner",
+#   email: "wt@gmail.com",
+#   photo_url: "http://i.imgur.com/8NJgYHb.jpg",
+#   city: "England",
+#   gender: "male"
+# )
+# @will.password = "test"
+# @will.save!
+###############
+    @tim =  User.new(
+      f_name: "Tim",
+      l_name: "Cannady",
+      email: "tim@gmail.com",
+      photo_url: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/059/038/0601b02.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @tim.password = "test"
+    @tim.save!
+
+    @kevin =  User.new(
+      f_name: "Kevin",
+      l_name: "Coleman",
+      email: "kevin@gmail.com",
+      photo_url: "https://d1qb2nb5cznatu.cloudfront.net/users/438847-medium_jpg?1446450416",
+      city: "England",
+      gender: "male"
+    )
+    @kevin.password = "test"
+    @kevin.save!
+
+    @tiffany =  User.new(
+      f_name: "Tiffany",
+      l_name: "Huoth",
+      email: "tiffany@gmail.com",
+      photo_url: "https://d261sv3xac0f7i.cloudfront.net/store/1511514/1014272814.jpg",
+      city: "England",
+      gender: "female"
+    )
+    @tiffany.password = "test"
+    @tiffany.save!
+
+    @jared =  User.new(
+      f_name: "Jared",
+      l_name: "Frey",
+      email: "jared@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/03f/38a/216d7b7.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @jared.password = "test"
+    @jared.save!
+
+    @justin =  User.new(
+      f_name: "Justin",
+      l_name: "Lane",
+      email: "justin@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/217/31e/1ef3ec5.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @justin.password = "test"
+    @justin.save!
+
+    @jessie =  User.new(
+      f_name: "Jessie",
+      l_name: "Wu",
+      email: "jessie@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANhAAAAJDc0ZjJkOWUxLWE0ZjUtNGE5MC1iMzcyLTJlZjVlMjc4MjMzMw.jpg",
+      city: "England",
+      gender: "female"
+    )
+    @jessie.password = "test"
+    @jessie.save!
+
+    @jared_d =  User.new(
+      f_name: "Jared",
+      l_name: "Daugherty",
+      email: "jared.d@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/034/0ac/0b63097.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @jared_d.password = "test"
+    @jared_d.save!
+
+    @anthony =  User.new(
+      f_name: "Anthony",
+      l_name: "Powels",
+      email: "anthony@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/2a7/26d/28f3f37.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @anthony.password = "test"
+    @anthony.save!
+
+    @michael =  User.new(
+      f_name: "Michael",
+      l_name: "Ornellas",
+      email: "michael@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/055/1b1/02bcbcb.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @michael.password = "test"
+    @michael.save!
+
+    @steve =  User.new(
+      f_name: "Steve",
+      l_name: "Zimmerman",
+      email: "steve@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATjAAAAJDQ2YTQ0YWRhLWVlZmYtNGQ4OC05ODI5LTUxMTJkZGE0MWU4ZA.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @steve.password = "test"
+    @steve.save!
+
+    @jonathan =  User.new(
+      f_name: "Jonathan",
+      l_name: "Brownstein",
+      email: "jonathan@gmail.com",
+      photo_url: "https://media.licdn.com/media/p/1/000/210/28c/21214e6.jpg",
+      city: "England",
+      gender: "male"
+    )
+    @jonathan.password = "test"
+    @jonathan.save!
+
+    @counsyl =  User.new(
+      f_name: "Counsyl",
+      l_name: "Inc",
+      email: "counsyl@gmail.com",
+      photo_url: "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAK7AAAAJDk0N2U5NDIyLTJjMTgtNGZkMy05Zjk3LTJmODZiOTdjNGE3OA.png",
+      city: "England",
+      gender: "male"
+    )
+    @counsyl.password = "test"
+    @counsyl.save!
+###############
+
+
+
 ##################################################################################
 ##################################################################################
 knife = Item.create(
@@ -352,235 +488,500 @@ cuisenart_bullet = Item.create(
 
 ##################################################################################
 ##################################################################################
-@will.items << knife
-@jack.items << knife
-@jack.items << knife
-@barbosa.items << knife
-@elizabeth.items << knife
+# @will.items << knife
+# @jack.items << knife
+# @jack.items << knife
+# @barbosa.items << knife
+# @elizabeth.items << knife
 
-@monkey.items << toothbrush
-@will.items << toothbrush
-@jack.items << toothbrush
-@elizabeth.items << toothbrush
+# @monkey.items << toothbrush
+# @will.items << toothbrush
+# @jack.items << toothbrush
+# @elizabeth.items << toothbrush
 
-@monkey.items << hammer
-@barbosa.items << hammer
+# @monkey.items << hammer
+# @barbosa.items << hammer
 
-@barbosa.items << eyedrops
-@elizabeth.items << eyedrops
-@will.items << eyedrops
+# @barbosa.items << eyedrops
+# @elizabeth.items << eyedrops
+# @will.items << eyedrops
 
-@barbosa.items << razor
-@will.items << razor
-@monkey.items << razor
+# @barbosa.items << razor
+# @will.items << razor
+# @monkey.items << razor
 
-@will.items << espresso
-@barbosa.items << espresso
-@elizabeth.items << espresso
+# @will.items << espresso
+# @barbosa.items << espresso
+# @elizabeth.items << espresso
 
-@monkey.items << french_press
-@davy.items << french_press
-@elizabeth.items << french_press
+# @monkey.items << french_press
+# @davy.items << french_press
+# @elizabeth.items << french_press
 
-@elizabeth.items << stroller
-@will.items << stroller
+# @elizabeth.items << stroller
+# @will.items << stroller
 
-@jack.items << shirt
-@barbosa.items << shirt
-@will.items << shirt
+# @jack.items << shirt
+# @barbosa.items << shirt
+# @will.items << shirt
 
-@will.items << watch
-@jack.items << watch
+# @will.items << watch
+# @jack.items << watch
 
-@elizabeth.items << bicycle
-@monkey.items << bicycle
-@will.items << bicycle
+# @elizabeth.items << bicycle
+# @monkey.items << bicycle
+# @will.items << bicycle
 
-@davy.items << gel_eyedrops
-@elizabeth.items
-@will.items << gel_eyedrops
-@monkey.items
-@jack.items
-@barbosa.items << gel_eyedrops
+# @davy.items << gel_eyedrops
+# @elizabeth.items
+# @will.items << gel_eyedrops
+# @monkey.items
+# @jack.items
+# @barbosa.items << gel_eyedrops
 
-@davy.items << claritin
-@elizabeth.items
-@will.items
-@monkey.items << claritin
-@jack.items
-@barbosa.items << claritin
+# @davy.items << claritin
+# @elizabeth.items
+# @will.items
+# @monkey.items << claritin
+# @jack.items
+# @barbosa.items << claritin
 
-@davy.items
-@elizabeth.items
-@will.items << gillette_body_wash
-@monkey.items
-@jack.items << gillette_body_wash
-@barbosa.items
-
-
-@davy.items << therabreath
-@elizabeth.items
-@will.items
-@monkey.items << therabreath
-@jack.items
-@barbosa.items << therabreath
-
-@davy.items << klean_kanteen
-@elizabeth.items
-@will.items
-@monkey.items << klean_kanteen
-@jack.items << klean_kanteen
-@barbosa.items
-
-@davy.items
-@elizabeth.items
-@will.items << gillette_deodorant
-@monkey.items << gillette_deodorant
-@jack.items << gillette_deodorant
-@barbosa.items
-
-@davy.items << matte_paste
-@elizabeth.items
-@will.items << matte_paste
-@monkey.items
-@jack.items << matte_paste
-@barbosa.items
+# @davy.items
+# @elizabeth.items
+# @will.items << gillette_body_wash
+# @monkey.items
+# @jack.items << gillette_body_wash
+# @barbosa.items
 
 
-@davy.items << laptop_pads
-@elizabeth.items
-@will.items
-@monkey.items << laptop_pads
-@jack.items
-@barbosa.items << laptop_pads
+# @davy.items << therabreath
+# @elizabeth.items
+# @will.items
+# @monkey.items << therabreath
+# @jack.items
+# @barbosa.items << therabreath
 
-@davy.items
-@elizabeth.items << zeiss_wipes
-@will.items << zeiss_wipes
-@monkey.items
-@jack.items
-@barbosa.items
+# @davy.items << klean_kanteen
+# @elizabeth.items
+# @will.items
+# @monkey.items << klean_kanteen
+# @jack.items << klean_kanteen
+# @barbosa.items
 
-@davy.items << neutrogina_wash
-@elizabeth.items
-@will.items << neutrogina_wash
-@monkey.items << neutrogina_wash
-@jack.items
-@barbosa.items
+# @davy.items
+# @elizabeth.items
+# @will.items << gillette_deodorant
+# @monkey.items << gillette_deodorant
+# @jack.items << gillette_deodorant
+# @barbosa.items
 
-@davy.items
-@elizabeth.items << wellness_tabs
-@will.items
-@monkey.items
-@jack.items
-@barbosa.items << wellness_tabs
-
-@davy.items
-@elizabeth.items
-@will.items
-@monkey.items << highlighters
-@jack.items
-@barbosa.items << highlighters
-
-@davy.items
-@elizabeth.items << oxo_dispenser
-@will.items << oxo_dispenser
-@monkey.items
-@jack.items
-@barbosa.items
-
-@davy.items
-@elizabeth.items
-@will.items << holmes_filter
-@monkey.items
-@jack.items << holmes_filter
-@barbosa.items
-
-@davy.items
-@elizabeth.items << oxo_hotpad
-@will.items
-@monkey.items << oxo_hotpad
-@jack.items
-@barbosa.items << oxo_hotpad
-
-@davy.items << razr_orochi
-@elizabeth.items
-@will.items
-@monkey.items
-@jack.items << razr_orochi
-@barbosa.items
-
-@davy.items
-@elizabeth.items << method_soap
-@will.items
-@monkey.items << method_soap
-@jack.items
-@barbosa.items
-
-@davy.items << germ_guardian_filter
-@elizabeth.items
-@will.items
-@monkey.items
-@jack.items << germ_guardian_filter
-@barbosa.items
-
-@davy.items << light_dimmer
-@elizabeth.items
-@will.items
-@monkey.items
-@jack.items << light_dimmer
-@barbosa.items
-
-@davy.items << baratza
-@elizabeth.items
-@will.items
-@monkey.items
-@jack.items << baratza
-@barbosa.items
-
-@davy.items
-@elizabeth.items << cuisenart_bullet
-@will.items
-@monkey.items
-@jack.items
-@barbosa.items << cuisenart_bullet
-
-@davy.items << dove_shampoo
-@elizabeth.items
-@will.items << dove_shampoo
-@monkey.items
-@jack.items
-@barbosa.items
-
-@davy.items
-@elizabeth.items
-@will.items << energy_sub
-@monkey.items
-@jack.items
-@barbosa.items << energy_sub
-
-@davy.items << macbook_air
-@elizabeth.items
-@will.items
-@monkey.items << macbook_air
-@jack.items << macbook_air
-@barbosa.items
-
-@davy.items
-@elizabeth.items << samsung_tv
-@will.items
-@monkey.items
-@jack.items << samsung_tv
-@barbosa.items
-
-@davy.items
-@elizabeth.items << tweezerman
-@will.items << tweezerman
-@monkey.items
-@jack.items << tweezerman
-@barbosa.items
+# @davy.items << matte_paste
+# @elizabeth.items
+# @will.items << matte_paste
+# @monkey.items
+# @jack.items << matte_paste
+# @barbosa.items
 
 
+# @davy.items << laptop_pads
+# @elizabeth.items
+# @will.items
+# @monkey.items << laptop_pads
+# @jack.items
+# @barbosa.items << laptop_pads
+
+# @davy.items
+# @elizabeth.items << zeiss_wipes
+# @will.items << zeiss_wipes
+# @monkey.items
+# @jack.items
+# @barbosa.items
+
+# @davy.items << neutrogina_wash
+# @elizabeth.items
+# @will.items << neutrogina_wash
+# @monkey.items << neutrogina_wash
+# @jack.items
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items << wellness_tabs
+# @will.items
+# @monkey.items
+# @jack.items
+# @barbosa.items << wellness_tabs
+
+# @davy.items
+# @elizabeth.items
+# @will.items
+# @monkey.items << highlighters
+# @jack.items
+# @barbosa.items << highlighters
+
+# @davy.items
+# @elizabeth.items << oxo_dispenser
+# @will.items << oxo_dispenser
+# @monkey.items
+# @jack.items
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items
+# @will.items << holmes_filter
+# @monkey.items
+# @jack.items << holmes_filter
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items << oxo_hotpad
+# @will.items
+# @monkey.items << oxo_hotpad
+# @jack.items
+# @barbosa.items << oxo_hotpad
+
+# @davy.items << razr_orochi
+# @elizabeth.items
+# @will.items
+# @monkey.items
+# @jack.items << razr_orochi
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items << method_soap
+# @will.items
+# @monkey.items << method_soap
+# @jack.items
+# @barbosa.items
+
+# @davy.items << germ_guardian_filter
+# @elizabeth.items
+# @will.items
+# @monkey.items
+# @jack.items << germ_guardian_filter
+# @barbosa.items
+
+# @davy.items << light_dimmer
+# @elizabeth.items
+# @will.items
+# @monkey.items
+# @jack.items << light_dimmer
+# @barbosa.items
+
+# @davy.items << baratza
+# @elizabeth.items
+# @will.items
+# @monkey.items
+# @jack.items << baratza
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items << cuisenart_bullet
+# @will.items
+# @monkey.items
+# @jack.items
+# @barbosa.items << cuisenart_bullet
+
+# @davy.items << dove_shampoo
+# @elizabeth.items
+# @will.items << dove_shampoo
+# @monkey.items
+# @jack.items
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items
+# @will.items << energy_sub
+# @monkey.items
+# @jack.items
+# @barbosa.items << energy_sub
+
+# @davy.items << macbook_air
+# @elizabeth.items
+# @will.items
+# @monkey.items << macbook_air
+# @jack.items << macbook_air
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items << samsung_tv
+# @will.items
+# @monkey.items
+# @jack.items << samsung_tv
+# @barbosa.items
+
+# @davy.items
+# @elizabeth.items << tweezerman
+# @will.items << tweezerman
+# @monkey.items
+# @jack.items << tweezerman
+# @barbosa.items
+################################################
+################################################
+@kevin.items << knife
+@tiffany.items << knife
+@anthony.items << knife
+@jared.items << knife
+@tim.items << knife
+
+@jessie.items << toothbrush
+@kevin.items << toothbrush
+@tiffany.items << toothbrush
+@justin.items << toothbrush
+@tim.items << toothbrush
+
+@jessie.items << hammer
+@jared.items << hammer
+@tim.items << hammer
+
+@jared.items << eyedrops
+@justin.items << eyedrops
+@kevin.items << eyedrops
+@tim.items << eyedrops
+
+@jared.items << razor
+@kevin.items << razor
+@jessie.items << razor
+@tim.items << razor
+
+@kevin.items << espresso
+@jared.items << espresso
+@justin.items << espresso
+@tim.items << espresso
+
+@jessie.items << french_press
+@jared_d.items << french_press
+@justin.items << french_press
+@tim.items << french_press
+
+@justin.items << stroller
+@kevin.items << stroller
+@tim.items << stroller
+
+@tiffany.items << shirt
+@jared.items << shirt
+@kevin.items << shirt
+@tim.items << shirt
+
+@kevin.items << watch
+@tiffany.items << watch
+@tim.items << watch
+
+@anthony.items << bicycle
+@jessie.items << bicycle
+@kevin.items << bicycle
+@tim.items << bicycle
+
+@jared_d.items << gel_eyedrops
+@anthony.items << gel_eyedrops
+@kevin.items << gel_eyedrops
+@jessie.items << gel_eyedrops
+@tiffany.items << gel_eyedrops
+@jared.items << gel_eyedrops
+@tim.items << gel_eyedrops
+
+@jared_d.items << claritin
+@anthony.items << claritin
+@kevin.items << claritin
+@michael.items << claritin
+@tiffany.items << claritin
+@jared.items << claritin
+@tim.items << claritin
+
+@jared_d.items << gillette_body_wash
+@anthony.items << gillette_body_wash
+@kevin.items << gillette_body_wash
+@michael.items << gillette_body_wash
+@tiffany.items << gillette_body_wash
+@steve.items << gillette_body_wash
+@tim.items << gillette_body_wash
+
+
+@jared_d.items << therabreath
+@anthony.items << therabreath
+@kevin.items << therabreath
+@michael.items << therabreath
+@jonathan.items << therabreath
+@steve.items << therabreath
+@tim.items << therabreath
+
+@jared_d.items << klean_kanteen
+@counsyl.items << klean_kanteen
+@kevin.items << klean_kanteen
+@michael.items << klean_kanteen
+@jonathan.items << klean_kanteen
+@steve.items << klean_kanteen
+@tim.items << klean_kanteen
+
+@michael.items << gillette_deodorant
+@counsyl.items << gillette_deodorant
+@kevin.items << gillette_deodorant
+@anthony.items << gillette_deodorant
+@jonathan.items << gillette_deodorant
+@steve.items << gillette_deodorant
+@tim.items << gillette_deodorant
+
+@michael.items << matte_paste
+@jonathan.items << matte_paste
+@kevin.items << matte_paste
+@anthony.items << matte_paste
+@jonathan.items << matte_paste
+@steve.items << matte_paste
+@tim.items << matte_paste
+
+
+@counsyl.items << laptop_pads
+@jonathan.items << laptop_pads
+@kevin.items << laptop_pads
+@anthony.items << laptop_pads
+@jonathan.items << laptop_pads
+@jared.items << laptop_pads
+@tim.items << laptop_pads
+
+@counsyl.items << zeiss_wipes
+@jonathan.items << zeiss_wipes
+@kevin.items << zeiss_wipes
+@anthony.items << zeiss_wipes
+@tiffany.items << zeiss_wipes
+@jared.items << zeiss_wipes
+@tim.items << zeiss_wipes
+
+@counsyl.items << neutrogina_wash
+@jared_d.items << neutrogina_wash
+@kevin.items << neutrogina_wash
+@jessie.items << neutrogina_wash
+@anthony.items << neutrogina_wash
+@justin.items << neutrogina_wash
+@tim.items << neutrogina_wash
+
+@counsyl.items << wellness_tabs
+@jared_d.items << wellness_tabs
+@kevin.items << wellness_tabs
+@jessie.items << wellness_tabs
+@jonathan.items << wellness_tabs
+@justin.items << wellness_tabs
+@tim.items << wellness_tabs
+
+@counsyl.items << highlighters
+@jared_d.items << highlighters
+@kevin.items << highlighters
+@jessie.items << highlighters
+@tiffany.items << highlighters
+@justin.items << highlighters
+@tim.items << highlighters
+
+@michael.items << oxo_dispenser
+@counsyl.items << oxo_dispenser
+@kevin.items << oxo_dispenser
+@jonathan.items << oxo_dispenser
+@jessie.items << oxo_dispenser
+@justin.items << oxo_dispenser
+@tim.items << oxo_dispenser
+
+@jared_d.items << holmes_filter
+@justin.items << holmes_filter
+@kevin.items << holmes_filter
+@jonathan.items << holmes_filter
+@tiffany.items << holmes_filter
+@jared.items << holmes_filter
+@tim.items << holmes_filter
+
+@jared_d.items << oxo_hotpad
+@justin.items << oxo_hotpad
+@kevin.items << oxo_hotpad
+@tiffany.items << oxo_hotpad
+@michael.items << oxo_hotpad
+@jared.items << oxo_hotpad
+@tim.items << oxo_hotpad
+
+@jared_d.items << razr_orochi
+@justin.items << razr_orochi
+@kevin.items << razr_orochi
+@tiffany.items << razr_orochi
+@jessie.items << razr_orochi
+@anthony.items << razr_orochi
+@tim.items << razr_orochi
+
+@jonathan.items << method_soap
+@justin.items << method_soap
+@kevin.items << method_soap
+@tiffany.items << method_soap
+@jessie.items << method_soap
+@anthony.items << method_soap
+@tim.items << method_soap
+
+@jonathan.items << germ_guardian_filter
+@tiffany.items << germ_guardian_filter
+@kevin.items << germ_guardian_filter
+@tiffany.items << germ_guardian_filter
+@kevin.items << germ_guardian_filter
+@anthony.items << germ_guardian_filter
+@tim.items << germ_guardian_filter
+
+@jonathan.items << light_dimmer
+@tiffany.items << light_dimmer
+@kevin.items << light_dimmer
+@jonathan.items << light_dimmer
+@kevin.items << light_dimmer
+@anthony.items << light_dimmer
+@tim.items << light_dimmer
+
+@jonathan.items << baratza
+@tiffany.items << baratza
+@steve.items << baratza
+@jonathan.items << baratza
+@kevin.items << baratza
+@anthony.items << baratza
+@tim.items << baratza
+
+@jonathan.items << cuisenart_bullet
+@tiffany.items << cuisenart_bullet
+@steve.items << cuisenart_bullet
+@jonathan.items << cuisenart_bullet
+@kevin.items << cuisenart_bullet
+@anthony.items << cuisenart_bullet
+@tim.items << cuisenart_bullet
+
+@jonathan.items << dove_shampoo
+@tiffany.items << dove_shampoo
+@steve.items << dove_shampoo
+@jonathan.items << dove_shampoo
+@kevin.items << dove_shampoo
+@jared.items << dove_shampoo
+@tim.items << dove_shampoo
+
+@jonathan.items << energy_sub
+@tiffany.items << energy_sub
+@steve.items << energy_sub
+@michael.items << energy_sub
+@kevin.items << energy_sub
+@jared.items << energy_sub
+@tim.items << energy_sub
+
+@jonathan.items << macbook_air
+@tiffany.items << macbook_air
+@anthony.items << macbook_air
+@steve.items << macbook_air
+@kevin.items << macbook_air
+@jared.items << macbook_air
+@tim.items << macbook_air
+
+@jonathan.items << samsung_tv
+@tiffany.items << samsung_tv
+@jonathan.items << samsung_tv
+@steve.items << samsung_tv
+@kevin.items << samsung_tv
+@jared.items << samsung_tv
+@tim.items << samsung_tv
+
+@jonathan.items << tweezerman
+@anthony.items << tweezerman
+@steve.items << tweezerman
+@jonathan.items << tweezerman
+@kevin.items << tweezerman
+@jared.items << tweezerman
+@tim.items << tweezerman
+##################################################
+##################################################
 kitchen.items << knife
 kitchen.items << espresso
 kitchen.items << french_press
