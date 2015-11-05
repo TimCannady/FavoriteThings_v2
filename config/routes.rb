@@ -17,6 +17,8 @@ Rails.application.routes.draw do
 
   post "/users" => "users#create"
 
+  post "/items/:id/like" => "items#like"
+
   post "/sessions" => "sessions#create"
 
   root 'app#main'
