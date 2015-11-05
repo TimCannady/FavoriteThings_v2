@@ -88,6 +88,7 @@ a{
 		/*border: 1px solid red;*/
 	}
 	.nav-button{
+		display: inline-block;
 		border-radius: 10%;
 		text-decoration: none;
 		border: 2px solid lightgrey;
@@ -96,8 +97,7 @@ a{
 		font-family: Helvetica Neue;
 		margin: 3px;
 		text-align: center;
-		padding: 20px;
-		margin-top: 40px;
+		padding: 15px;
 	}
 /*============End Header============*/
 

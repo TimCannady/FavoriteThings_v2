@@ -128,7 +128,7 @@ garage = Category.create(
     @tim.save!
 
     @kevin =  User.new(
-      f_name: "Kevin",
+      f_name: "Kevin - Zugata",
       l_name: "Coleman",
       email: "kevin@gmail.com",
       photo_url: "https://d1qb2nb5cznatu.cloudfront.net/users/438847-medium_jpg?1446450416",
@@ -139,7 +139,7 @@ garage = Category.create(
     @kevin.save!
 
     @tiffany =  User.new(
-      f_name: "Tiffany",
+      f_name: "Tiffany - Trial Pay",
       l_name: "Huoth",
       email: "tiffany@gmail.com",
       photo_url: "https://d261sv3xac0f7i.cloudfront.net/store/1511514/1014272814.jpg",
@@ -150,7 +150,7 @@ garage = Category.create(
     @tiffany.save!
 
     @jared =  User.new(
-      f_name: "Jared",
+      f_name: "Jared - Tapingo",
       l_name: "Frey",
       email: "jared@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/03f/38a/216d7b7.jpg",
@@ -161,7 +161,7 @@ garage = Category.create(
     @jared.save!
 
     @justin =  User.new(
-      f_name: "Justin",
+      f_name: "Justin - RomeAgile",
       l_name: "Lane",
       email: "justin@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/217/31e/1ef3ec5.jpg",
@@ -172,7 +172,7 @@ garage = Category.create(
     @justin.save!
 
     @jessie =  User.new(
-      f_name: "Jessie",
+      f_name: "Jessie - Propel(x)",
       l_name: "Wu",
       email: "jessie@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANhAAAAJDc0ZjJkOWUxLWE0ZjUtNGE5MC1iMzcyLTJlZjVlMjc4MjMzMw.jpg",
@@ -183,7 +183,7 @@ garage = Category.create(
     @jessie.save!
 
     @jared_d =  User.new(
-      f_name: "Jared",
+      f_name: "Jared - Demandbase",
       l_name: "Daugherty",
       email: "jared.d@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/034/0ac/0b63097.jpg",
@@ -194,7 +194,7 @@ garage = Category.create(
     @jared_d.save!
 
     @anthony =  User.new(
-      f_name: "Anthony",
+      f_name: "Anthony - AnyPerk",
       l_name: "Powels",
       email: "anthony@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/2a7/26d/28f3f37.jpg",
@@ -205,7 +205,7 @@ garage = Category.create(
     @anthony.save!
 
     @michael =  User.new(
-      f_name: "Michael",
+      f_name: "Michael - AnyPerk",
       l_name: "Ornellas",
       email: "michael@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/055/1b1/02bcbcb.jpg",
@@ -216,7 +216,7 @@ garage = Category.create(
     @michael.save!
 
     @steve =  User.new(
-      f_name: "Steve",
+      f_name: "Steve - Beepi",
       l_name: "Zimmerman",
       email: "steve@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATjAAAAJDQ2YTQ0YWRhLWVlZmYtNGQ4OC05ODI5LTUxMTJkZGE0MWU4ZA.jpg",
@@ -227,7 +227,7 @@ garage = Category.create(
     @steve.save!
 
     @jonathan =  User.new(
-      f_name: "Jonathan",
+      f_name: "Jonathan - IndustrialLogic",
       l_name: "Brownstein",
       email: "jonathan@gmail.com",
       photo_url: "https://media.licdn.com/media/p/1/000/210/28c/21214e6.jpg",
@@ -238,7 +238,7 @@ garage = Category.create(
     @jonathan.save!
 
     @counsyl =  User.new(
-      f_name: "Counsyl",
+      f_name: "Jeff - Counsyl",
       l_name: "Inc",
       email: "counsyl@gmail.com",
       photo_url: "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAK7AAAAJDk0N2U5NDIyLTJjMTgtNGZkMy05Zjk3LTJmODZiOTdjNGE3OA.png",
