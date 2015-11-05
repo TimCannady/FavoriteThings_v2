@@ -9,20 +9,20 @@ module ApplicationHelper
 	    # city: params[:city],
 	    # gender: params[:gender],
 	    # photo_url: params[:photo_url]
-	    
+
 	    )
 	  @user.password = params[:password]
 	  @user.save!
 	end
 
 	def login
-	  user_from_db = User.where(email: params[:email]).first
-	  if user_from_db[:email] == params[:email]
-	    if user_from_db.password == params[:password]
-	      session[:user_name] = params[:email]
-	      current_user
-	    end
-	  end
+		if user_from_db = User.where(email: params[:email]).first
+		  if user_from_db[:email] == params[:email]
+		    if user_from_db.password == params[:password]
+		      session[:user_name] = params[:email]
+		    end
+		  end	
+		end
 	end
 
 	def logout

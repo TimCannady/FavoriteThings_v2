@@ -8,9 +8,9 @@ var Login = React.createClass({
 	},
 
 	submit: function(e){
-		var self 
+		// var self 
 		e.preventDefault()
-		self = this
+		// self = this
 
 		var data = {
 		   email: this.state.email,
@@ -23,16 +23,16 @@ var Login = React.createClass({
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
-			url: '/users',
+			url: '/sessions',
 			data: data
 		})
 			.done(function(data) {
 			alert(data.email)
-			alert('success')
-			self.clearForm()
+			App.logIn(data.email)
+			// self.clearForm()
 		})
-			.fail(function(jqXhr) {
-			alert('failure')
+			.fail(function(data) {
+			alert(data.email)
 		});
 	},
 

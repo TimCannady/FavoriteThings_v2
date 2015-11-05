@@ -20,10 +20,10 @@ var token = function() {
 		}
 	}
 
-	App.logIn = function(){
-		// alert('logging in')
-		localStorage.token = token()
-		// alert(localStorage.getItem('token'))
+	App.logIn = function(email){
+		alert('logging in')
+		localStorage.email = email
+		alert(localStorage.getItem('email'))
 	}
 
 	App.logOut = function(){

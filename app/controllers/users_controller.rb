@@ -18,8 +18,8 @@ class UsersController < ApplicationController
 		}
 	end
 
-	def create
-		create_user
-		render json: {email: params[:email]}
-	end
+	# def create
+	# 	create_user
+	# 	render json: {email: params[:email]}
+	# end
 end
