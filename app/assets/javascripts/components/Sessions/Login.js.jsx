@@ -3,7 +3,7 @@ var Login = React.createClass({
 	getInitialState: function(){
 		return{
 			email: "",
-			password: "nothing"
+			password: ""
 		}
 	},
 
@@ -32,7 +32,7 @@ var Login = React.createClass({
 			// self.clearForm()
 		})
 			.fail(function(data) {
-			alert(data.email)
+			alert('No Such Email or Incorrect Password')
 		});
 	},
 

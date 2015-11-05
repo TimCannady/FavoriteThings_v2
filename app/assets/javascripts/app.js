@@ -1,44 +1,58 @@
 App = {};
 
-var rand = function() {
-    return Math.random().toString(36).substr(2); // remove `0.`
-};
-
-var token = function() {
-    return rand() + rand(); // to make it longer
-};
-
-
 	App.checkLoggedIn = function(){
-		if(localStorage.getItem('token') == null){
+		if(localStorage.getItem('email') == null){
 			// alert('youre logged out')
 			return false
 		}else{
 			// alert('youre logged in')
-			// alert(localStorage.getItem('token'))
+			// alert(localStorage.getItem('email'))
 			return true
 		}
 	}
 
 	App.logIn = function(email){
-		alert('logging in')
+		// alert('logging in')
 		localStorage.email = email
 		alert(localStorage.getItem('email'))
 	}
 
+	App.currentUserEmail = function(){
+		return localStorage.getItem('email')
+	}
+
 	App.logOut = function(){
 		// alert('logging out')
-		localStorage.removeItem('token')
-		// alert(localStorage.getItem('token'))
+		localStorage.removeItem('email')
+		// alert(localStorage.getItem('email'))
 	}
 
 	App.currentUserID = function(){
-		if(checkLoggedIn()){
-			alert('theres alogged in user')
-			fetchData()
+		alert('checking user id')
+		if(App.checkLoggedIn()){
+			alert('theres a logged in user')
+			var email = App.currentUserEmail()
+			App.fetchUserID(email)
 		}else{
 			alert('theres not a logged in user')
+			// alert(localStorage.getItem('email'))
 		}
+	}
+
+	App.fetchUserID = function(email){
+		alert('fetching user id for ' + email)
+		$.ajax({
+			type: "GET",
+			url: "/users/email",
+			data: {email: email},
+			dataType: 'json',
+			success: function(data){
+				this.setState({didFetchData: 'true', userID: data.id})
+			}.bind(this),
+			error: function(data){
+				alert('error! couldnt fetch user id')
+			}
+		})
 	}
 
 	App.fetchData = function(data){

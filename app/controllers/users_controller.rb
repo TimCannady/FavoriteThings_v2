@@ -22,4 +22,12 @@ class UsersController < ApplicationController
 	# 	create_user
 	# 	render json: {email: params[:email]}
 	# end
+
+	def id
+		p "*********"
+		p "*********"
+		p params
+		user_id = User.where(email: params[:email]).first.id
+		render json: {id: user_id}
+	end
 end

@@ -5,7 +5,16 @@ class SessionsController < ApplicationController
 		if login
 			render json: {email: params[:email]}
 		else
-			render json: {email: "no such user"}	
+			render :status => 404
 		end
 	end
+
+	# def id
+	# 	p "*********"
+	# 	p "*********"
+	# 	p params
+	# 	user_id = User.where(email: params[:email]).first.id
+	# 	render json: {id: user_id}
+	# end
+	
 end

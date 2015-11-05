@@ -3,7 +3,7 @@ var Link = ReactRouter.Link
 
 this.MyRoutes = (
   <Route handler={AppComponent}>
-    <Route name='home' handler={HomePage} path='/' />
+<Route name='home' handler={HomePage} path='/' />
 
     <Route name='userIndex' handler={UserIndex} path='/users' />
     <Route name='userShow' handler={UserShow} path='/users/:id' />
