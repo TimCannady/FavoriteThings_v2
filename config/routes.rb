@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
 
   post "/items/:id/like" => "items#like"
+  post "/items/:id/unlike" => "items#unlike"
 
   post "/sessions" => "sessions#create"
 

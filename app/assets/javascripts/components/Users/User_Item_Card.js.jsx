@@ -3,6 +3,7 @@ var UserItemCard = React.createClass({
 		return{
 			itemID: this.props.id,
 			userID: null,
+			userHasLikedItem: null
 		}
 	},
 
