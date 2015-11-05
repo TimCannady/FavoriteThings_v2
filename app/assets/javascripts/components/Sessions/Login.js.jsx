@@ -8,7 +8,7 @@ var Login = React.createClass({
 	},
 
 	submit: function(e){
-		var self
+		var self 
 		e.preventDefault()
 		self = this
 
@@ -17,20 +17,21 @@ var Login = React.createClass({
 		   name: this.state.password,
 		}
 
-		alert(this.state.email)
-		alert(this.state.password)
+		// alert(this.state.email)
+		// alert(this.state.password)
 
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
-			url: '/some/url',
+			url: '/sessions',
 			data: data
 		})
 			.done(function(data) {
+			alert('success')
 			self.clearForm()
 		})
 			.fail(function(jqXhr) {
-			console.log('failed to register');
+			alert('failure')
 		});
 	},
 

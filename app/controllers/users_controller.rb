@@ -17,4 +17,10 @@ class UsersController < ApplicationController
 			photo_url: photo_url
 		}
 	end
+
+	def create
+		p params
+		p '**************'
+		p '**************'
+	end
 end

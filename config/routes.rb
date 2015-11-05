@@ -11,7 +11,10 @@ Rails.application.routes.draw do
     resources :items
   end
 
+
   get "/*path" => "app#main"
+
+  post "/sessions" => "sessions#create"
 
   root 'app#main'
 end
