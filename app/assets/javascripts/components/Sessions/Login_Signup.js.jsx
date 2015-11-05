@@ -3,12 +3,11 @@
 var LoginSignup = React.createClass({
 	render: function(){
 		return(
-			<div>
-				<LoginForm/>
+			<div className="login-signup-wrapper" >
+				<LoginForm />
 				<br/>
-				<SignupForm/>
+				<SignupForm />
 			</div>
 		)
 	}
-	
 })

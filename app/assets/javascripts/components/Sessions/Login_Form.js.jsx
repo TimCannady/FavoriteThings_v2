@@ -57,13 +57,14 @@ var LoginForm = React.createClass({
 
 	render: function(){
 		return(
-			<div>
-				Login To Your Account
+			<div className="login-signup-form-wrapper">
+				Login:
 				<br/>
-				<form onSubmit={this.submit} >
+				<form onSubmit={this.submit}  className="login-signup-form" >
 				 	Email: <input label="Email:" onChange={this.handleEmailChange} />
 				 	<br/>
 				 	Password: <input label="Password:" type="password" onChange={this.handlePasswordChange} />
+				 	<br/>
 				 	<button type="submit">Submit</button>
 				</form>
 			</div>

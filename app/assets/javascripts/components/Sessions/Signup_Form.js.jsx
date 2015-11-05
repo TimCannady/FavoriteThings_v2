@@ -76,10 +76,10 @@ var SignupForm = React.createClass({
 
 	render: function(){
 		return(
-			<div>
-				Sign up!
+			<div className="login-signup-form-wrapper">
+				Sign Up:
 				<br/>
-				<form onSubmit={this.submit} >
+				<form onSubmit={this.submit} className="login-signup-form" className="login-signup-form" >
 				 	Email: <input label="Email:" onChange={this.handleEmailChange} />
 				 	<br/>
 				 	Password: <input label="Password:" type="password" onChange={this.handlePasswordChange} />
@@ -93,6 +93,7 @@ var SignupForm = React.createClass({
 				 	Gender: <input label="Gender:" type="text" onChange={this.handleGenderChange} />
 				 	<br/>
 				 	Headshot URL: <input label="photoUrl:" type="text" onChange={this.handlePhotoUrlChange} />
+				 	<br/>
 				 	<button type="submit">Submit</button>
 				</form>
 			</div>

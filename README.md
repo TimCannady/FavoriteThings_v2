@@ -136,15 +136,11 @@ Ajax + From Submit + ReactRouter: debugging context and this to get transitionTo
 
 TO-DO
 
-Signup - CRUD user
-
 CRUD item (attribute to the logged-in user)
 
 Like/Unlike (conditional based on the logged-in user)
 
 jQuery header
-
-
 
 --> 
 

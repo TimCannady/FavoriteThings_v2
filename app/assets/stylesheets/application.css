@@ -150,3 +150,31 @@ a{
 	height: 500px;
 }
 /*============End Body============*/
+
+
+/*===========Begin Login=============*/
+.login-signup-wrapper{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	background-image: url("header_background.jpg");
+	padding-top: 10%;
+	height: 1000px;
+	width: 100%;
+}
+.login-signup-form-wrapper{
+	text-align: left;
+	width: 30%;
+	border-radius: 20%;
+}
+.login-signup-form{
+	text-align: right;
+	font-family: Helvetica Neue;
+	font-size: 30px;
+	color: lightgrey;
+	border: 2px solid lightgrey;
+	border-radius: 5%;
+	padding: 2%;
+}
+/*===========End Login=============*/
