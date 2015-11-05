@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+	include ApplicationHelper # include methods from application_helper.rb
+
 	def index
 		users = User.all
 		render json: users
@@ -14,5 +16,16 @@ class UsersController < ApplicationController
 			user_name: user_name,
 			photo_url: photo_url
 		}
+	end
+
+	# def create
+	# 	create_user
+	# 	render json: {email: params[:email]}
+	# end
+
+	def id
+		user = User.where(email: params[:email]).first
+		user_id = user.id
+		render json: {user_id: user_id}
 	end
 end

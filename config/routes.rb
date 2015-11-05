@@ -5,6 +5,8 @@ Rails.application.routes.draw do
     request.accepts.include?(:json)
   }
 
+  get "/users/email" => "users#id"
+
   scope constraints: ACCEPTS_JSON do
     resources :users
     resources :categories
@@ -12,6 +14,10 @@ Rails.application.routes.draw do
   end
 
   get "/*path" => "app#main"
+
+  post "/users" => "users#create"
+
+  post "/sessions" => "sessions#create"
 
   root 'app#main'
 end

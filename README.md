@@ -1,6 +1,10 @@
 ## FavoriteThings
 *Share the products you love - expensive and modest alike. At FavoriteThings it's all about sharing the stuff you can't live without.*
 
+<!--
+Add a little more. Open the app store and see how they describes themselves. 
+-->
+
 ## Personal Goals
 General: 
 * port an app from Sinatra to Rails
@@ -122,6 +126,10 @@ No justify-self for flexbox.
 
 [React's](https://facebook.github.io/react/docs/two-way-binding-helpers.html) valueLink for two-way binding. [Tutorial](https://auth0.com/blog/2015/04/09/adding-authentication-to-your-react-flux-app/).
 
+
+Front-end sessions. Session is a back-end thing. Consider localStorage, sessionStorage, cookies, tokens, or something more secure. 
+
+Lifecycle! How initial render fires before ajax completes. 
 <!--
 
 TO-DO
@@ -133,6 +141,8 @@ CRUD item (attribute to the logged-in user)
 Like/Unlike (conditional based on the logged-in user)
 
 jQuery header
+
+
 
 --> 
 

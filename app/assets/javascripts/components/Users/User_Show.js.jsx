@@ -24,7 +24,7 @@ var UserShow = React.createClass({
 				this.setState({didFetchData: 'true', userName: data.user_name, userItems: data.items, headerImage: data.photo_url})
 			}.bind(this),
 			error: function(data){
-				alert('error!')
+				alert('error! couldnt load user into user show')
 			}
 		})
 	},

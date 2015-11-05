@@ -3,7 +3,7 @@ var Link = ReactRouter.Link
 
 this.MyRoutes = (
   <Route handler={AppComponent}>
-    <Route name='home' handler={HomePage} path='/' />
+<Route name='home' handler={HomePage} path='/' />
 
     <Route name='userIndex' handler={UserIndex} path='/users' />
     <Route name='userShow' handler={UserShow} path='/users/:id' />
@@ -13,6 +13,10 @@ this.MyRoutes = (
 
     <Route name='itemIndex' handler={ItemIndex} path='/items' />
     <Route name='itemShow' handler={ItemShow} path='/items/:id' />
+
+    <Route name="login" handler={Login} />
+	<Route name="logout" handler={Logout} />
+	<Route name="dashboard" handler={Dashboard} /*onEnter={requireAuth}*/ />
 
   </Route>
 );
