@@ -2,8 +2,8 @@ var Login = React.createClass({
 
 	getInitialState: function(){
 		return{
-			name: "",
-			email: "nothing"
+			email: "",
+			password: "nothing"
 		}
 	},
 
@@ -13,12 +13,12 @@ var Login = React.createClass({
 		self = this
 
 		var data = {
-		   name: this.state.name,
 		   email: this.state.email,
+		   name: this.state.password,
 		}
 
-		alert(this.state.name)
 		alert(this.state.email)
+		alert(this.state.password)
 
 		 // Submit form via jQuery/AJAX
 		$.ajax({
@@ -34,14 +34,13 @@ var Login = React.createClass({
 		});
 	},
 
-	handleNameChange: function(event) {
-	    this.setState({name: event.target.value});
-	  },
-
-
 	handleEmailChange: function(event) {
 	    this.setState({email: event.target.value});
-	  },  
+	},
+
+	handlePasswordChange: function(event) {
+	    this.setState({password: event.target.value});
+	},    
 
 	render: function(){
 		return(
@@ -49,9 +48,9 @@ var Login = React.createClass({
 				Login To Your Account
 				<br/>
 				<form onSubmit={this.submit} >
-					Name: <input label="Name:" onChange={this.handleNameChange} />
-					<br/>
 				 	Email: <input label="Email:" onChange={this.handleEmailChange} />
+				 	<br/>
+				 	Password: <input label="Password:" type="password" onChange={this.handlePasswordChange} />
 				 	<button type="submit">Submit</button>
 				</form>
 			</div>
