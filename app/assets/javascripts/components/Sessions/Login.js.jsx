@@ -1,4 +1,15 @@
+var Router = ReactRouter;
+var Route = ReactRouter.Route;
+var Routes = ReactRouter.Routes;
+var Navigation = ReactRouter.Navigation;
+
+var History = ReactRouter.History;
+var Navigation = ReactRouter.Navigation;
+
 var Login = React.createClass({
+
+	mixins: [ History ],
+	mixins: [ Navigation ],
 
 	getInitialState: function(){
 		return{
@@ -17,23 +28,25 @@ var Login = React.createClass({
 		   password: this.state.password,
 		}
 
-		// alert(this.state.email)
-		// alert(this.state.password)
-
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
 			url: '/sessions',
 			data: data
-		})
+			})
 			.done(function(data) {
-			alert(data.email)
-			App.logIn(data.email)
-			// self.clearForm()
-		})
+				App.logIn(data.email)
+				alert('login successful!')
+				// this.transitionTo('home')
+				// this.history.pushState(null, '/home')
+				history.pushState({},'','/')
+				window.location.reload()
+				// History.pushState(null, '/home')
+				// self.clearForm()
+			}.bind(this))
 			.fail(function(data) {
-			alert('No Such Email or Incorrect Password')
-		});
+				alert('No Such Email or Incorrect Password')
+			});
 	},
 
 	handleEmailChange: function(event) {
