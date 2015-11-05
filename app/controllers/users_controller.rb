@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-	# include ApplicationHelper # include methods from application_helper.rb
+	include ApplicationHelper # include methods from application_helper.rb
 
 	def index
 		users = User.all
@@ -19,8 +19,7 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		p params
-		p '**************'
-		p '**************'
+		create_user
+		render json: {email: params[:email]}
 	end
 end

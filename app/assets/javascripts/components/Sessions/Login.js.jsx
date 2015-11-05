@@ -14,7 +14,7 @@ var Login = React.createClass({
 
 		var data = {
 		   email: this.state.email,
-		   name: this.state.password,
+		   password: this.state.password,
 		}
 
 		// alert(this.state.email)
@@ -27,6 +27,7 @@ var Login = React.createClass({
 			data: data
 		})
 			.done(function(data) {
+			alert(data.email)
 			alert('success')
 			self.clearForm()
 		})

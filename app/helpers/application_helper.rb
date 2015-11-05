@@ -1,12 +1,16 @@
 module ApplicationHelper
 	def create_user
 	  @user = User.new(
-	    first_name: params[:first_name],
-	    last_name: params[:last_name],
-	    email: params[:email],
-	    city: params[:city],
-	    gender: params[:gender],
-	    photo_url: params[:photo_url])
+	  	email: params[:email]
+
+	    # first_name: params[:first_name],
+	    # last_name: params[:last_name],
+	    # email: params[:email],
+	    # city: params[:city],
+	    # gender: params[:gender],
+	    # photo_url: params[:photo_url]
+	    
+	    )
 	  @user.password = params[:password]
 	  @user.save!
 	end
@@ -24,7 +28,6 @@ module ApplicationHelper
 	def logout
 	  session[:user_name] = nil
 	end
-
 
 
 	def logged_in
