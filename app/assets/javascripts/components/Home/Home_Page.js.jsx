@@ -44,7 +44,7 @@ var HomePage = React.createClass({
 			return(
 				<div>	
 					<Header />
-					Fetching user data. Have you logged in...?
+					Fetching user data. Have you <Link to="login">logged in...? </Link>
 				</div>
 			)
 		}else{
