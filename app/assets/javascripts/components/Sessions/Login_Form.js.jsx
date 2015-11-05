@@ -5,8 +5,7 @@
 // var History = ReactRouter.History;
 // var Navigation = ReactRouter.Navigation;
 
-var Login = React.createClass({
-
+var LoginForm = React.createClass({
 	// mixins: [ History ],
 	// mixins: [ Navigation ],
 
