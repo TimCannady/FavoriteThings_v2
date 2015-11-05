@@ -138,9 +138,11 @@ TO-DO
 
 CRUD item (attribute to the logged-in user)
 
-Like/Unlike (conditional based on the logged-in user)
+unlike button (user_show_card, category_show_card, item_index)
 
 jQuery header
+
+like and unlike buttons only show for item's you've liked/unliked
 
 --> 
 

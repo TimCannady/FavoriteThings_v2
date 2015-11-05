@@ -4,12 +4,14 @@ var ItemCard = React.createClass({
 		return{
 			itemID: this.props.id,
 			userID: null,
+			userHasLikedItem: null
 		}
 	},
 
 	componentDidMount: function(){
 		newState = this.currentUserID()
 		this.setState({userID: newState})
+		// this.checkUserLikeStatus()
 	},
 
 	currentUserID: function(){
@@ -51,7 +53,7 @@ var ItemCard = React.createClass({
 			data: data
 			})
 			.done(function(data) {
-				//cange he color of the like button to something else
+				//cange the color of the like button to something else
 				alert('like successful!')
 			}.bind(this))
 			.fail(function(data) {
@@ -59,9 +61,34 @@ var ItemCard = React.createClass({
 			});
 	},
 
+	unLike: function(){
+		var data = {
+		   itemID: this.state.itemID,
+		   userID: this.state.userID
+		}
+		 // Submit form via jQuery/AJAX
+		$.ajax({
+			type: 'POST',
+			url: '/items/' + this.state.userID + '/unlike',
+			data: data
+			})
+			.done(function(data) {
+				//cange the color of the like button to something else
+				alert('unlike successful!')
+			}.bind(this))
+			.fail(function(data) {
+				alert('failed to unlike item')
+			});
+	},
+
 	handleLike: function(e){
 		e.preventDefault()
 		this.addLike()
+	},
+
+	handleUnLike: function(e){
+		e.preventDefault()
+		this.unLike()
 	},
 
 	render: function(){
@@ -76,6 +103,7 @@ var ItemCard = React.createClass({
 				</Link>	
 				<br/>
 				<a href="" onClick={this.handleLike}> Like </a>
+				<a href="" onClick={this.handleUnLike}> Unlike </a>
 			</div>
 		)
 	}

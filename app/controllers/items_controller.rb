@@ -19,5 +19,19 @@ class ItemsController < ApplicationController
 			render :status => 404
 		end
 	end
+
+	def unlike # unlike item from the USERS's likes (not from the db entirely)
+	  	if user = User.find(params[:userID])
+	  		if like = Like.where(user_id: params[:userID], item_id: params[:itemID]).first
+		  		like.destroy
+		  		p "************"
+		  		p "************"
+		  		p "unliked!"
+		  		render json: {head: :ok}
+	  		end
+	  	else
+	  		render :status => 404
+	  	end
+	end
 end
 
