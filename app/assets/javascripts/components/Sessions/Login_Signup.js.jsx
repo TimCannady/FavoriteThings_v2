@@ -5,7 +5,7 @@ var LoginSignup = React.createClass({
 		return(
 			<div>
 				<LoginForm/>
-				</br>
+				<br/>
 				<SignupForm/>
 			</div>
 		)
