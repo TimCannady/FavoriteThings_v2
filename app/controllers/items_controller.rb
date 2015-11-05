@@ -9,10 +9,10 @@ class ItemsController < ApplicationController
 		render json: item
 	end
 
-	# def like
-	# 	user = User.find(params[:userID])}
-	# 	item = Item.where(id: params[:itemID]).first
-	# 	user.items << item
-	# end
+	def like
+		user = User.find(params[:userID])
+		item = Item.where(id: params[:itemID]).first
+		user.items << item
+	end
 end
 

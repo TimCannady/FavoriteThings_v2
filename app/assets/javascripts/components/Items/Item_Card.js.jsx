@@ -1,7 +1,10 @@
 var ItemCard = React.createClass({
 
 	getInitialState: function(){
-		return{itemID: this.props.id}
+		return{
+			itemID: this.props.id,
+			userID: null,
+		}
 	},
 
 	componentDidMount: function(){
