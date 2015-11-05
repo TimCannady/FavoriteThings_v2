@@ -43,7 +43,9 @@ var ItemCard = React.createClass({
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
-			url: '/items/' + this.state.id + '/like',
+
+			url: '/items/' + {this.state.id} + '/like',
+
 			data: data
 			})
 			.done(function(data) {
@@ -61,6 +63,7 @@ var ItemCard = React.createClass({
 	},
 
 	render: function(){
+		alert(this.state.id)
 		return(
 			<div className="card-wrapper">
 				<Link to="itemShow" params={{id: this.props.id}} className="card-text" > 
