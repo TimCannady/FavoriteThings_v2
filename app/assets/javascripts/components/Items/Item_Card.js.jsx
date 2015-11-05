@@ -39,24 +39,6 @@ var ItemCard = React.createClass({
 		})
 	},
 
-	// addLike: function(){
-	// 	var data = {
-	// 	   itemID: this.state.id,
-	// 	}
-	// 	$.ajax({
-	// 		type: "GET",
-	// 		url: "/items/" + this.state.,
-	// 		data: data,
-	// 		dataType: 'json',
-	// 		success: function(data){
-	// 			this.setState({didFetchData: 'true', userID: data.user_id})
-	// 		}.bind(this),
-	// 		error: function(data){
-	// 			alert('error! couldnt fetch user id')
-	// 		}
-	// 	})
-	// },
-
 	addLike: function(){
 		var data = {
 		   itemID: this.state.itemID,
