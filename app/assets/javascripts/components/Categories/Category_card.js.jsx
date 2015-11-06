@@ -8,7 +8,7 @@ var CategoryCard = React.createClass({
 					</div>
 					{this.props.name}
 					<br/>
-					{this.props.description}
+					<p className="description"> {this.props.description}</p>
 				</Link>
 			</div>
 		)

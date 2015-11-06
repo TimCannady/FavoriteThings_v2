@@ -61,7 +61,7 @@
 /*============End Browser Reset============*/
 
 a{
-	text-decoration: none;
+	text-decoration: none !important;
 }
 /*============Header============*/
 .header {
@@ -176,5 +176,11 @@ a{
 	border: 2px solid lightgrey;
 	border-radius: 5%;
 	padding: 2%;
+}
+.description{
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	color: skyblue ;
+	font-style: italic;
 }
 /*===========End Login=============*/

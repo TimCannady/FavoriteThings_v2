@@ -48,15 +48,15 @@ var CategoryItemCard = React.createClass({
 		$.ajax({
 			type: 'POST',
 			url: '/items/' + this.state.userID + '/like',
-			data: data
-			})
-			.done(function(data) {
-				//cange he color of the like button to something else
+			data: data,
+			success: function(data){
 				alert('like successful!')
-			}.bind(this))
-			.fail(function(data) {
-				alert('failed to like item')
-			});
+			}.bind(this),
+			error: function(data){
+				alert('failed to like item!')
+			}
+		})
+		
 	},
 	
 	unLike: function(){
@@ -68,15 +68,15 @@ var CategoryItemCard = React.createClass({
 		$.ajax({
 			type: 'POST',
 			url: '/items/' + this.state.userID + '/unlike',
-			data: data
-			})
-			.done(function(data) {
-				//cange the color of the like button to something else
+			data: data,
+			success: function(data){
 				alert('unlike successful!')
-			}.bind(this))
-			.fail(function(data) {
-				alert('failed to unlike item')
-			});
+			}.bind(this),
+			error: function(data){
+				alert('failed to unlike item!')
+			}
+		})
+		
 	},
 
 	handleLike: function(e){
@@ -101,8 +101,11 @@ var CategoryItemCard = React.createClass({
 
 				<br/>
 
-				<a href="" onClick={this.handleLike}> Like </a>
-				<a href="" onClick={this.handleUnLike}> Unlike </a>
+				<p className="description">
+					<a href="" onClick={this.handleLike}className="description"> Like </a>
+					-
+					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>
+				</p>
 
 			</div>
 		)

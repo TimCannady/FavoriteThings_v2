@@ -7,7 +7,7 @@ var ItemShowCard = React.createClass({
 						<img src={this.props.itemPhotoUrl} className="show-card-img" />
 					</div>
 					{this.props.itemName}
-					{this.props.itemDescription}
+					<p className="description">{this.props.itemDescription}</p>
 				</div>	
 				<br/>
 				+

@@ -29,9 +29,14 @@ var UserShow = React.createClass({
 		})
 	},
 
+	removeItemFromDOM: function(){
+		alert('removing from parent')
+		this.forceUpdate()
+	},
+
 	render: function(){
 		var userItem = this.state.userItems.map(function(item){
-			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} />
+			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} removeItemFromDOM={this.removeItemFromDOM}/>
 		})
 		return(
 			<div>
