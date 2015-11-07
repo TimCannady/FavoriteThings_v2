@@ -80,6 +80,14 @@ Ruby Gems:
 
 ## App Structure
 
+* Rails routes any path to app#main
+
+* app#main renders main.html.erb
+
+* main.html.erb begins React-Router using <%= react_router 'MyRoutes', 'HistoryLocation' %>
+
+* React-Router begins handling all front-end routing by rendering different components basedo n the path. 
+
 ## Wireframe & Component Structure
 
 ![Login/Signup](http://i.imgur.com/WfZcQS0.png)
