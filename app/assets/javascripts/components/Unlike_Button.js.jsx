@@ -30,6 +30,7 @@ var UnlikeButton = React.createClass({
 	handleUnLike: function(e){
 		e.preventDefault()
 		this.unLike()
+		this.props.toggleLike()
 	},
 
 	render: function(){

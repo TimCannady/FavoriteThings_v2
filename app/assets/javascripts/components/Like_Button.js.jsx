@@ -29,6 +29,7 @@ var LikeButton = React.createClass({
 	handleLike: function(e){
 		e.preventDefault()
 		this.addLike()
+		this.props.toggleLike()
 	},
 
 	render: function(){
