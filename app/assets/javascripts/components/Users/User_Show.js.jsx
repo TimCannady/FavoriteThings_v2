@@ -5,6 +5,7 @@ var UserShow = React.createClass({
 			didFetchData: false,
 			userName: [],
 			userItems: [],
+			userLikes: [],
 			headerImage: "../users.png"
 		}
 	},
@@ -35,8 +36,10 @@ var UserShow = React.createClass({
 
 	render: function(){
 		var that = this
+		var likes = this.state.userLikes
+		// var itemLikeStatus = false
 		var userItem = this.state.userItems.map(function(item){
-			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} removeItemFromDOM={that.removeItemFromDOM}/>
+			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} /*userHasLikedItem={itemLikeStatus}*/ removeItemFromDOM={that.removeItemFromDOM}/>
 		})
 		return(
 			<div>

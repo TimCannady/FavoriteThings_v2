@@ -3,13 +3,14 @@ var UserItemCard = React.createClass({
 		return{
 			itemID: this.props.id,
 			userID: null,
-			userHasLikedItem: null
+			userHasLikedItem: true,
 		}
 	},
 
 	componentDidMount: function(){
-		newState = this.currentUserID()
-		this.setState({userID: newState})
+		this.currentUserID()
+		// newState = this.currentUserID()
+		// this.setState({userID: newState})
 	},
 
 	currentUserID: function(){
@@ -87,7 +88,35 @@ var UserItemCard = React.createClass({
 		this.unLike()
 	},
 
+	fetchLikeStatus: function(){
+		var data = {
+		   itemID: this.state.itemID,
+		   userID: this.state.userID
+		}
+		 // Submit form via jQuery/AJAX
+		$.ajax({
+			type: 'GET',
+			url: '/items/' + this.state.userID + '/like',
+			data: data,
+			success: function(data){
+			}.bind(this),
+			error: function(data){
+				alert('couldnt locate that like')
+				this.setState
+			}
+		});
+	},
+
 	render: function(){
+		this.fetchLikeStatus()
+		// no matter the user or page, an item should simply show a + sign if they've never liked it, and a - sign if they have. Nothing else to it.
+		var likeOrUnlikeButon
+		if (this.state.userHasLikedItem == true) { 
+			likeOrUnlikeButon = <UnlikeButton />
+		}else{
+			likeOrUnlikeButon = <LikeButton />
+		} 
+
 		return(
 			<div className="card-wrapper">
 				<Link to="itemShow" params={{id: this.props.id}} className="card-text" >
@@ -99,11 +128,13 @@ var UserItemCard = React.createClass({
 
 				<br/>
 
-				<p className="description">
-					<a href="" onClick={this.handleLike}className="description"> Like </a>
+				<div className="description">
+					{likeOrUnlikeButon}
+
+					{/*<a href="" onClick={this.handleLike}className="description"> Like </a>
 					-
-					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>
-				</p>
+					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>*/}
+				</div>
 			</div>
 		)
 	}
