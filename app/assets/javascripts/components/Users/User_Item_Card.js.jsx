@@ -3,7 +3,7 @@ var UserItemCard = React.createClass({
 		return{
 			itemID: this.props.id,
 			userID: this.props.userID,
-			userHasLikedItem: true,
+			userHasLikedItem: false,
 		}
 	},
 
@@ -49,11 +49,11 @@ var UserItemCard = React.createClass({
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'GET',
-			url: '/items/' + this.state.userID + '/checkhasliked',
+			url: '/items/' + this.state.itemID + '/like',
 			data: data,
 			success: function(data){
 				// alert('user has liked the item!')
-				this.state.userHasLikedItem = true
+				this.setState({userHasLikedItem: true})
 			}.bind(this),
 			error: function(data){
 				// alert('couldnt locate that like')

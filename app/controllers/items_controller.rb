@@ -36,17 +36,21 @@ class ItemsController < ApplicationController
 	  	end
 	end
 
-	def check_has_liked
-		if Like.where(user_id: user, item_id: item).first
-			p "************"
-			p "************"
-			p "user has liked!"
-			render json: {head: :ok}
-		else
-			p "************"
-			p "************"
-			p "user has NOT liked!"
-			render :status => 404
+	def checkhasliked
+		if user = User.find(params[:userID])
+			if item = Item.where(id: params[:itemID]).first
+				if Like.where(user_id: user, item_id: item).first
+					p "************"
+					p "************"
+					p "user has liked!"
+					render json: {head: :ok}
+				else
+					p "************"
+					p "************"
+					p "user has NOT liked!"
+					render :status => 404
+				end
+			end
 		end
 	end
 
