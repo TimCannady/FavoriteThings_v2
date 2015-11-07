@@ -51,12 +51,10 @@ var UserItemCard = React.createClass({
 			type: 'GET',
 			url: '/items/' + this.state.itemID + '/like',
 			data: data,
-			success: function(data){
-				// alert('user has liked the item!')
+			success: function(data){ // need to refactor this because using 404 logic as an if/then is blowing up the console for things that haven't been liked
 				this.setState({userHasLikedItem: true})
 			}.bind(this),
 			error: function(data){
-				// alert('couldnt locate that like')
 			}
 		});
 	},

@@ -48,7 +48,7 @@ class ItemsController < ApplicationController
 					p "************"
 					p "************"
 					p "user has NOT liked!"
-					render :status => 404
+					render :status => 404  #this works as a hacky approach but blows up the console
 				end
 			end
 		end
