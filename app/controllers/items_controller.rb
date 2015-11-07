@@ -28,14 +28,27 @@ class ItemsController < ApplicationController
 	  	if user = User.find(params[:userID])
 	  		if like = Like.where(user_id: params[:userID], item_id: params[:itemID]).first
 		  		like.destroy
-		  		p "************"
-		  		p "************"
-		  		p "unliked!"
+
 		  		render json: {head: :ok}
 	  		end
 	  	else
 	  		render :status => 404
 	  	end
 	end
+
+	def check_has_liked
+		if Like.where(user_id: user, item_id: item).first
+			p "************"
+			p "************"
+			p "user has liked!"
+			render json: {head: :ok}
+		else
+			p "************"
+			p "************"
+			p "user has NOT liked!"
+			render :status => 404
+		end
+	end
+
 end
 

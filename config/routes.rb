@@ -19,6 +19,7 @@ Rails.application.routes.draw do
 
   post "/items/:id/like" => "items#like"
   post "/items/:id/unlike" => "items#unlike"
+  post "/items/:id/checkhasliked" => "items#check_has_liked"
 
   post "/sessions" => "sessions#create"
 

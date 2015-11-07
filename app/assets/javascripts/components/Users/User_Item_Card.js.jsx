@@ -8,6 +8,7 @@ var UserItemCard = React.createClass({
 	},
 
 	componentDidMount: function(){
+		this.fetchLikeStatus()
 		// this.currentUserID()
 		// newState = this.currentUserID()
 		// this.setState({userID: newState})
@@ -40,54 +41,6 @@ var UserItemCard = React.createClass({
 	// 	})
 	// },
 
-	addLike: function(){
-		var data = {
-		   itemID: this.state.itemID,
-		   userID: this.state.userID
-		}
-		 // Submit form via jQuery/AJAX
-		$.ajax({
-			type: 'POST',
-			url: '/items/' + this.state.userID + '/like',
-			data: data,
-			success: function(data){
-			}.bind(this),
-			error: function(data){
-				alert('failed to like item!')
-			}
-		});
-	},
-
-	unLike: function(){ //unlikes the item from the DB. Does NOT remove the item from User_Show's userItems state array.
-		var data = {
-		   itemID: this.state.itemID,
-		   userID: this.state.userID
-		}
-
-		 // Submit form via jQuery/AJAX
-		$.ajax({
-			type: 'POST',
-			url: '/items/' + this.state.userID + '/unlike',
-			data: data,
-			success: function(data){
-				this.props.removeItemFromDOM() // update the view if the user removes an item. Only does this from User_Item_Card because it's the only one that needs to appear to be live since you're on the page it removes it from.
-			}.bind(this),
-			error: function(data){
-				alert('failed to unlike item!')
-			}
-		})
-	},
-
-	handleLike: function(e){
-		e.preventDefault()
-		this.addLike()
-	},
-
-	handleUnLike: function(e){
-		e.preventDefault()
-		this.unLike()
-	},
-
 	fetchLikeStatus: function(){
 		var data = {
 		   itemID: this.state.itemID,
@@ -96,25 +49,26 @@ var UserItemCard = React.createClass({
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'GET',
-			url: '/items/' + this.state.userID + '/like',
+			url: '/items/' + this.state.userID + '/checkhasliked',
 			data: data,
 			success: function(data){
+				// alert('user has liked the item!')
+				this.state.userHasLikedItem = true
 			}.bind(this),
 			error: function(data){
-				alert('couldnt locate that like')
-				this.setState
+				// alert('couldnt locate that like')
 			}
 		});
 	},
 
 	render: function(){
-		this.fetchLikeStatus()
+		var that = this
 		// no matter the user or page, an item should simply show a + sign if they've never liked it, and a - sign if they have. Nothing else to it.
 		var likeOrUnlikeButon
 		if (this.state.userHasLikedItem == true) { 
-			likeOrUnlikeButon = <UnlikeButton />
+			likeOrUnlikeButon = <UnlikeButton itemID={this.state.itemID} userID={this.state.userID} removeItemFromDOM={that.props.removeItemFromDOM}/>
 		}else{
-			likeOrUnlikeButon = <LikeButton />
+			likeOrUnlikeButon = <LikeButton itemID={this.state.itemID} userID={this.state.userID}/>
 		} 
 
 		return(
