@@ -39,7 +39,7 @@ var UserShow = React.createClass({
 		var likes = this.state.userLikes
 		// var itemLikeStatus = false
 		var userItem = this.state.userItems.map(function(item){
-			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} /*userHasLikedItem={itemLikeStatus}*/ removeItemFromDOM={that.removeItemFromDOM}/>
+			return <UserItemCard name={item.name} key={item.id} id={item.id} userID={localStorage.getItem('userID')} description={item.description} photo_url={item.photo_url} /*userHasLikedItem={itemLikeStatus}*/ removeItemFromDOM={that.removeItemFromDOM}/>
 		})
 		return(
 			<div>

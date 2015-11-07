@@ -2,43 +2,43 @@ var UserItemCard = React.createClass({
 	getInitialState: function(){
 		return{
 			itemID: this.props.id,
-			userID: null,
+			userID: this.props.userID,
 			userHasLikedItem: true,
 		}
 	},
 
 	componentDidMount: function(){
-		this.currentUserID()
+		// this.currentUserID()
 		// newState = this.currentUserID()
 		// this.setState({userID: newState})
 	},
 
-	currentUserID: function(){
-		if(App.checkLoggedIn()){
-			var email = this.currentUserEmail()
-			this.fetchUserID(email)
-		}else{
-		}
-	},
+	// currentUserID: function(){
+	// 	if(App.checkLoggedIn()){
+	// 		var email = this.currentUserEmail()
+	// 		this.fetchUserID(email)
+	// 	}else{
+	// 	}
+	// },
 
-	currentUserEmail: function(){
-		return localStorage.getItem('email')
-	},
+	// currentUserEmail: function(){
+	// 	return localStorage.getItem('email')
+	// },
 
-	fetchUserID: function(email){
-		$.ajax({
-			type: "GET",
-			url: "/users/email",
-			data: {email: email},
-			dataType: 'json',
-			success: function(data){
-				this.setState({didFetchData: 'true', userID: data.user_id})
-			}.bind(this),
-			error: function(data){
-				alert('error! couldnt fetch user id')
-			}
-		})
-	},
+	// fetchUserID: function(email){
+	// 	$.ajax({
+	// 		type: "GET",
+	// 		url: "/users/email",
+	// 		data: {email: email},
+	// 		dataType: 'json',
+	// 		success: function(data){
+	// 			this.setState({didFetchData: 'true', userID: data.user_id})
+	// 		}.bind(this),
+	// 		error: function(data){
+	// 			alert('error! couldnt fetch user id')
+	// 		}
+	// 	})
+	// },
 
 	addLike: function(){
 		var data = {
