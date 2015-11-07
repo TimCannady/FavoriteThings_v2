@@ -30,13 +30,13 @@ var UserShow = React.createClass({
 	},
 
 	removeItemFromDOM: function(){
-		alert('removing from parent')
-		this.forceUpdate()
+		this.fetchData() // fetch the new data now that the item is gone from the DB. This triggers a re-render
 	},
 
 	render: function(){
+		var that = this
 		var userItem = this.state.userItems.map(function(item){
-			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} removeItemFromDOM={this.removeItemFromDOM}/>
+			return <UserItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} removeItemFromDOM={that.removeItemFromDOM}/>
 		})
 		return(
 			<div>

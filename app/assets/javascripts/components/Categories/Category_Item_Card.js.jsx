@@ -50,7 +50,6 @@ var CategoryItemCard = React.createClass({
 			url: '/items/' + this.state.userID + '/like',
 			data: data,
 			success: function(data){
-				alert('like successful!')
 			}.bind(this),
 			error: function(data){
 				alert('failed to like item!')
@@ -70,7 +69,6 @@ var CategoryItemCard = React.createClass({
 			url: '/items/' + this.state.userID + '/unlike',
 			data: data,
 			success: function(data){
-				alert('unlike successful!')
 			}.bind(this),
 			error: function(data){
 				alert('failed to unlike item!')

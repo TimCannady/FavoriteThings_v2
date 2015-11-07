@@ -140,6 +140,8 @@ Front-end sessions: learned sessions are a back-end thing. Consider localStorage
 Ajax + Lifecycle: how initial render fires before ajax completes. Can patch with a conditional "loading".
 
 Ajax + Form Submit + ReactRouter: debugging context and this to get transitionTo('home)') / pushState to work after a successful login.	
+
+That = This: passing a method from a parent to a child wouldn't work with this.myFucntion()
 <!--
 
 TO-DO

@@ -50,7 +50,6 @@ var UserItemCard = React.createClass({
 			url: '/items/' + this.state.userID + '/like',
 			data: data,
 			success: function(data){
-				alert('like successful!')
 			}.bind(this),
 			error: function(data){
 				alert('failed to like item!')
@@ -58,19 +57,19 @@ var UserItemCard = React.createClass({
 		});
 	},
 
-	unLike: function(){
+	unLike: function(){ //unlikes the item from the DB. Does NOT remove the item from User_Show's userItems state array.
 		var data = {
 		   itemID: this.state.itemID,
 		   userID: this.state.userID
 		}
+
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
 			url: '/items/' + this.state.userID + '/unlike',
 			data: data,
 			success: function(data){
-				alert('unlike successful!')
-				this.props.removeItemFromDOM() // update the view if the user removes an item
+				this.props.removeItemFromDOM() // update the view if the user removes an item. Only does this from User_Item_Card because it's the only one that needs to appear to be live since you're on the page it removes it from.
 			}.bind(this),
 			error: function(data){
 				alert('failed to unlike item!')
@@ -88,7 +87,6 @@ var UserItemCard = React.createClass({
 		this.unLike()
 	},
 
-	
 	render: function(){
 		return(
 			<div className="card-wrapper">
