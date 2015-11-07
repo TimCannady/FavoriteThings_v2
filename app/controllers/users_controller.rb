@@ -11,9 +11,6 @@ class UsersController < ApplicationController
 		user_name = user.f_name + " " + user.l_name
 		photo_url = user.photo_url
 		items = user.items
-		p "*******"
-		p "*******"
-		p items
 		render json: {
 			items: items,
 			user_name: user_name,
@@ -23,9 +20,6 @@ class UsersController < ApplicationController
 
 	def create
 		if create_user
-			p "************"
-			p "************"
-			p "created user!"
 			render json: {email: params[:email]} #return the email so the user can be logged in 
 		else
 			render :status => 404

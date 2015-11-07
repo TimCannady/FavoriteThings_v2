@@ -2,92 +2,78 @@ var UserItemCard = React.createClass({
 	getInitialState: function(){
 		return{
 			itemID: this.props.id,
-			userID: null,
-			userHasLikedItem: null
+			userID: this.props.userID,
+			userHasLikedItem: false,
 		}
 	},
 
 	componentDidMount: function(){
-		newState = this.currentUserID()
-		this.setState({userID: newState})
+		this.fetchLikeStatus()
+		// this.currentUserID()
+		// newState = this.currentUserID()
+		// this.setState({userID: newState})
 	},
 
-	currentUserID: function(){
-		if(App.checkLoggedIn()){
-			var email = this.currentUserEmail()
-			this.fetchUserID(email)
-		}else{
-		}
-	},
+	// currentUserID: function(){
+	// 	if(App.checkLoggedIn()){
+	// 		var email = this.currentUserEmail()
+	// 		this.fetchUserID(email)
+	// 	}else{
+	// 	}
+	// },
 
-	currentUserEmail: function(){
-		return localStorage.getItem('email')
-	},
+	// currentUserEmail: function(){
+	// 	return localStorage.getItem('email')
+	// },
 
-	fetchUserID: function(email){
-		$.ajax({
-			type: "GET",
-			url: "/users/email",
-			data: {email: email},
-			dataType: 'json',
-			success: function(data){
-				this.setState({didFetchData: 'true', userID: data.user_id})
-			}.bind(this),
-			error: function(data){
-				alert('error! couldnt fetch user id')
-			}
-		})
-	},
+	// fetchUserID: function(email){
+	// 	$.ajax({
+	// 		type: "GET",
+	// 		url: "/users/email",
+	// 		data: {email: email},
+	// 		dataType: 'json',
+	// 		success: function(data){
+	// 			this.setState({didFetchData: 'true', userID: data.user_id})
+	// 		}.bind(this),
+	// 		error: function(data){
+	// 			alert('error! couldnt fetch user id')
+	// 		}
+	// 	})
+	// },
 
-	addLike: function(){
+	fetchLikeStatus: function(){
 		var data = {
 		   itemID: this.state.itemID,
 		   userID: this.state.userID
 		}
 		 // Submit form via jQuery/AJAX
 		$.ajax({
-			type: 'POST',
-			url: '/items/' + this.state.userID + '/like',
+			type: 'GET',
+			url: '/items/' + this.state.itemID + '/like',
 			data: data,
-			success: function(data){
+			success: function(data){ // need to refactor this because using 404 logic as an if/then is blowing up the console for things that haven't been liked
+				// this.setState({userHasLikedItem: true})
+				this.toggleLike()
 			}.bind(this),
 			error: function(data){
-				alert('failed to like item!')
 			}
 		});
 	},
 
-	unLike: function(){ //unlikes the item from the DB. Does NOT remove the item from User_Show's userItems state array.
-		var data = {
-		   itemID: this.state.itemID,
-		   userID: this.state.userID
-		}
-
-		 // Submit form via jQuery/AJAX
-		$.ajax({
-			type: 'POST',
-			url: '/items/' + this.state.userID + '/unlike',
-			data: data,
-			success: function(data){
-				this.props.removeItemFromDOM() // update the view if the user removes an item. Only does this from User_Item_Card because it's the only one that needs to appear to be live since you're on the page it removes it from.
-			}.bind(this),
-			error: function(data){
-				alert('failed to unlike item!')
-			}
-		})
-	},
-
-	handleLike: function(e){
-		e.preventDefault()
-		this.addLike()
-	},
-
-	handleUnLike: function(e){
-		e.preventDefault()
-		this.unLike()
+	toggleLike: function(){
+		this.setState({userHasLikedItem: !this.state.userHasLikedItem})
 	},
 
 	render: function(){
+		var that = this
+		// no matter the user or page, an item should simply show a + sign if they've never liked it, and a - sign if they have. Nothing else to it.
+		var likeOrUnlikeButon
+		if (this.state.userHasLikedItem == true) { 
+			likeOrUnlikeButon = <UnlikeButton itemID={this.state.itemID} userID={this.state.userID} toggleLike={that.toggleLike} removeItemFromDOM={that.props.removeItemFromDOM}/>
+		}else{
+			likeOrUnlikeButon = <LikeButton itemID={this.state.itemID} userID={this.state.userID}/>
+		} 
+
 		return(
 			<div className="card-wrapper">
 				<Link to="itemShow" params={{id: this.props.id}} className="card-text" >
@@ -99,11 +85,13 @@ var UserItemCard = React.createClass({
 
 				<br/>
 
-				<p className="description">
-					<a href="" onClick={this.handleLike}className="description"> Like </a>
+				<div className="description">
+					{likeOrUnlikeButon}
+
+					{/*<a href="" onClick={this.handleLike}className="description"> Like </a>
 					-
-					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>
-				</p>
+					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>*/}
+				</div>
 			</div>
 		)
 	}

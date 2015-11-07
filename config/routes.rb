@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   }
 
   get "/users/email" => "users#id"
+  get  "/items/:id/like" => "items#checkhasliked"
 
   scope constraints: ACCEPTS_JSON do
     resources :users
@@ -18,6 +19,7 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
 
   post "/items/:id/like" => "items#like"
+
   post "/items/:id/unlike" => "items#unlike"
 
   post "/sessions" => "sessions#create"
