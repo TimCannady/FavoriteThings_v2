@@ -138,7 +138,7 @@ TO-DO
 
 CRUD item (attribute to the logged-in user)
 
-unlike button (user_show_card, category_show_card, item_index)
+unlike button (updates parent - usershow? homepage?)
 
 jQuery header
 

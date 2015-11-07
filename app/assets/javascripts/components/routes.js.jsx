@@ -19,6 +19,5 @@ this.MyRoutes = (
     <Route name="login" handler={LoginSignup} />
 	  <Route name="logout" handler={Logout} />
 	  <Route name="dashboard" handler={Dashboard} /*onEnter={requireAuth}*/ />
-
   </Route>
 );
