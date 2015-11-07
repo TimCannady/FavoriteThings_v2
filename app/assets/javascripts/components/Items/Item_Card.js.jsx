@@ -54,10 +54,9 @@ var ItemCard = React.createClass({
 			success: function(data){
 			}.bind(this),
 			error: function(data){
-				alert('failed to like item!')
+				alert("failed to like item! Perhaps you've already liked it")
 			}
 		})
-			
 	},
 
 	unLike: function(){

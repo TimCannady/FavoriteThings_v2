@@ -12,8 +12,12 @@ class ItemsController < ApplicationController
 	def like
 		if user = User.find(params[:userID])
 			if item = Item.where(id: params[:itemID]).first
-				user.items << item
-				render json: {head: :ok}
+				if Like.where(user_id: user, item_id: item).first  # thrown an error if the user has already liked the item
+					return :status => 404
+				else
+					user.items << item
+					render json: {head: :ok}
+				end
 			end
 		else
 			render :status => 404
