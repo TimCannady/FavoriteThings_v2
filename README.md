@@ -15,7 +15,7 @@ General:
 
 * use React for user auth
 
-* use React for DOM in place of jQuery for DOM manipulation
+* use React in place of jQuery for DOM manipulation
 
 * experiment with *display: flexbox* in place of media queries
 
