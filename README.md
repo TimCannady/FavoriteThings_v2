@@ -11,9 +11,11 @@ General:
 
 * use React in a solo project
 
-* use front-end routing / SPA in a solo project 
+* learn front-end routing + SPA with proper URL history, use for the first time
 
-* use React-based user auth
+* use React for user auth
+
+* use React for DOM in place of jQuery for DOM manipulation
 
 * experiment with *display: flexbox* in place of media queries
 
