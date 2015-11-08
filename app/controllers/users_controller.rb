@@ -7,10 +7,15 @@ class UsersController < ApplicationController
 	end
 
 	def show
+		items = user.items
 		user = User.find(params[:id]) 
+		items.each do |item|
+			item.like_status = get_like_status(user, item)
+			item.save
+		end
+		
 		user_name = user.f_name + " " + user.l_name
 		photo_url = user.photo_url
-		items = user.items
 		render json: {
 			items: items,
 			user_name: user_name,
