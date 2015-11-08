@@ -28,9 +28,9 @@ ActiveRecord::Schema.define(version: 20151108210233) do
     t.string   "name"
     t.string   "description"
     t.string   "photo_url"
-    t.boolean  "like_status"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.boolean  "like_status", default: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
   end
 
   create_table "labels", force: :cascade do |t|

@@ -4,7 +4,7 @@ class CreateItems < ActiveRecord::Migration
       t.string :name
       t.string :description
       t.string :photo_url
-      t.boolean :like_status
+      t.boolean :like_status, :default => false
 
       t.timestamps null: false
     end

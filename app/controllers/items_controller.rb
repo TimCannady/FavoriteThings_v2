@@ -1,6 +1,10 @@
 class ItemsController < ApplicationController
 	def index
 		items = Item.all
+		items.each do |item|
+			p "***************"
+			p item.like_status
+		end
 		render json: items
 	end
 

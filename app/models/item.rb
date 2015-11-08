@@ -4,4 +4,5 @@ class Item < ActiveRecord::Base
 
 	has_many :labels
 	has_many :categories, through: :labels
+
 end
