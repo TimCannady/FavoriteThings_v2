@@ -144,6 +144,8 @@ Ajax + Lifecycle: how initial render fires before ajax completes. Can patch with
 Ajax + Form Submit + ReactRouter: debugging context and this to get transitionTo('home)') / pushState to work after a successful login.	
 
 That = This: passing a method from a parent to a child wouldn't work with this.myFucntion()
+
+Querying data: should the Item_Cards be querying their liked state? Or should the list view (parent) be doing this? With the goal of when, and minimizing how many times, the server is hit.
 <!--
 
 TO-DO

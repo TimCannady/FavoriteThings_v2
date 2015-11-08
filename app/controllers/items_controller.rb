@@ -40,14 +40,8 @@ class ItemsController < ApplicationController
 		if user = User.find(params[:userID])
 			if item = Item.where(id: params[:itemID]).first
 				if Like.where(user_id: user, item_id: item).first
-					p "************"
-					p "************"
-					p "user has liked!"
 					render json: {head: :ok}
 				else
-					p "************"
-					p "************"
-					p "user has NOT liked!"
 					render :status => 404  #this works as a hacky approach but blows up the console
 				end
 			end
