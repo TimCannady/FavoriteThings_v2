@@ -1,4 +1,17 @@
 module ApplicationHelper
+
+	def get_like_status
+		if user = User.find(params[:userID])
+			if item = Item.where(id: params[:itemID]).first
+				if Like.where(user_id: user, item_id: item).first
+					render json: {head: :ok}
+				else
+					render :status => 404  #this works as a hacky approach but blows up the console
+				end
+			end
+		end
+	end
+
 	def create_user
 	  @user = User.new(
 

@@ -1,9 +1,10 @@
 class ItemsController < ApplicationController
+	include ApplicationHelper # include methods from application_helper.rb
+
 	def index
 		items = Item.all
 		items.each do |item|
-			p "***************"
-			p item.like_status
+
 		end
 		render json: items
 	end
@@ -41,15 +42,7 @@ class ItemsController < ApplicationController
 	end
 
 	def checkhasliked
-		if user = User.find(params[:userID])
-			if item = Item.where(id: params[:itemID]).first
-				if Like.where(user_id: user, item_id: item).first
-					render json: {head: :ok}
-				else
-					render :status => 404  #this works as a hacky approach but blows up the console
-				end
-			end
-		end
+		get_like_status
 	end
 
 end
