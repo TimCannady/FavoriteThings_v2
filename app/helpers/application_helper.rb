@@ -1,4 +1,17 @@
 module ApplicationHelper
+
+	def get_like_status(user, item)
+		if user = user
+			if item = item
+				if Like.where(user_id: user, item_id: item).first
+					return true
+				else
+					return false
+				end
+			end
+		end
+	end
+
 	def create_user
 	  @user = User.new(
 
