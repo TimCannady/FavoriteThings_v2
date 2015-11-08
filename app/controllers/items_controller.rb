@@ -2,8 +2,8 @@ class ItemsController < ApplicationController
 	include ApplicationHelper # include methods from application_helper.rb
 
 	def index
-		items = Item.all
 		user = User.find(params[:userID])
+		items = Item.all
 		items.each do |item|
 			item.like_status = get_like_status(user, item)
 			item.save

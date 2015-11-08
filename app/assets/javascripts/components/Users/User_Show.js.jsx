@@ -40,7 +40,7 @@ var UserShow = React.createClass({
 	render: function(){
 		var that = this
 		var itemArray = this.state.items.map(function(item){
-			return <UserItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} description={item.description} userID={localStorage.getItem('userID')} like_status={item.like_status}  removeItemFromDOM={that.removeItemFromDOM}/>
+			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} description={item.description} userID={localStorage.getItem('userID')} like_status={item.like_status}  removeItemFromDOM={that.removeItemFromDOM}/>
 		})
 		return(
 			<div>
