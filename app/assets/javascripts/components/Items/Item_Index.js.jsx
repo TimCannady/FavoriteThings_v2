@@ -4,7 +4,8 @@ var ItemIndex = React.createClass({
 		return {
 			didFetchData: false,
 			headerImage: "http://www.w3schools.com/html/html5.gif",
-			items: []
+			items: [],
+			userID: localStorage.getItem('userID')
 		}
 	},
 
@@ -13,10 +14,14 @@ var ItemIndex = React.createClass({
 	},
 
 	fetchData: function(data){
+		var data = {
+		   userID: this.state.userID
+		}
+
 		$.ajax({
 			type: "GET",
 			url: "/items",
-			data: "data",
+			data: data,
 			dataType: 'json',
 			success: function(data){
 				this.setState({didFetchData: 'true', items: data})

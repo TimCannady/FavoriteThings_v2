@@ -3,8 +3,11 @@ class ItemsController < ApplicationController
 
 	def index
 		items = Item.all
+		user = User.find(params[:userID])
 		items.each do |item|
-
+			p item.like_status
+			# item.like_status = get_like_status(user, item)
+			item.save
 		end
 		render json: items
 	end
@@ -42,7 +45,7 @@ class ItemsController < ApplicationController
 	end
 
 	def checkhasliked
-		get_like_status
+		get_like_status(User.find(params[:userID]),Item.where(id: params[:itemID]).first)
 	end
 
 end
