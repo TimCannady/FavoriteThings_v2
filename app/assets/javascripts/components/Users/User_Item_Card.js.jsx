@@ -9,37 +9,7 @@ var UserItemCard = React.createClass({
 
 	componentDidMount: function(){
 		this.fetchLikeStatus()
-		// this.currentUserID()
-		// newState = this.currentUserID()
-		// this.setState({userID: newState})
 	},
-
-	// currentUserID: function(){
-	// 	if(App.checkLoggedIn()){
-	// 		var email = this.currentUserEmail()
-	// 		this.fetchUserID(email)
-	// 	}else{
-	// 	}
-	// },
-
-	// currentUserEmail: function(){
-	// 	return localStorage.getItem('email')
-	// },
-
-	// fetchUserID: function(email){
-	// 	$.ajax({
-	// 		type: "GET",
-	// 		url: "/users/email",
-	// 		data: {email: email},
-	// 		dataType: 'json',
-	// 		success: function(data){
-	// 			this.setState({didFetchData: 'true', userID: data.user_id})
-	// 		}.bind(this),
-	// 		error: function(data){
-	// 			alert('error! couldnt fetch user id')
-	// 		}
-	// 	})
-	// },
 
 	fetchLikeStatus: function(){
 		var data = {
@@ -88,9 +58,6 @@ var UserItemCard = React.createClass({
 				<div className="description">
 					{likeOrUnlikeButon}
 
-					{/*<a href="" onClick={this.handleLike}className="description"> Like </a>
-					-
-					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>*/}
 				</div>
 			</div>
 		)

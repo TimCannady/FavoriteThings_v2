@@ -5,11 +5,6 @@ class ItemsController < ApplicationController
 		items = Item.all
 		user = User.find(params[:userID])
 		items.each do |item|
-			# p item.description
-			# p item.like_status
-			# p "*******"
-			# p item.description
-			# p get_like_status(user, item)
 			item.like_status = get_like_status(user, item)
 			item.save
 		end
