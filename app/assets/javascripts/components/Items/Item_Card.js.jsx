@@ -4,12 +4,12 @@ var ItemCard = React.createClass({
 		return{
 			itemID: this.props.id,
 			userID: this.props.userID,
-			userHasLikedItem: false
+			userHasLikedItem: this.props.like_status
 		}
 	},
 
 	componentDidMount: function(){
-		this.fetchLikeStatus()
+		// this.fetchLikeStatus()
 		// newState = this.currentUserID()
 		// this.setState({userID: newState})
 		// this.checkUserLikeStatus()
@@ -42,24 +42,24 @@ var ItemCard = React.createClass({
 	// 	})
 	// },
 
-	fetchLikeStatus: function(){
-		var data = {
-		   itemID: this.state.itemID,
-		   userID: this.state.userID
-		}
-		 // Submit form via jQuery/AJAX
-		$.ajax({
-			type: 'GET',
-			url: '/items/' + this.state.itemID + '/like',
-			data: data,
-			success: function(data){  // need to refactor this because using 404 logic as an if/then is blowing up the console for things that haven't been liked
-				// this.setState({userHasLikedItem: true})
-				this.toggleLike()
-			}.bind(this),
-			error: function(data){
-			}
-		});
-	},
+	// fetchLikeStatus: function(){
+	// 	var data = {
+	// 	   itemID: this.state.itemID,
+	// 	   userID: this.state.userID
+	// 	}
+	// 	 // Submit form via jQuery/AJAX
+	// 	$.ajax({
+	// 		type: 'GET',
+	// 		url: '/items/' + this.state.itemID + '/like',
+	// 		data: data,
+	// 		success: function(data){  // need to refactor this because using 404 logic as an if/then is blowing up the console for things that haven't been liked
+	// 			// this.setState({userHasLikedItem: true})
+	// 			this.toggleLike()
+	// 		}.bind(this),
+	// 		error: function(data){
+	// 		}
+	// 	});
+	// },
 
 	toggleLike: function(){
 		this.setState({userHasLikedItem: !this.state.userHasLikedItem})

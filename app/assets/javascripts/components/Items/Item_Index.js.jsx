@@ -34,7 +34,7 @@ var ItemIndex = React.createClass({
 
 	render: function(){
 		var itemArray = this.state.items.map(function(item){
-			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} userID={localStorage.getItem('userID')} />
+			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} like_status={item.like_status} userID={localStorage.getItem('userID')} />
 		})
 
 		return(

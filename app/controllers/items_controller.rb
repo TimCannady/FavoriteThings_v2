@@ -5,8 +5,12 @@ class ItemsController < ApplicationController
 		items = Item.all
 		user = User.find(params[:userID])
 		items.each do |item|
-			p item.like_status
-			# item.like_status = get_like_status(user, item)
+			# p item.description
+			# p item.like_status
+			# p "*******"
+			# p item.description
+			# p get_like_status(user, item)
+			item.like_status = get_like_status(user, item)
 			item.save
 		end
 		render json: items
@@ -45,8 +49,11 @@ class ItemsController < ApplicationController
 	end
 
 	def checkhasliked
-		get_like_status(User.find(params[:userID]),Item.where(id: params[:itemID]).first)
+		if get_like_status(User.find(params[:userID]),Item.where(id: params[:itemID]).first)
+			render json: {head: :ok}
+		else
+			render :status => 404  #this works as a hacky approach but blows up the console
+		end
 	end
-
 end
 

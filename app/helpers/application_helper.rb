@@ -4,9 +4,9 @@ module ApplicationHelper
 		if user = user
 			if item = item
 				if Like.where(user_id: user, item_id: item).first
-					render json: {head: :ok}
+					return true
 				else
-					render :status => 404  #this works as a hacky approach but blows up the console
+					return false
 				end
 			end
 		end
