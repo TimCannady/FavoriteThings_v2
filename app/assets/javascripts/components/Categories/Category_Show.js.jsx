@@ -3,8 +3,8 @@ var CategoryShow = React.createClass({
 	getInitialState: function(){
 		return{
 			didFetchData: false,
-			categoryName: [],
-			categoryItems: [],
+			items: [],
+			userID: localStorage.getItem('userID'),
 			headerImage: "../categories.png"
 		}
 	},
@@ -14,14 +14,17 @@ var CategoryShow = React.createClass({
 	},
 
 	fetchData: function(){
+		var data = {
+		   userID: this.state.userID
+		}
 		var params = this.props.params.id
 		$.ajax({
 			type: "GET",
 			url: "/categories/" + params,
-			data: "data",
+			data: data,
 			dataType: 'json',
 			success: function(data){
-				this.setState({didFetchData: 'true', categoryName: data.category_name, categoryItems: data.items})
+				this.setState({didFetchData: 'true', items: data.items})
 			}.bind(this),
 			error: function(data){
 				alert('error!')
@@ -30,15 +33,15 @@ var CategoryShow = React.createClass({
 	},
 
 	render: function(){
-		var categoryItem = this.state.categoryItems.map(function(item){
-			return <CategoryItemCard name={item.name} key={item.id} id={item.id} description={item.description} photo_url={item.photo_url} />
+		var itemArray = this.state.items.map(function(item){
+			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} description={item.description} userID={localStorage.getItem('userID')} like_status={item.like_status}  />
 		})
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
 
 				<section className="body-wrapper">
-					{categoryItem}		
+					{itemArray}		
 				</section>		
 			</div>
 		)
