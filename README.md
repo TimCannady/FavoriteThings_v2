@@ -154,8 +154,6 @@ Querying data: how to display the correct like/unlike for User_Show. Sometimes U
 
 TO-DO
 
-CRUD item (attribute to the logged-in user)
-
 CRUD item - add two dropdown categories. Use original app as reference
 
 jQuery header
