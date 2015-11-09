@@ -1,4 +1,4 @@
-var ItemShow = React.createClass({
+	var ItemShow = React.createClass({
 	getInitialState: function(){
 		return {
 			didFetchData: false,

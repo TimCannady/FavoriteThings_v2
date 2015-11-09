@@ -41,7 +41,7 @@ var ItemIndex = React.createClass({
 			<div>
 				<Header img_src={this.state.headerImage} />
 
-				<section className="body-wrapper" >
+				<section className="body-wrapper">
 					{itemArray}
 				</section>
 			</div>
