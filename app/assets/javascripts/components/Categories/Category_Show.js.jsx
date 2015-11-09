@@ -34,8 +34,8 @@ var CategoryShow = React.createClass({
 	},
 
 	render: function(){
-		var itemArray = this.state.items.map(function(item, i){
-			return <ItemCard name={item.name} key={i} id={item.id} photo_url={item.photo_url} description={item.description} userID={localStorage.getItem('userID')} like_status={item.like_status}  />
+		var itemArray = this.state.items.map(function(item){
+			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} description={item.description} userID={localStorage.getItem('userID')} like_status={item.like_status}  />
 		})
 		return(
 			<div>

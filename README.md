@@ -5,13 +5,16 @@
 Add a little more. Open the app store and see how they describes themselves. 
 -->
 
-## Personal Goals
-General: 
+## Personal & Technical Goals
+General:
+
+* build my first post-bootcamp app from home (eg: without the assistance of teachers, students etc)
+
 * port an app from Sinatra to Rails
 
 * use React in a solo project
 
-* learn front-end routing + SPA with proper URL history, use for the first time
+* learn then use front-end routing + SPA with proper URL history 
 
 * use React for user auth
 
@@ -153,6 +156,8 @@ Querying data: how to display the correct like/unlike for User_Show. Sometimes U
 <!--
 
 TO-DO
+
+Unlike bug on Homepage 
 
 CRUD item - add two dropdown categories. Use original app as reference
 

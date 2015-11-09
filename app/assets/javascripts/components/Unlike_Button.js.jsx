@@ -32,7 +32,7 @@ var UnlikeButton = React.createClass({
 	handleUnLike: function(e){
 		e.preventDefault()
 		this.unLike()
-		this.props.toggleLike()
+		this.props.toggleLike() // bugged: this should only trigger when not on the user's show page for the logged'in user
 	},
 
 	render: function(){
