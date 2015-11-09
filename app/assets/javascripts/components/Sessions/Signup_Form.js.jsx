@@ -36,7 +36,6 @@ var SignupForm = React.createClass({
 			})
 			.done(function(data) {
 				App.logIn(data.email)
-				alert('user creation successful!')
 				history.pushState({},'','/')
 				window.location.reload()
 				// this.transitionTo('home')

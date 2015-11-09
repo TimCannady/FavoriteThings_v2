@@ -27,7 +27,6 @@ var NewItemForm = React.createClass({
 			data: data
 			})
 			.done(function(data) {
-				alert('item creation successful!')
 				history.pushState({},'','/users/' + this.props.userID)
 				window.location.reload()
 				// self.clearForm()
