@@ -2,7 +2,6 @@ var Nav = React.createClass({
 
 	handleLogOut: function(){
 		App.logOut()
-		alert('successfully logged out')
 	},
 
 	render: function(){

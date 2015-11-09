@@ -1,5 +1,4 @@
 var ItemCard = React.createClass({
-
 	getInitialState: function(){
 		return{
 			itemID: this.props.id,
@@ -7,59 +6,6 @@ var ItemCard = React.createClass({
 			userHasLikedItem: this.props.like_status
 		}
 	},
-
-	componentDidMount: function(){
-		// this.fetchLikeStatus()
-		// newState = this.currentUserID()
-		// this.setState({userID: newState})
-		// this.checkUserLikeStatus()
-	},
-
-	// currentUserID: function(){
-	// 	if(App.checkLoggedIn()){
-	// 		var email = this.currentUserEmail()
-	// 		this.fetchUserID(email)
-	// 	}else{
-	// 	}
-	// },
-
-	// currentUserEmail: function(){
-	// 	return localStorage.getItem('email')
-	// },
-
-	// fetchUserID: function(email){
-	// 	$.ajax({
-	// 		type: "GET",
-	// 		url: "/users/email",
-	// 		data: {email: email},
-	// 		dataType: 'json',
-	// 		success: function(data){
-	// 			this.setState({didFetchData: 'true', userID: data.user_id})
-	// 		}.bind(this),
-	// 		error: function(data){
-	// 			alert('error! couldnt fetch user id')
-	// 		}
-	// 	})
-	// },
-
-	// fetchLikeStatus: function(){
-	// 	var data = {
-	// 	   itemID: this.state.itemID,
-	// 	   userID: this.state.userID
-	// 	}
-	// 	 // Submit form via jQuery/AJAX
-	// 	$.ajax({
-	// 		type: 'GET',
-	// 		url: '/items/' + this.state.itemID + '/like',
-	// 		data: data,
-	// 		success: function(data){  // need to refactor this because using 404 logic as an if/then is blowing up the console for things that haven't been liked
-	// 			// this.setState({userHasLikedItem: true})
-	// 			this.toggleLike()
-	// 		}.bind(this),
-	// 		error: function(data){
-	// 		}
-	// 	});
-	// },
 
 	toggleLike: function(){
 		this.setState({userHasLikedItem: !this.state.userHasLikedItem})
@@ -87,9 +33,6 @@ var ItemCard = React.createClass({
 				<div className="description">
 					{likeOrUnlikeButon}
 
-					{/*<a href="" onClick={this.handleLike}className="description"> Like </a>
-					-
-					<a href="" onClick={this.handleUnLike}className="description"> Unlike </a>*/}
 				</div>
 			</div>
 		)

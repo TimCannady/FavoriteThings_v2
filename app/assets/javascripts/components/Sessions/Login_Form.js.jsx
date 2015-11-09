@@ -34,7 +34,6 @@ var LoginForm = React.createClass({
 			})
 			.done(function(data) {
 				App.logIn(data.email)
-				alert('login successful!')
 				history.pushState({},'','/')
 				window.location.reload()
 				// this.transitionTo('home')

@@ -27,12 +27,6 @@ var UserIndex = React.createClass({
 		})
 	},
 
-	// fetchData: function(){
-	// 	data = App.request('GET', '/users')
-	// 	alert(data)
-	// 	this.setState({didFetchData: 'true', users: data})
-	// },
-
 	render: function(){
 		var personArray = this.state.users.map(function(person){
 			return <UserCard f_name={person.f_name} key={person.id} id={person.id} photo_url={person.photo_url} />
