@@ -148,17 +148,15 @@ That = This: passing a method from a parent to a child wouldn't work with this.m
 Querying data: should the Item_Cards be querying their liked state? Or should the list view (parent) be doing this? With the goal of when, and minimizing how many times, the server is hit.
 
 Decision: I first had it so Item_Card knew how to decide if it had been liked by the current user or not. This felt right, but what was happening is Item_Index was hitting the DB for all items. It then created an Item_Card for each item. And when each Item_Card was mounted, it then had to hit the DB to get it's individual *like status*. I decided to pass this logic to the Item controller and added like_status to the Item model and gave it a default of false. When Item_Index hits Items#Index, I have it gather all the items. I then loop over each item and update it's like_status using a get_like_status helper. Now Item_Index receives all the info it needs - and in one fell swoop. It can then pass the data as props. Speed!
+
+Querying data: how to display the correct like/unlike for User_Show. Sometimes User_Show is for the logged_in user (looking at your own show), and sometimes you're viewing someone else's. And someone else's is showing their own Item_Cards, but the like_status needs to be fore the logged_in user!
 <!--
 
 TO-DO
 
 CRUD item (attribute to the logged-in user)
 
-unlike button (updates parent - usershow? homepage?)
-
 jQuery header
-
-like and unlike buttons only show for item's you've liked/unliked
 
 --> 
 
