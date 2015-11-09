@@ -16,6 +16,10 @@ class ItemsController < ApplicationController
 		render json: item
 	end
 
+	def create
+
+	end
+
 	def like
 		if user = User.find(params[:userID])
 			if item = Item.where(id: params[:itemID]).first

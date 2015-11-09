@@ -40,7 +40,7 @@ var ItemIndex = React.createClass({
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
-
+					<Link to="itemNew"> create a new item </Link>
 				<section className="body-wrapper">
 					{itemArray}
 				</section>
