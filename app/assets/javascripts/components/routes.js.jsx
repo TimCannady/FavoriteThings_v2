@@ -14,7 +14,8 @@ this.MyRoutes = (
     <Route name='categoryShow' handler={CategoryShow} path='/categories/:id' />
 
     <Route name='itemIndex' handler={ItemIndex} path='/items' />
-    <Route name='itemShow' handler={ItemShow} path='/items/:id' />
+    <Route name='itemNew' handler={ItemNew} path='/items/new' />
+    <Route name='itemShow' handler={ItemShow} path='/items/:id' /> 
 
     <Route name="login" handler={LoginSignup} />
 	  <Route name="logout" handler={Logout} />

@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get "/*path" => "app#main"
 
   post "/users" => "users#create"
+  post "/items" => "items#create"
 
   post "/items/:id/like" => "items#like"
 

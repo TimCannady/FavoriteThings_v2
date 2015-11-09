@@ -16,6 +16,14 @@ class ItemsController < ApplicationController
 		render json: item
 	end
 
+	def create
+		if create_item
+			render json: {head: :ok}
+		else
+			render :status => 404
+		end
+	end
+
 	def like
 		if user = User.find(params[:userID])
 			if item = Item.where(id: params[:itemID]).first
