@@ -15,9 +15,9 @@ var UserShow = React.createClass({
 
 	fetchData: function(){
 		var data = {
-		   userID: this.state.userID
+		   userID: this.state.userID // ID of the logged-in user
 		}
-		var params = this.props.params.id
+		var params = this.props.params.id  // ID of the profile being viewed
 
 		$.ajax({
 			type: "GET",
@@ -28,7 +28,7 @@ var UserShow = React.createClass({
 				this.setState({didFetchData: 'true', items: data.items, headerImage: data.photo_url})
 			}.bind(this),
 			error: function(data){
-				alert('error! couldnt load user data into user show')
+				alert('error! couldnt fetch user data')
 			}
 		})
 	},

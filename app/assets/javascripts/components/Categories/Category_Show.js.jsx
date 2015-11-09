@@ -18,6 +18,7 @@ var CategoryShow = React.createClass({
 		   userID: this.state.userID
 		}
 		var params = this.props.params.id
+
 		$.ajax({
 			type: "GET",
 			url: "/categories/" + params,
@@ -27,7 +28,7 @@ var CategoryShow = React.createClass({
 				this.setState({didFetchData: 'true', items: data.items})
 			}.bind(this),
 			error: function(data){
-				alert('error!')
+				alert("error! couldn't fetch category data")
 			}
 		})
 	},
