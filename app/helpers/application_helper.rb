@@ -59,4 +59,15 @@ module ApplicationHelper
 	def user_has_liked?
 	  all_items[item_id]
 	end
+
+	def create_item
+		new_item = Item.create(
+		    name: params[:name],
+		    description: params[:description],
+		    photo_url: params[:photo_url]
+		)
+		user = User.find(params[:userID])
+		user.items << new_item
+	end
+
 end

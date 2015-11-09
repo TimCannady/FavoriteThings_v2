@@ -17,7 +17,11 @@ class ItemsController < ApplicationController
 	end
 
 	def create
-
+		if create_item
+			render json: {head: :ok}
+		else
+			render :status => 404
+		end
 	end
 
 	def like

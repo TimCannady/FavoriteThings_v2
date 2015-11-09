@@ -156,6 +156,8 @@ TO-DO
 
 CRUD item (attribute to the logged-in user)
 
+CRUD item - add two dropdown categories. Use original app as reference
+
 jQuery header
 
 --> 

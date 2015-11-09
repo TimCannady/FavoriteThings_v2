@@ -17,6 +17,7 @@ var NewItemForm = React.createClass({
 		   name: this.state.name,
 		   description: this.state.description,
 		   photo_url: this.state.photoURL,
+		   userID: this.props.userID
 		}
 
 		 // Submit form via jQuery/AJAX
@@ -26,8 +27,9 @@ var NewItemForm = React.createClass({
 			data: data
 			})
 			.done(function(data) {
-				App.logIn(data.email)
 				alert('item creation successful!')
+				history.pushState({},'','/users/' + this.props.userID)
+				window.location.reload()
 				// self.clearForm()
 			}.bind(this))
 			.fail(function(data) {
