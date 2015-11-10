@@ -67,7 +67,10 @@ module ApplicationHelper
 		    photo_url: params[:photo_url]
 		)
 		user = User.find(params[:userID])
+		category = Category.where(id: params[:categoryID]).first
+
 		user.items << new_item
+		category.items << new_item
 	end
 
 end
