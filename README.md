@@ -161,6 +161,8 @@ TO-DO
 
 CRUD item - add two dropdown categories. Use original app as reference
 
+CRUD item - link -> popup form?
+
 jQuery header
 
 --> 
