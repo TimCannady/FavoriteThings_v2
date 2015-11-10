@@ -28,6 +28,7 @@ var CategorySelect = React.createClass({
 	},
 
 	render: function(){
+		var that = this
 		var optionArray = this.state.categories.map(function(category){
 			return(
 				<option key={category.id} value={category.id}> {category.name} </option>
@@ -35,7 +36,7 @@ var CategorySelect = React.createClass({
 		})
 
 		return(
-			<select label="Category:">
+			<select label="Category:" onChange={that.props.handleCategoryChange}>
 				{optionArray}
 			</select>
 		)

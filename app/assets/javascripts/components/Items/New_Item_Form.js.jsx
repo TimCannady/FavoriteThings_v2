@@ -5,6 +5,7 @@ var NewItemForm = React.createClass({
 			name: "",
 			description: "",
 			photoURL: "",
+			categoryID: "1"  //hard-coding the first cat as the state of the select/option drop-down. This is becuse as-is, if the user doesn't change the dropdown, the handler will never fire. So if the user simply leaves it as the first option that showed up, it will be blank. So instead I have it set to a default of 1, which is always the first category shown in the option (unless it gets deleted somehow).
 		}
 	},
 
@@ -17,7 +18,8 @@ var NewItemForm = React.createClass({
 		   name: this.state.name,
 		   description: this.state.description,
 		   photo_url: this.state.photoURL,
-		   userID: this.props.userID
+		   userID: this.props.userID,
+		   categoryID: this.state.categoryID
 		}
 
 		 // Submit form via jQuery/AJAX
@@ -47,7 +49,12 @@ var NewItemForm = React.createClass({
 	    this.setState({photoURL: event.target.value});
 	},
 
+	handleCategoryChange: function(event){
+		this.setState({categoryID: event.target.value});
+	},
+
 	render: function(){
+		that = this
 		return(
 			<div className="login-signup-form-wrapper">
 				Create New Item:
@@ -60,9 +67,7 @@ var NewItemForm = React.createClass({
 				 	Photo URL: <input label="photoURL:" type="text" onChange={this.handlePhotoURLChange} />
 				 	<br/>
 
-
-				 	<CategorySelect/>
-
+				 	<CategorySelect handleCategoryChange={that.handleCategoryChange} />
 
 				 	<button type="submit">Submit</button>
 				</form>
