@@ -59,6 +59,11 @@ var NewItemForm = React.createClass({
 				 	<br/>
 				 	Photo URL: <input label="photoURL:" type="text" onChange={this.handlePhotoURLChange} />
 				 	<br/>
+
+
+				 	<CategorySelect/>
+
+
 				 	<button type="submit">Submit</button>
 				</form>
 			</div>
