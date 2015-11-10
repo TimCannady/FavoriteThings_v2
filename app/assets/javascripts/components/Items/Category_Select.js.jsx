@@ -36,7 +36,7 @@ var CategorySelect = React.createClass({
 		})
 
 		return(
-			<select label="Category:" onChange={that.props.handleCategoryChange}>
+			<select label="Category:" onChange={that.props.handleCategory_1_Change || that.props.handleCategory_2_Change}>
 				{optionArray}
 			</select>
 		)
