@@ -73,7 +73,7 @@ a{
 	.header-img-wrapper{
 		margin: auto;
 		display: inline-block;	
-		height: 150px;
+		height: 200px;
 /*		width: 150px;*/
 		/*border: 2px solid green;*/
 	}
@@ -97,7 +97,29 @@ a{
 		font-family: Helvetica Neue;
 		margin: 3px;
 		text-align: center;
-		padding: 15px;
+		padding: 10px;
+	}
+.header-menu-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border: 1px solid red;
+	height: 200px;
+	width: 100%
+}
+	.header-menu-card-wrapper{
+		text-align: center;
+	}
+	.header-menu-img-wrapper{
+		margin: auto;
+		display: inline-block;	
+		height: 100px;
+		border: 2px solid green;
+	}
+	.header-menu-img{
+		height: 100%;
+		border-radius: 5%;
+		border: 1px solid black;
 	}
 /*============End Header============*/
 
