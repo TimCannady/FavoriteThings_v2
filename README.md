@@ -1,4 +1,4 @@
-## FavoriteThings
+	## FavoriteThings
 *Share the products you own and love - expensive and modest alike. At FavoriteThings it's all about curating and discovering tried-and-true products that we couldn't live without.*
 
 <!--
@@ -155,6 +155,8 @@ Decision: I first had it so Item_Card knew how to decide if it had been liked by
 Querying data: how to display the correct like/unlike for User_Show. Sometimes User_Show is for the logged_in user (looking at your own show), and sometimes you're viewing someone else's. And someone else's is showing their own Item_Cards, but the like_status needs to be fore the logged_in user!
 
 TDD: weird bug when switching from using the model's id as a unique key, to using an iterator as the key. The latter is optimal, but it indroduced really strange bugs that took a while to de-bug. TDD would have caught this sooner.
+
+Changing CSS classes with React (instead of jQuery). Created a boolean state to toggle the classname via onMouseOver and onMouseOut.
 <!--
 
 TO-DO

@@ -114,6 +114,13 @@ a{
 		color: white;
 		opacity: 0.1;
 	}
+	.header-menu-card-wrapper-hover{
+		text-align: center;
+		margin: 15px;
+		font-family: Helvetica Neue;
+		color: white;
+		opacity: 1;
+	}	
 	.header-menu-img-wrapper{
 		margin: auto;
 		display: inline-block;	
