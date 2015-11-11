@@ -159,11 +159,15 @@ TDD: weird bug when switching from using the model's id as a unique key, to usin
 
 TO-DO
 
-CRUD item - add two dropdown categories. Use original app as reference
+Header - categories
+
+Show page from User and Category: only display Item Cards when, and from, the category that the user clicks on from the header
 
 CRUD item - link -> popup form?
 
 jQuery header
+
+Host on Heroku / AWS
 
 --> 
 

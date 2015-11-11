@@ -47,6 +47,12 @@ garage = Category.create(
   photo_url: "http://i.imgur.com/J5AXYZe.jpg"
 )
 
+office = Category.create(
+  name: "Office",
+  description: "for all your home office needs",
+  photo_url: "http://roombowl.com/wp-content/uploads/2015/04/interior-modern-astounding-home-office-design-ideas-displaying-white-walls-paint-scheme-with-unique-white-cherry-wood-bookshelf-attached-on-the-wall-and-white-leather-sofa-plus-black-swivel-chairs-as.jpg"
+)
+
 ##################################################################################
 ##################################################################################
 # @davy =  User.new(
@@ -485,6 +491,13 @@ cuisenart_bullet = Item.create(
   description: "for pluckin",
   photo_url: "http://i.imgur.com/BcRlij1.jpg"
 )
+
+ mac_keyboard = Item.create(
+  name: "Apple Wireless Keyboard",
+  description: "for codin'",
+  photo_url: "http://cdn3.macworld.co.uk/cmsdata/features/3504584/Mac-Keyboard_thumb800.jpg"
+)
+
 
 ##################################################################################
 ##################################################################################
@@ -1048,5 +1061,13 @@ closet.items << shirt
 closet.items << watch
 
 children.items << stroller
+
+office.items << mac_keyboard
+office.items << macbook_air
+office.items << razr_orochi
+office.items << highlighters
+office.items << laptop_pads
+office.items << light_dimmer
+
 ##################################################################################
 #################################################################################
