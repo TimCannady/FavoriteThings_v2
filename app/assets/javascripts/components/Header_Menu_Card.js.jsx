@@ -14,6 +14,12 @@ var HeaderMenuCard = React.createClass({
 		this.setState({hoverState: !this.state.hoverState})
 	},
 
+	handleCategoryFilter: function(e){
+		e.preventDefault()
+		var cID = this.props.id
+		this.props.fetchCategoryItems(cID)
+	},
+
 	render: function(){
 		var cssStyling;
 
@@ -25,13 +31,13 @@ var HeaderMenuCard = React.createClass({
 
 		return(
 			<div className={cssStyling} onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} >
-				<Link to="categoryShow" params={{id: this.props.id}} > 
+				<a href="" onClick={this.handleCategoryFilter} > 
 					<div className="header-menu-img-wrapper">
 						<img src={this.props.photoUrl} className="header-menu-img"></img>
 					</div>
 					<br/>
 					{this.props.name}
-				</Link>
+				</a>
 			</div>
 		)
 	}

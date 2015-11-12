@@ -37,4 +37,23 @@ class UsersController < ApplicationController
 		user_id = user.id
 		render json: {user_id: user_id}
 	end
+
+	def categoryitems
+		user_items_by_category = []
+		user = User.find(params[:user_id])
+		category = Category.find(params[:id])
+		all_user_items = user.items
+
+		all_user_items.each do |item|
+			if category.id == item.categories.first.id
+				user_items_by_category << item
+			end
+		end
+
+		if user_items_by_category.length > 0
+			render json: user_items_by_category
+		else
+			render :status => 404
+		end
+	end
 end

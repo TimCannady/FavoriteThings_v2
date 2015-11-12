@@ -8,7 +8,11 @@ this.MyRoutes = (
 	<Route name='home' handler={HomePage} path='/' />
 
     <Route name='userIndex' handler={UserIndex} path='/users' />
-    <Route name='userShow' handler={UserShow} path='/users/:id' />
+    <Route name='userShow' handler={UserShow} path='/users/:id' >
+        {/*<Route name='userItemsByCategory' handler={UserShow} path='categories/:id' />*/}
+    </Route>
+    
+    <Route name='userItemsByCategory' handler={UserShow} path='/users/:id/categories/:id' />
 
     <Route name='categoryIndex' handler={CategoryIndex} path='/categories' />
     <Route name='categoryShow' handler={CategoryShow} path='/categories/:id' />

@@ -6,10 +6,14 @@ Rails.application.routes.draw do
   }
 
   get "/users/email" => "users#id"
-  get  "/items/:id/like" => "items#checkhasliked"
+  get "/items/:id/like" => "items#checkhasliked"
 
   scope constraints: ACCEPTS_JSON do
-    resources :users
+    
+    resources :users, only: [:show, :index] do
+      resources :categories, only: [:show, :index], to:  'users#categoryitems'
+    end
+
     resources :categories
     resources :items
   end
