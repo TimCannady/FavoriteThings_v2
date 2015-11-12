@@ -9,9 +9,9 @@ Rails.application.routes.draw do
   get "/items/:id/like" => "items#checkhasliked"
 
   scope constraints: ACCEPTS_JSON do
-    resources :users, only: [:show] do
-      #proper way to do what I was trying to do here: get "/users/:u_id/categories/:c_id " => "users#categoryitems"
-      resources :categories, only: [:show], to:  'users#categoryitems'
+    
+    resources :users, only: [:show, :index] do
+      resources :categories, only: [:show, :index], to:  'users#categoryitems'
     end
 
     resources :categories
