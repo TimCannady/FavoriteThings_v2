@@ -34,26 +34,19 @@ var UserShow = React.createClass({
 	},
 
 	fetchCategoryItems: function(cID){
-		// var data = {
-		//    u_id: this.props.params.id,
-		//    c_id: cID
-		// }
-
 		var uID = this.props.params.id  // ID of the profile being viewed
 		var cID = cID  // ID of the category to display the user's items from
-		// var path = "/users/" + uID + "/categories/" + cID
-		// alert(path)
 
 		$.ajax({
 			type: "GET",
 			url: "/users/" + uID + "/categories/" + cID,
-			// data: data,
+			data: 'data',
 			dataType: 'json',
 			success: function(data){
-				this.setState({didFetchData: 'true', items: data.items})
+				this.setState({didFetchData: 'true', items: data})
 			}.bind(this),
 			error: function(data){
-				alert("error! couldn't fetch user's items-by-category")
+				alert("error! couldn't fetch user's items-by-category. Perhaps the user hasn't liked any from this category?")
 			}
 		})
 	},
