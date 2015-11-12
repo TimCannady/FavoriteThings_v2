@@ -35,25 +35,25 @@ var UserShow = React.createClass({
 
 	fetchCategoryItems: function(cID){
 		// var data = {
-		//    userID: this.state.userID, // ID of the logged-in user
-		//    categoryID: "" // TBD
+		//    u_id: this.props.params.id,
+		//    c_id: cID
 		// }
 
 		var uID = this.props.params.id  // ID of the profile being viewed
-		var cID = this.props.params.id  // ID of the category to display the user's items from
-		var path = "/users/" + uID + "/categories/" + cID
-		alert(path)
+		var cID = cID  // ID of the category to display the user's items from
+		// var path = "/users/" + uID + "/categories/" + cID
+		// alert(path)
 
 		$.ajax({
 			type: "GET",
 			url: "/users/" + uID + "/categories/" + cID,
-			data: 'data',
+			// data: data,
 			dataType: 'json',
 			success: function(data){
 				this.setState({didFetchData: 'true', items: data.items})
 			}.bind(this),
 			error: function(data){
-				alert("error! couldnt fetch user's categories")
+				alert("error! couldn't fetch user's items-by-category")
 			}
 		})
 	},

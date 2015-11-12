@@ -14,7 +14,8 @@ var HeaderMenuCard = React.createClass({
 		this.setState({hoverState: !this.state.hoverState})
 	},
 
-	handleCategoryFilter: function(){
+	handleCategoryFilter: function(e){
+		e.preventDefault()
 		var cID = this.props.id
 		this.props.fetchCategoryItems(cID)
 	},

@@ -5,15 +5,20 @@ Rails.application.routes.draw do
     request.accepts.include?(:json)
   }
 
-  get "/users/:u_id/categories/:c_id " => "users#category_items"
   get "/users/email" => "users#id"
-  get  "/items/:id/like" => "items#checkhasliked"
+  get "/items/:id/like" => "items#checkhasliked"
 
   scope constraints: ACCEPTS_JSON do
-    resources :users
+    resources :users, only: [:show] do
+      #proper way to do what I was trying to do here: get "/users/:u_id/categories/:c_id " => "users#categoryitems"
+      resources :categories, only: [:show], to:  'users#categoryitems'
+    end
+
     resources :categories
     resources :items
   end
+
+
 
   get "/*path" => "app#main"
 
@@ -26,6 +31,5 @@ Rails.application.routes.draw do
 
   post "/sessions" => "sessions#create"
 
-  
   root 'app#main'
 end

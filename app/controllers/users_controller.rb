@@ -38,9 +38,10 @@ class UsersController < ApplicationController
 		render json: {user_id: user_id}
 	end
 
-	def category_items
+	def categoryitems
 		p "************"
 		p "************"
+		render json: {head: :ok}
 		# user = User.find(params[:u_id])
 		# category = Category.find(params[:c_id])
 		# user_items_by_category = 
