@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     request.accepts.include?(:json)
   }
 
+  get "/users/:u_id/categories/:c_id " => "users#category_items"
   get "/users/email" => "users#id"
   get  "/items/:id/like" => "items#checkhasliked"
 
@@ -25,5 +26,6 @@ Rails.application.routes.draw do
 
   post "/sessions" => "sessions#create"
 
+  
   root 'app#main'
 end

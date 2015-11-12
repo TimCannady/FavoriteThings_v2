@@ -28,17 +28,17 @@ var Header = React.createClass({
 	render: function(){
 		var leftHeaderMenuItems = this.state.menuItems.slice(0,5)
 		var rightHeaderMenuItems = this.state.menuItems.slice(5,10)
-
+		var that = this
 		return(
 			<div className="header">
 
-				<HeaderMenu headerMenuItems={leftHeaderMenuItems} />
+				<HeaderMenu headerMenuItems={leftHeaderMenuItems} fetchCategoryItems={that.props.fetchCategoryItems} />
 
 				<div className="header-img-wrapper">
 					<img src={this.props.img_src} className="header-img" />
 				</div>
 
-				<HeaderMenu headerMenuItems={rightHeaderMenuItems} />
+				<HeaderMenu headerMenuItems={rightHeaderMenuItems} fetchCategoryItems={that.props.fetchCategoryItems} />
 				
 				<Nav />
 			</div>

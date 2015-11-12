@@ -37,4 +37,12 @@ class UsersController < ApplicationController
 		user_id = user.id
 		render json: {user_id: user_id}
 	end
+
+	def category_items
+		p "************"
+		p "************"
+		# user = User.find(params[:u_id])
+		# category = Category.find(params[:c_id])
+		# user_items_by_category = 
+	end
 end
