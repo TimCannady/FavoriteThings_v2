@@ -8,7 +8,7 @@ var HeaderMenu = React.createClass({
 
 	render: function(){
 		var headerMenuItemsArray = this.props.headerMenuItems.map(function(item){
-			return <HeaderMenuCard name={item.name} photoUrl={item.photo_url} key={item.id}/>
+			return <HeaderMenuCard name={item.name} photoUrl={item.photo_url} key={item.id} id={item.id}/>
 		})
 		return(
 			<div className="header-menu-wrapper">

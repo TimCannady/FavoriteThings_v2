@@ -15,21 +15,23 @@ var HeaderMenuCard = React.createClass({
 	},
 
 	render: function(){
-		var css;
+		var cssStyling;
 
 		if(this.state.hoverState == true){
-			css = 'header-menu-card-wrapper-hover'
+			cssStyling = 'header-menu-card-wrapper-hover'
 		}else{
-			css = 'header-menu-card-wrapper'
+			cssStyling = 'header-menu-card-wrapper'
 		}
 
 		return(
-			<div /*className="header-menu-card-wrapper"*/ className={css} onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} >
-				<div className="header-menu-img-wrapper">
-					<img src={this.props.photoUrl} className="header-menu-img"></img>
-				</div>
-				<br/>
-				{this.props.name}
+			<div className={cssStyling} onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} >
+				<Link to="categoryShow" params={{id: this.props.id}} > 
+					<div className="header-menu-img-wrapper">
+						<img src={this.props.photoUrl} className="header-menu-img"></img>
+					</div>
+					<br/>
+					{this.props.name}
+				</Link>
 			</div>
 		)
 	}

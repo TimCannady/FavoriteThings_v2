@@ -18,7 +18,7 @@ this.MyRoutes = (
     <Route name='itemShow' handler={ItemShow} path='/items/:id' /> 
 
     <Route name="login" handler={LoginSignup} />
-	  <Route name="logout" handler={Logout} />
-	  <Route name="dashboard" handler={Dashboard} /*onEnter={requireAuth}*/ />
+    <Route name="logout" handler={Logout} />
+    <Route name="dashboard" handler={Dashboard} /*onEnter={requireAuth}*/ />
   </Route>
 );

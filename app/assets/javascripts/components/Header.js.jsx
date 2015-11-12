@@ -26,8 +26,8 @@ var Header = React.createClass({
 	},
 
 	render: function(){
-		var leftHeaderMenuItems = this.state.menuItems.slice(0,4)
-		var rightHeaderMenuItems = this.state.menuItems.slice(4,9)
+		var leftHeaderMenuItems = this.state.menuItems.slice(0,5)
+		var rightHeaderMenuItems = this.state.menuItems.slice(5,10)
 
 		return(
 			<div className="header">

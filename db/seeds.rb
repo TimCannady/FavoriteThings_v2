@@ -53,6 +53,16 @@ office = Category.create(
   photo_url: "http://roombowl.com/wp-content/uploads/2015/04/interior-modern-astounding-home-office-design-ideas-displaying-white-walls-paint-scheme-with-unique-white-cherry-wood-bookshelf-attached-on-the-wall-and-white-leather-sofa-plus-black-swivel-chairs-as.jpg"
 )
 
+home = Category.create(
+  name: "Home",
+  description: "
+  for all your home home needs",
+  photo_url: "  http://st.hzcdn.com/simgs/cbc15f26020b0337_3-1314/contemporary-living-room.jpg"
+)
+
+
+
+
 ##################################################################################
 ##################################################################################
 # @davy =  User.new(
