@@ -18,8 +18,6 @@ Rails.application.routes.draw do
     resources :items
   end
 
-
-
   get "/*path" => "app#main"
 
   post "/users" => "users#create"
