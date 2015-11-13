@@ -1,4 +1,4 @@
-	## FavoriteThings
+## FavoriteThings
 *Share the products you own and love - expensive and modest alike. At FavoriteThings it's all about curating and discovering tried-and-true products that we couldn't live without.*
 
 <!--
