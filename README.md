@@ -31,7 +31,14 @@ Stretch:
 * OAuth
 
 ## Demo
-Heroku link TBD
+* Heroku link TBD
+
+* Run locally
+  * fork / clone
+  * bundle exec rake db:create db: migrate db:seed
+  * bundle exec rails s
+  * localhost:3000
+
 <!-- 
 Feel free to create a new account, including a photo URL.
 
@@ -44,13 +51,6 @@ Here's creds for a fake, seeded profile:
 username: es@gmail.com
 
 password: test -->
-
-## Run Locally
-
-* fork / clone
-* bundle exec rake db:create db: migrate db:seed
-* bundle exec rails s
-* localhost:3000
 
 ## Technologies
 Frontend:
