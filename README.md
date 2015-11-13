@@ -14,9 +14,9 @@ General:
 
 * use React in a solo project
 
-* learn then use front-end routing + SPA with proper URL history 
+* learn then use front-end routing + SPA with functioning URL history (forward, back, copy/paste'able links, etc)
 
-* use React for user auth
+* handle user auth on the front-end
 
 * use React in place of jQuery for DOM manipulation
 
@@ -44,6 +44,13 @@ Here's creds for a fake, seeded profile:
 username: es@gmail.com
 
 password: test -->
+
+## Run Locally
+
+* fork / clone
+* bundle exec rake db:create db: migrate db:seed
+* bundle exec rails s
+* localhost:3000
 
 ## Technologies
 Frontend:
@@ -124,13 +131,6 @@ Road map:
 
 ## Invitation
 Feel free to clone, tinker, refactor, break and rebuild, submit pull requests, issues or feature ideas. Get in touch [on Twitter](https://twitter.com/TCannadySF)!
-
-To setup locally:
-
-* fork / clone
-* bundle exec rake db:create db: migrate db:seed
-* rails s
-* localhost:3000
 
 ## Architecture, Design Notes & Lessons Learned
 High-level view of how to design pages. For example, should the AppComponent just render the router? With this, maybe each page would be a parent component, like UserPage which renders sub-components like Header, UserList, UserCard and Footer. Another approach could be to instead have the header and footer components buit into AppComponent and use some if/then logic to decide which header to render.
