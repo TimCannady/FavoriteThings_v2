@@ -86,6 +86,8 @@ Ruby Gems:
 
 6) React-Router-Rails gem to handle data between the Rails enpoints and the React-Router
 
+7) The React components request data using ajax during various lifecycle stages, such as *componentDidMount*
+
 ## DB Schema
 
 ![Schema](http://i.imgur.com/OIyZD4Y.png)
@@ -98,7 +100,7 @@ Ruby Gems:
 
 * main.html.erb begins React-Router using <%= react_router 'MyRoutes', 'HistoryLocation' %>
 
-* React-Router begins handling all front-end routing by rendering different components basedo n the path. 
+* React-Router handles all front-end routing by rendering different components based on the path. 
 
 ## Wireframe & Component Structure
 
