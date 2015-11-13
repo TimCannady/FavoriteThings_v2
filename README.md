@@ -86,7 +86,7 @@ Ruby Gems:
 
 6) React-Router-Rails gem to handle data between the Rails enpoints and the React-Router
 
-7) The React components request data using ajax during various lifecycle stages, such as *componentDidMount*
+7) The React components handle requesting the data they require. For example, initial data is requested during lifecycle methods like componentDidMount. Another is by having event-handler methods that fire during events like onClick.
 
 ## DB Schema
 
