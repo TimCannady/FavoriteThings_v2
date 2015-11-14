@@ -1,5 +1,5 @@
 ## FavoriteThings
-*Share the products you own and love - expensive and modest alike. At FavoriteThings it's all about curating and discovering tried-and-true products that we couldn't live without.*
+*Share the products you own and love - expensive and modest alike. At FavoriteThings it's all about curating and discovering the tried-and-true products that we couldn't live without.*
 
 <!--
 Add a little more. Open the app store and see how they describes themselves. 
@@ -31,11 +31,11 @@ Stretch:
 * OAuth
 
 ## Demo
-* Heroku link TBD
+* Heroku: link TBD
 
-* Run locally
+* Run locally:
   * fork / clone
-  * bundle exec rake db:create db: migrate db:seed
+  * bundle exec rake db:create db:migrate db:seed
   * bundle exec rails s
   * localhost:3000
 
@@ -163,15 +163,15 @@ Changing CSS classes with React (instead of jQuery). Created a boolean state to 
 
 TO-DO
 
-Header - categories
+Host on Heroku / AWS
 
-Show page from User and Category: only display Item Cards when, and from, the category that the user clicks on from the header
+TDD
 
 CRUD item - link -> popup form?
 
-jQuery header
+Convert to ES6
 
-Host on Heroku / AWS
+Oauth
 
 --> 
 
