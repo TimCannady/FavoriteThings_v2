@@ -64,7 +64,8 @@ module ApplicationHelper
 		new_item = Item.create(
 		    name: params[:name],
 		    description: params[:description],
-		    photo_url: params[:photo_url]
+		    # photo_url: params[:photo_url]
+		    photo_url: params[:photo_path]
 		)
 		user = User.find(params[:userID])
 		category_1 = Category.where(id: params[:categoryID_1]).first

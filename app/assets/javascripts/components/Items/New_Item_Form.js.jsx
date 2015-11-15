@@ -5,7 +5,7 @@ var NewItemForm = React.createClass({
 			name: "",
 			description: "",
 			photoURL: "",
-			photo: "",
+			photoPath: "",
 			categoryID_1: "1",  //hard-coding the first cat as the state of the select/option drop-down. This is becuse as-is, if the user doesn't change the dropdown, the handler will never fire. So if the user simply leaves it as the first option that showed up, it will be blank. So instead I have it set to a default of 1, which is always the first category shown in the option (unless it gets deleted somehow).
 			categoryID_2: ""  
 		}
@@ -19,7 +19,8 @@ var NewItemForm = React.createClass({
 		var data = {
 		   name: this.state.name,
 		   description: this.state.description,
-		   photo_url: this.state.photoURL,
+		   // photo_url: this.state.photoURL,
+		   photo_path: this.state.photoPath,
 		   userID: this.props.userID,
 		   categoryID_1: this.state.categoryID_1,
 		   categoryID_2: this.state.categoryID_2
@@ -51,8 +52,8 @@ var NewItemForm = React.createClass({
 	handlePhotoURLChange: function(event) {
 	    this.setState({photoURL: event.target.value});
 	},
-	handlePhotoChange: function(event) {
-	    this.setState({photo: event.target.value});
+	handlePhotoPathChange: function(event) {
+	    this.setState({photoPath: event.target.value});
 	},
 	handleCategory_1_Change: function(event){
 		this.setState({categoryID_1: event.target.value});
@@ -76,11 +77,11 @@ var NewItemForm = React.createClass({
 				 	{/*Photo URL: <input label="photoURL:" type="text" onChange={this.handlePhotoURLChange} />
 				 	<br/>*/}
 
-				 	Upload Photo: <input label="photo:" type="file" onChange={this.handlePhotoChange} />
+				 	Upload Photo: <input label="photo:" type="file" onChange={this.handlePhotoPathChange} />
 				 	<br/>
 
-				 	{/*<CategorySelect handleCategory_1_Change={that.handleCategory_1_Change} />
-				 	<CategorySelect handleCategory_2_Change={that.handleCategory_2_Change} />*/}
+				 	<CategorySelect handleCategory_1_Change={that.handleCategory_1_Change} />
+				 	<CategorySelect handleCategory_2_Change={that.handleCategory_2_Change} />
 
 				 	<button type="submit">Submit</button>
 				</form>
