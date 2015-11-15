@@ -25,7 +25,8 @@ gem 'react-rails', '~> 1.4.0'
 gem 'react-router-rails', '~>0.13.3.1'
 gem 'bcrypt'
 
-gem 'aws-sdk', '2.0.6.pre'
+gem 'aws-sdk', '~> 2'
+
 
 
 # Use ActiveModel has_secure_password

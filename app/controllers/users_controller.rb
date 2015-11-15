@@ -56,4 +56,10 @@ class UsersController < ApplicationController
 			render :status => 404
 		end
 	end
+
+	private
+
+	def set_s3_direct_post ## calling @s3_direct_post.url will return the url
+		@s3_direct_post = S3_BUCKET.presigned_post(key: "items/#{SecureRandom.uuid}/${filename}", success_action_status: '201', acl: 'public-read')
+	end
 end

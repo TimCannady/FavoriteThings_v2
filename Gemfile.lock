@@ -37,15 +37,12 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
-    aws-sdk (2.0.6.pre)
-      aws-sdk-resources (= 2.0.6.pre)
-    aws-sdk-core (2.0.6)
-      builder (~> 3.0)
+    aws-sdk (2.2.0)
+      aws-sdk-resources (= 2.2.0)
+    aws-sdk-core (2.2.0)
       jmespath (~> 1.0)
-      multi_json (~> 1.0)
-      multi_xml (~> 0.5)
-    aws-sdk-resources (2.0.6.pre)
-      aws-sdk-core (= 2.0.6)
+    aws-sdk-resources (2.2.0)
+      aws-sdk-core (= 2.2.0)
     babel-source (5.8.34)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
@@ -80,7 +77,6 @@ GEM
     mini_portile (0.6.2)
     minitest (5.8.2)
     multi_json (1.11.2)
-    multi_xml (0.5.5)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     pg (0.18.4)
@@ -157,7 +153,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk (= 2.0.6.pre)
+  aws-sdk (~> 2)
   bcrypt
   byebug
   jbuilder (~> 2.0)

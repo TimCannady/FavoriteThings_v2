@@ -20,6 +20,8 @@ Rails.application.routes.draw do
 
   get "/*path" => "app#main"
 
+  # get '*path', to: 'react#show', constraints: { format: 'html' } # From the S3 SPA React tutorial. I wonder if I should use this instead for the SPA... http://blog.littleblimp.com/post/119230396893/direct-uploads-to-s3-with-react-rails-and
+
   post "/users" => "users#create"
   post "/items" => "items#create"
 
@@ -30,4 +32,6 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
 
   root 'app#main'
+
+
 end
