@@ -1,6 +1,5 @@
-Aws.config({
-  region: 'us-west-1',
-  credentials: Aws::Credentials.new(ENV['AWS_ACCESS_KEY_ID'], ENV['AWS_SECRET_ACCESS_KEY']),
-})
-
-S3_BUCKET = Aws::S3::Resource.new.bucket(ENV['favthings'])
+AWS.config(
+  access_key_id:      Rails.application.secrets.aws['access_key_id'],
+  secret_access_key:  Rails.application.secrets.aws['secret_access_key'],
+  bucket:             Rails.application.secrets.aws['favthings']
+)
