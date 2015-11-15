@@ -4,10 +4,9 @@ var NewItemForm = React.createClass({
 		return{
 			name: "",
 			description: "",
-			photoURL: "",
-			photoPath: "",
+			photo: "",
 			categoryID_1: "1",  //hard-coding the first cat as the state of the select/option drop-down. This is becuse as-is, if the user doesn't change the dropdown, the handler will never fire. So if the user simply leaves it as the first option that showed up, it will be blank. So instead I have it set to a default of 1, which is always the first category shown in the option (unless it gets deleted somehow).
-			categoryID_2: ""  
+			categoryID_2: "1"  
 		}
 	},
 
@@ -19,8 +18,7 @@ var NewItemForm = React.createClass({
 		var data = {
 		   name: this.state.name,
 		   description: this.state.description,
-		   // photo_url: this.state.photoURL,
-		   photo_path: this.state.photoPath,
+		   photo: this.state.photo,
 		   userID: this.props.userID,
 		   categoryID_1: this.state.categoryID_1,
 		   categoryID_2: this.state.categoryID_2
@@ -49,11 +47,8 @@ var NewItemForm = React.createClass({
 	handleDescriptionChange: function(event) {
 	    this.setState({description: event.target.value});
 	}, 
-	handlePhotoURLChange: function(event) {
-	    this.setState({photoURL: event.target.value});
-	},
-	handlePhotoPathChange: function(event) {
-	    this.setState({photoPath: event.target.value});
+	handlePhotoChange: function(event) {
+	    this.setState({photo: event.target.value});
 	},
 	handleCategory_1_Change: function(event){
 		this.setState({categoryID_1: event.target.value});
@@ -68,16 +63,13 @@ var NewItemForm = React.createClass({
 			<div className="login-signup-form-wrapper">
 				Create New Item:
 				<br/>
-				<form onSubmit={this.submit} className="login-signup-form" >
+				<form onSubmit={this.submit} className="login-signup-form" encType="multipart/form-data">
 				 	Name: <input label="Name:" type="text" onChange={this.handleNameChange} />
 				 	<br/>
 				 	Description: <input label="Description:" type="text" onChange={this.handleDescriptionChange} />
 				 	<br/>
 				 	
-				 	{/*Photo URL: <input label="photoURL:" type="text" onChange={this.handlePhotoURLChange} />
-				 	<br/>*/}
-
-				 	Upload Photo: <input label="photo:" type="file" onChange={this.handlePhotoPathChange} />
+				 	Upload Photo: <input label="photo:" type="file" onChange={this.handlePhotoChange} multiple={true}/>
 				 	<br/>
 
 				 	<CategorySelect handleCategory_1_Change={that.handleCategory_1_Change} />
