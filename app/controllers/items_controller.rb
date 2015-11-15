@@ -1,6 +1,9 @@
 class ItemsController < ApplicationController
 	include ApplicationHelper # include methods from application_helper.rb
 
+	# this method associates the attribute ":avatar" with a file attachment
+	has_attached_file: :avatar
+
 	def index
 		user = User.find(params[:userID])
 		items = Item.all
