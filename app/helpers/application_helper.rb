@@ -64,8 +64,13 @@ module ApplicationHelper
 		new_item = Item.create(
 		    name: params[:name],
 		    description: params[:description],
-		    photo: params[:photo]
+		    photo: params[:photo],
 		)
+
+		p "**************"
+		p "**************"
+		new_item['photo_url'] = new_item.photo_url
+		new_item.save
 
 		user = User.find(params[:userID])
 		

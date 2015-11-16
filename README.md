@@ -160,7 +160,7 @@ TDD: weird bug when switching from using the model's id as a unique key, to usin
 
 Changing CSS classes with React (instead of jQuery). Created a boolean state to toggle the classname via onMouseOver and onMouseOut.
 
-Uploading a file. Uploading a file using ajax where the file has multiple attributes. 
+Uploading a file. Uploading a file using ajax where the file has multiple attributes. Wrapping things in formData.
 <!--
 
 TO-DO
