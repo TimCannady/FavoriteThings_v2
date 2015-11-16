@@ -66,6 +66,7 @@ module ApplicationHelper
 		    description: params[:description],
 		    photo: params[:photo]
 		)
+
 		user = User.find(params[:userID])
 		
 		category_1 = Category.where(id: params[:categoryID_1]).first

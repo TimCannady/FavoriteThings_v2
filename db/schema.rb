@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20151115230100) do
   create_table "items", force: :cascade do |t|
     t.string   "name"
     t.string   "description"
+    t.string   "photo_url"
     t.string   "photo_file_name"
     t.string   "photo_content_type"
     t.integer  "photo_file_size"

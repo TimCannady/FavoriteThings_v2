@@ -3,6 +3,7 @@ class CreateItems < ActiveRecord::Migration
     create_table :items do |t|
       t.string :name
       t.string :description
+      t.string :photo_url
       t.attachment :photo
       t.boolean :like_status, :default => false
 
