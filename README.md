@@ -159,6 +159,8 @@ Querying data: how to display the correct like/unlike for User_Show. Sometimes U
 TDD: weird bug when switching from using the model's id as a unique key, to using an iterator as the key. The latter is optimal, but it indroduced really strange bugs that took a while to de-bug. TDD would have caught this sooner.
 
 Changing CSS classes with React (instead of jQuery). Created a boolean state to toggle the classname via onMouseOver and onMouseOut.
+
+Uploading a file. Uploading a file using ajax where the file has multiple attributes. Wrapping things in formData. Using Paperclip to update the photo_url of the model with the URL from S3. Issues regarding how different regions give different URLS and how they have to match..
 <!--
 
 TO-DO
