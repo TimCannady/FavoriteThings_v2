@@ -24,7 +24,7 @@ General:
 
 Stretch:
 
-* learn image uploading/hosting, use a service like AWS/S3 or the Imgur API
+* learn async image uploading/hosting, use a service like AWS/S3 or the Imgur API
 
 * incorporate ES6
 
@@ -170,7 +170,7 @@ Host on Heroku
 
 TDD
 
-CRUD item - link -> popup form?
+Create_Item -> popup? React-Modal gem?
 
 Convert to ES6
 
