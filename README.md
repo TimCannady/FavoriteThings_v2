@@ -162,6 +162,8 @@ TDD: weird bug when switching from using the model's id as a unique key, to usin
 Changing CSS classes with React (instead of jQuery). Created a boolean state to toggle the classname via onMouseOver and onMouseOut.
 
 In regards to creating a new *Item*, Ajax uploads were tricky. HTML *formData* bundles the form's data in a way that Rails knows how to handle. Paperclip helps with instantiating a new *Item* with the correct attributes. Paperclip, sends the image to Amazon S3, and it also provivdes a *.url* method to retrieve the URL for the newly-hosted image and store it in the *photo_url* attribute of the new *Item*. Issues regarding how different regions give different URLS and how they have to match..
+
+Popup modals.
 <!--
 
 TO-DO
