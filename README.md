@@ -160,7 +160,7 @@ TDD: weird bug when switching from using the model's id as a unique key, to usin
 
 Changing CSS classes with React (instead of jQuery). Created a boolean state to toggle the classname via onMouseOver and onMouseOut.
 
-Uploading a file. Uploading a file using ajax where the file has multiple attributes. Wrapping things in formData.
+Uploading a file. Uploading a file using ajax where the file has multiple attributes. Wrapping things in formData. Using Paperclip to update the photo_url of the model with the URL from S3. Issues regarding how different regions give different URLS and how they have to match..
 <!--
 
 TO-DO
