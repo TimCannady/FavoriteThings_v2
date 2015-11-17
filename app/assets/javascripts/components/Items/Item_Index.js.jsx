@@ -54,8 +54,8 @@ var ItemIndex = React.createClass({
 					<Link to="itemNew" userID={this.props.userID} > create a new item </Link>
 
 					<button onClick={this.openModal}> Open the Modal </button>
-					{modalOpen ? <TestModal closeModal={this.closeModal} /> : ''}
-					
+					{modalOpen ? <NewItemForm closeModal={this.closeModal} /> : ''}
+
 				<section className="body-wrapper">
 					{itemArray}
 				</section>
