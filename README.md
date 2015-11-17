@@ -24,7 +24,7 @@ General:
 
 Stretch:
 
-* learn image uploading/hosting, use a service like the AWS/S3 or the Imgur API
+* learn image uploading/hosting, use a service like AWS/S3 or the Imgur API
 
 * incorporate ES6
 
@@ -35,7 +35,7 @@ Stretch:
 
 * Run locally:
   * fork / clone
-  * bundle exec rake db:create db:migrate db:seed
+  * bundle exec rake db:create db:migrate db:seed 
   * bundle exec rails s
   * localhost:3000
 
@@ -105,7 +105,12 @@ Ruby Gems:
 
 ## Wireframe & Component Structu
 ---
-![Home](http://i.i
+![Login/Signup](http://i.imgur.com/WfZcQS0.png)
+---
+---
+![Home](http://i.imgur.com/0clU8ZZ.png)
+---
+---
 ![User](http://i.imgur.com/i5778Ox.png)
 ---
 ---
