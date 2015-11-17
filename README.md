@@ -103,7 +103,7 @@ Ruby Gems:
 
 * React-Router handles all front-end routing by rendering different components based on the path. 
 
-## Wireframe & Component Structu
+## Wireframe & Component Structure
 ---
 ![Login/Signup](http://i.imgur.com/WfZcQS0.png)
 ---
