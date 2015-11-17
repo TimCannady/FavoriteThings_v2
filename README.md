@@ -24,9 +24,9 @@ General:
 
 Stretch:
 
-* incorporate ES6
+* learn image uploading/hosting, use a service like the AWS/S3 or the Imgur API
 
-* use the Imgur API or AWS/S3 for image hosting
+* incorporate ES6
 
 * OAuth
 
@@ -63,10 +63,11 @@ Backend:
 * Postgresql
 
 Ruby Gems:
-* [bcrypt-ruby](https://github.com/codahale/bcrypt-ruby)
 * [react-rails](https://github.com/reactjs/react-rails)
-* [react-router](https://github.com/rackt/react-router)
 * [react-router-rails](https://github.com/mariopeixoto/react-router-rails)
+* [bcrypt-ruby](https://github.com/codahale/bcrypt-ruby)
+* [paperclip](https://github.com/thoughtbot/paperclip)
+* [aws-sdk](https://github.com/aws/aws-sdk-ruby)
 
 ## How it Works
 1) Ruby uses five models. *Italics* are join tables:
@@ -82,11 +83,11 @@ Ruby Gems:
 
 4) React-Rails gem provides helpers to connect React and Rails
 
-5) React-Router gem for front-end routing, pushState browser history
+5) React-Router-Rails gem for front-end routing, pushState browser history, and to handle data between the Rails enpoints and the React-Router
 
-6) React-Router-Rails gem to handle data between the Rails enpoints and the React-Router
+6) The React components handle requesting the data they require. For example, initial data is requested during lifecycle methods like componentDidMount. Another is by having event-handler methods that fire during events like onClick.
 
-7) The React components handle requesting the data they require. For example, initial data is requested during lifecycle methods like componentDidMount. Another is by having event-handler methods that fire during events like onClick.
+7) For image uplads, HTML *formData* bundles the form's data in a way that Rails can handle. Paperclip helps instantiate a new *Item* with the correct attributes. Paperclip also sends the image to Amazon S3 and provivdes a *.url* method to retrieve the URL for the newly-hosted image. 
 
 ## DB Schema
 
@@ -102,14 +103,9 @@ Ruby Gems:
 
 * React-Router handles all front-end routing by rendering different components based on the path. 
 
-## Wireframe & Component Structure
-
-![Login/Signup](http://i.imgur.com/WfZcQS0.png)
+## Wireframe & Component Structu
 ---
----
-![Home](http://i.imgur.com/0clU8ZZ.png)
----
----
+![Home](http://i.i
 ![User](http://i.imgur.com/i5778Ox.png)
 ---
 ---
@@ -160,12 +156,12 @@ TDD: weird bug when switching from using the model's id as a unique key, to usin
 
 Changing CSS classes with React (instead of jQuery). Created a boolean state to toggle the classname via onMouseOver and onMouseOut.
 
-Uploading a file. Uploading a file using ajax where the file has multiple attributes. Wrapping things in formData. Using Paperclip to update the photo_url of the model with the URL from S3. Issues regarding how different regions give different URLS and how they have to match..
+In regards to creating a new *Item*, Ajax uploads were tricky. HTML *formData* bundles the form's data in a way that Rails knows how to handle. Paperclip helps with instantiating a new *Item* with the correct attributes. Paperclip, sends the image to Amazon S3, and it also provivdes a *.url* method to retrieve the URL for the newly-hosted image and store it in the *photo_url* attribute of the new *Item*. Issues regarding how different regions give different URLS and how they have to match..
 <!--
 
 TO-DO
 
-Host on Heroku / AWS
+Host on Heroku
 
 TDD
 
