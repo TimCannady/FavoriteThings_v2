@@ -3,7 +3,8 @@ var ItemNew = React.createClass({
 	getInitialState: function(){
 		return {
 			userID: localStorage.getItem('userID'),
-			headerImage: "http://www.w3schools.com/html/html5.gif"
+			headerImage: "http://www.w3schools.com/html/html5.gif",
+
 		}
 	},
 
