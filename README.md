@@ -166,17 +166,23 @@ In regards to creating a new *Item*, Ajax uploads were tricky. HTML *formData* b
 Popup modal for new_item_form.
 <!--
 
-TO-DO
+TO-DO:
 
-Host on Heroku
+* Host on Heroku
 
-TDD
+* TDD
 
-Create_Item -> popup? React-Modal gem?
+* Create_Item -> popup? React-Modal gem?
 
-Convert to ES6
+* Convert to ES6
 
-Oauth
+* Oauth
+
+BUGS/TO-FIX
+
+* convert User's photo_URL to photo, like Item. For both user signup and seed
+* convert Category's photo_URL to photo, like Item. Just for seed since we don't crud categories (yet..)
+* header category cards on non-user-show pages
 
 --> 
 
