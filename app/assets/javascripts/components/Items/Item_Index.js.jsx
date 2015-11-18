@@ -51,7 +51,6 @@ var ItemIndex = React.createClass({
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
-					<Link to="itemNew" userID={this.props.userID} > create a new item </Link>
 
 					<button onClick={this.openModal}> Open the Modal </button>
 					{modalOpen ? <NewItemForm userID={this.state.userID} closeModal={this.closeModal} /> : ''}
