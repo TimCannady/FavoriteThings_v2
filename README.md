@@ -61,6 +61,7 @@ Frontend:
 Backend:
 * Ruby/Rails
 * Postgresql
+* Amazon S3
 
 Ruby Gems:
 * [react-rails](https://github.com/reactjs/react-rails)
