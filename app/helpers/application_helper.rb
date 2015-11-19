@@ -22,6 +22,7 @@ module ApplicationHelper
 	    photo: params[:photo]
 	    )
 
+	  @user['photo_url'] = @user.photo_url # note .photo_url is a method on the User model. Itt calls the Paperclip .url method on new_tem. This sets the photo_url attribute of the @user to the URL for the image hosted on Amazon S3. 
 	  @user.password = params[:password]
 	  @user.save!
 	end

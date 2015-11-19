@@ -8,6 +8,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :photo_url
       t.string :city
       t.string :gender
+      t.attachment :photo
 
       t.timestamps null: false
     end
