@@ -1,67 +1,84 @@
 kitchen = Category.create(
   name: "Kitchen",
   description: "for all your cookin needs",
-  photo_url: "http://i.imgur.com/5KlZsXh.png"
+  photo: "http://i.imgur.com/5KlZsXh.png"
 )
+kitchen['photo_url'] = kitchen.photo_url
+kitchen.save
 
 bathroom = Category.create(
   name: "Bathroom",
   description: "for all your cleaning needs",
-  photo_url: "http://i.imgur.com/arSO5D6.png"
+  photo: "http://i.imgur.com/arSO5D6.png"
 )
+bathroom['photo_url'] = bathroom.photo_url
+bathroom.save
 
 beauty = Category.create(
   name: "Beauty",
   description: "for all your beauty needs",
-  photo_url: "http://i.imgur.com/eHUfzvu.png"
+  photo: "http://i.imgur.com/eHUfzvu.png"
 )
+beauty['photo_url'] = beauty.photo_url
+beauty.save
 
 closet = Category.create(
   name: "Closet",
   description: "for all your clothing needs",
-  photo_url: "http://i.imgur.com/OsGY7K5.jpg"
+  photo: "http://i.imgur.com/OsGY7K5.jpg"
 )
+closet['photo_url'] = closet.photo_url
+closet.save
 
 electronics = Category.create(
   name: "Electronics",
   description: "for all your 'phile needs",
-  photo_url: "http://i.imgur.com/u5bwgLH.png"
+  photo: "http://i.imgur.com/u5bwgLH.png"
 )
+electronics['photo_url'] = electronics.photo_url
+electronics.save
 
 children = Category.create(
   name: "Children",
   description: "for all your child's needs",
-  photo_url: "http://i.imgur.com/JSVJBdk.jpg"
+  photo: "http://i.imgur.com/JSVJBdk.jpg"
 )
+children['photo_url'] = children.photo_url
+children.save
 
 hardware = Category.create(
   name: "Hardware",
   description: "for all your DIY needs",
-  photo_url: "http://i.imgur.com/TC7t4ol.png"
+  photo: "http://i.imgur.com/TC7t4ol.png"
 )
+hardware['photo_url'] = hardware.photo_url
+hardware.save
 
 
 garage = Category.create(
   name: "Garage",
   description: "for all your garage needs",
-  photo_url: "http://i.imgur.com/J5AXYZe.jpg"
+  photo: "http://i.imgur.com/J5AXYZe.jpg"
 )
+garage['photo_url'] = garage.photo_url
+garage.save
 
 office = Category.create(
   name: "Office",
   description: "for all your home office needs",
-  photo_url: "http://roombowl.com/wp-content/uploads/2015/04/interior-modern-astounding-home-office-design-ideas-displaying-white-walls-paint-scheme-with-unique-white-cherry-wood-bookshelf-attached-on-the-wall-and-white-leather-sofa-plus-black-swivel-chairs-as.jpg"
+  photo: "http://roombowl.com/wp-content/uploads/2015/04/interior-modern-astounding-home-office-design-ideas-displaying-white-walls-paint-scheme-with-unique-white-cherry-wood-bookshelf-attached-on-the-wall-and-white-leather-sofa-plus-black-swivel-chairs-as.jpg"
 )
+office['photo_url'] = office.photo_url
+office.save
 
 home = Category.create(
   name: "Home",
   description: "
   for all your home home needs",
-  photo_url: "  http://st.hzcdn.com/simgs/cbc15f26020b0337_3-1314/contemporary-living-room.jpg"
+  photo: "http://st.hzcdn.com/simgs/cbc15f26020b0337_3-1314/contemporary-living-room.jpg"
 )
-
-
-
+home['photo_url'] = home.photo_url
+home.save
 
 ##################################################################################
 ##################################################################################
@@ -288,239 +305,321 @@ knife = Item.create(
   description: "for choppan",
   photo: "http://i.imgur.com/Pzl2o8v.jpg"
 )
+knife['photo_url'] = knife.photo_url
+knife.save
+
 
 toothbrush = Item.create(
   name: "Philips Electric Toothbrush",
   description: "for brushan",
   photo: "http://gadgetreview.com/wp-content/uploads/2013/01/Sonicare%E2%80%99s-DiamondClean-Toothbrush.jpg"
 )
+toothbrush['photo_url'] = toothbrush.photo_url
+toothbrush.save
 
 eyedrops = Item.create(
   name: "Blink Eyedrops",
   description: "contact-friendly eyedrops!",
   photo: "http://www.maxim.net.my/images/products/blink-contact-eye-drop-big.jpg"
 )
+eyedrops['photo_url'] = eyedrops.photo_url
+eyedrops.save
 
 razor = Item.create(
   name: "Braun Electric Razor",
   description: "for buzzan",
   photo: "http://i.imgur.com/V5umsmU.jpg"
 )
+razor['photo_url'] = razor.photo_url
+razor.save
 
 espresso = Item.create(
   name: "LaMarzocco GS3",
   description: "espresso machine",
   photo: "http://www.clivecoffee.com/mm5/graphics/00000001/gs3-main_2.jpg"
 )
+espresso['photo_url'] = espresso.photo_url
+espresso.save
 
 french_press = Item.create(
   name: "French Press",
   description: "for coffee",
   photo: "http://cache.coffeehomedirect.com/art/french-press-basic.jpg"
 )
+french_press['photo_url'] = french_press.photo_url
+french_press.save
 
 hammer = Item.create(
   name: "Hammer",
   description: "for hammerin",
   photo: "http://i.imgur.com/Jkegzt5.png"
 )
+hammer['photo_url'] = hammer.photo_url
+hammer.save
 
 mcintosh = Item.create(
   name: "McIntosh Amp",
   description: "for listenin",
   photo: "http://i.imgur.com/XutNz5S.png"
 )
+mcintosh['photo_url'] = mcintosh.photo_url
+mcintosh.save
+
 soap = Item.create(
   name: "Molton Brown Soap",
   description: "for cleanin",
   photo: "http://i.imgur.com/jHVzFzf.png"
 )
+soap['photo_url'] = soap.photo_url
+soap.save
 
 bicycle = Item.create(
   name: "Kona Jake the Snake",
   description: "for bikin",
   photo: "http://i.imgur.com/eQDrOpZ.jpg"
 )
+bicycle['photo_url'] = bicycle.photo_url
+bicycle.save
 
 stroller = Item.create(
   name: "Mima Baby Stroller",
   description: "for strollin",
   photo: "http://i.imgur.com/JSVJBdk.jpg"
 )
+stroller['photo_url'] = stroller.photo_url
+stroller.save
 
 shirt = Item.create(
   name: "G-Star Basic V-Neck",
   description: "for v-neckin",
   photo: "http://i.imgur.com/AFt1gpl.jpg"
 )
+shirt['photo_url'] = shirt.photo_url
+shirt.save
 
 watch = Item.create(
   name: "Timex Weekender",
   description: "for watch'in",
   photo: "http://i.imgur.com/o0dKStA.jpg"
 )
+watch['photo_url'] = watch.photo_url
+watch.save
 
 gel_eyedrops = Item.create(
   name: "Gel Eyedrops",
   description: "for serious refreshin",
   photo: "http://ecx.images-amazon.com/images/I/81kMGLTjcHL._SL1500_.jpg"
 )
+gel_eyedrops['photo_url'] = gel_eyedrops.photo_url
+gel_eyedrops.save
 
 claritin = Item.create(
   name: "Loratadine Allergy Pills",
   description: "for snifflin",
   photo: "http://images.costco-static.com/image/media/350-529688-847__1.jpg"
 )
+claritin['photo_url'] = claritin.photo_url
+claritin.save
 
 gillette_body_wash= Item.create(
   name: "Gillette Body Wash",
   description: "for washin",
   photo: "http://ecx.images-amazon.com/images/I/81XLCuNZu3L._SL1500_.jpg"
 )
+gillette_body_wash['photo_url'] = gillette_body_wash.photo_url
+gillette_body_wash.save
 
 therabreath = Item.create(
   name: "Therabreath",
   description: "for fresh breath",
   photo: "http://www.tonsilstones.com/wp-content/uploads/2013/09/TheraBreath_OralRinse_160z.jpg"
 )
+therabreath['photo_url'] = therabreath.photo_url
+therabreath.save
 
  klean_kanteen = Item.create(
   name: "Large Klean Kanteen",
   description: "for sippin",
   photo: "http://ecx.images-amazon.com/images/I/71aN4X1gjqL._SL1500_.jpg"
 )
+klean_kanteen['photo_url'] = klean_kanteen.photo_url
+klean_kanteen.save
 
 gillette_deodorant = Item.create(
   name: "Gillette Clinical Deodorant",
   description: "for dryin",
   photo: "http://ecx.images-amazon.com/images/I/91NErSGjjSL._SY355_.jpg"
 )
+gillette_deodorant['photo_url'] = gillette_deodorant.photo_url
+gillette_deodorant.save
 
  matte_paste = Item.create(
   name: "label.m Matt Paste",
   description: "for stylin",
   photo: "http://ecx.images-amazon.com/images/I/714iRGU7QPL._SL1500_.jpg"
 )
+matte_paste['photo_url'] = matte_paste.photo_url
+matte_paste.save
 
 laptop_pads = Item.create(
   name: "Grifiti Laptop Pads",
   description: "for computin",
   photo: "http://ecx.images-amazon.com/images/I/41IkTCVqr3L.jpg"
 )
+laptop_pads['photo_url'] = laptop_pads.photo_url
+laptop_pads.save
 
  zeiss_wipes = Item.create(
   name: "Zeiss Cleaning Wipes",
   description: "for computers and eye glasses",
   photo: "http://ecx.images-amazon.com/images/I/510Tjp78V4L.jpg"
 )
+zeiss_wipes['photo_url'] = zeiss_wipes.photo_url
+zeiss_wipes.save
 
  neutrogina_wash = Item.create(
   name: "Neutrogina Face Wash",
   description: "for cleanin",
   photo: "http://ecx.images-amazon.com/images/I/418b%2BOVF-3L.jpg"
 )
+neutrogina_wash['photo_url'] = neutrogina_wash.photo_url
+neutrogina_wash.save
 
 wellness_tabs = Item.create(
   name: "Wellness Tabs",
   description: "for gettin healthy",
   photo: "http://ecx.images-amazon.com/images/I/61rcuCQrB2L._SL1500_.jpg"
 )
+wellness_tabs['photo_url'] = wellness_tabs.photo_url
+wellness_tabs.save
 
  highlighters = Item.create(
   name: "TUL Highlighters",
   description: "for studyin",
   photo: "http://ecx.images-amazon.com/images/I/51p7Z5fzYkL.jpg"
 )
+highlighters['photo_url'] = highlighters.photo_url
+highlighters.save
 
 oxo_dispenser = Item.create(
   name: "OXO Soap Dispenser",
   description: "for soapin",
   photo: "http://ecx.images-amazon.com/images/I/71MAYQLCmVL._SL1500_.jpg"
 )
+oxo_dispenser['photo_url'] = oxo_dispenser.photo_url
+oxo_dispenser.save
 
 holmes_filter = Item.create(
   name: "Holmes HEPA Filter",
   description: "for under-bed cleanin",
   photo: "http://ecx.images-amazon.com/images/I/41WJABKC58L.jpg"
 )
+holmes_filter['photo_url'] = holmes_filter.photo_url
+holmes_filter.save
 
 oxo_hotpad = Item.create(
   name: "OXO Hotpad",
   description: "for cookin",
   photo: "http://ecx.images-amazon.com/images/I/81OKZ5tkr%2BL._SL1500_.jpg"
 )
+oxo_hotpad['photo_url'] = oxo_hotpad.photo_url
+oxo_hotpad.save
 
  razr_orochi = Item.create(
   name: "Razr Orochi Mobile Mouse",
   description: "for high-dpi mousin",
   photo: "http://ecx.images-amazon.com/images/I/31mz%2BMDsuOL.jpg"
 )
+razr_orochi['photo_url'] = razr_orochi.photo_url
+razr_orochi.save
 
 method_soap = Item.create(
   name: "Method Dish Soap",
   description: "for cleanin",
   photo: "http://ecx.images-amazon.com/images/I/41onEoFwIYL.jpg"
 )
+method_soap['photo_url'] = method_soap.photo_url
+method_soap.save
 
 germ_guardian_filter = Item.create(
   name: "GermGuardian HEPA Filter",
   description: "high quality filter",
   photo: "http://ecx.images-amazon.com/images/I/41sdQ-%2BW44L.jpg"
 )
+germ_guardian_filter['photo_url'] = germ_guardian_filter.photo_url
+germ_guardian_filter.save
 
 light_dimmer = Item.create(
   name: "Lutron Lamp Dimmer",
   description: "for mood settin",
   photo: "http://ecx.images-amazon.com/images/I/41gCDoU%2BjoL.jpg"
 )
+light_dimmer['photo_url'] = light_dimmer.photo_url
+light_dimmer.save
 
 baratza = Item.create(
   name: "Baratza Preciso Burr Grinder",
   description: "for grindin",
   photo: "http://i.imgur.com/saYfJ4K.jpg"
 )
+baratza['photo_url'] = baratza.photo_url
+baratza.save
 
 cuisenart_bullet = Item.create(
   name: "Cuisenart Bullet Blender",
   description: "for smoothie'in",
   photo: "http://i.imgur.com/DqZhdTs.jpg"
 )
+cuisenart_bullet['photo_url'] = cuisenart_bullet.photo_url
+cuisenart_bullet.save
 
  dove_shampoo = Item.create(
   name: "Dove Anti-Dandruff Shampoo",
   description: "for cleanin",
   photo: "http://i.imgur.com/sVneKCU.jpg"
 )
+dove_shampoo['photo_url'] = dove_shampoo.photo_url
+dove_shampoo.save
 
  energy_sub = Item.create(
   name: "Energy 8 Subwoofer",
   description: "for suban",
   photo: "http://i.imgur.com/ogGGSJ6.jpg"
 )
+energy_sub['photo_url'] = energy_sub.photo_url
+energy_sub.save
 
  macbook_air = Item.create(
   name: "MacBook Air",
   description: "for computin",
   photo: "http://i.imgur.com/8nSywuc.jpg"
 )
+macbook_air['photo_url'] = macbook_air.photo_url
+macbook_air.save
 
  samsung_tv = Item.create(
   name: "Samsung TV",
   description: "lnt-4681f",
   photo: "http://i.imgur.com/pZdjvJL.gif"
 )
+samsung_tv['photo_url'] = samsung_tv.photo_url
+samsung_tv.save
 
  tweezerman = Item.create(
   name: "Tweezerman Tweezers",
   description: "for pluckin",
   photo: "http://i.imgur.com/BcRlij1.jpg"
 )
+tweezerman['photo_url'] = tweezerman.photo_url
+tweezerman.save
 
  mac_keyboard = Item.create(
   name: "Apple Wireless Keyboard",
   description: "for codin'",
   photo: "http://cdn3.macworld.co.uk/cmsdata/features/3504584/Mac-Keyboard_thumb800.jpg"
 )
+mac_keyboard['photo_url'] = mac_keyboard.photo_url
+mac_keyboard.save
 
 
 ##################################################################################
