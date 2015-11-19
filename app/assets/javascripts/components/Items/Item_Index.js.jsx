@@ -52,7 +52,7 @@ var ItemIndex = React.createClass({
 			<div>
 				<Header img_src={this.state.headerImage} />
 
-					<button onClick={this.openModal}> Open the Modal </button>
+					<button onClick={this.openModal}> Add a Product </button>
 					{modalOpen ? <NewItemForm userID={this.state.userID} closeModal={this.closeModal} /> : ''}
 
 				<section className="body-wrapper">

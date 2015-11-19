@@ -61,8 +61,7 @@ var NewItemForm = React.createClass({
 
 		return(
 			<div className="login-signup-form-wrapper" className="modal-wrapper">
-				<button onClick={closeModal}> Close the Modal </button>
-				Create New Item:
+				<button onClick={closeModal}> Close </button>
 				<br/>
 				<form onSubmit={this.submit} className="login-signup-form" encType="multipart/form-data">
 				 	Name: <input label="Name:" type="text" onChange={this.handleNameChange} />
