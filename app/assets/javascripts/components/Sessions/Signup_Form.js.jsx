@@ -16,24 +16,13 @@ var SignupForm = React.createClass({
 	submit: function(e){
 		e.preventDefault()
 
-		// var data = {
-		//    email: this.state.email,
-		//    password: this.state.password,
-		//    f_name: this.state.fName,
-		//    l_name: this.state.lName,
-		//    city: this.state.city,
-		//    gender: this.state.gender,
-		//    photo: this.state.photo,
-		// }
-
-
 		var file = document.getElementById('photo_upload').files[0]	
 		var formData = new FormData();
 		formData.append('email', this.state.email)
 		formData.append('password', this.state.password)
-		formData.append('f_name', this.props.fName)
+		formData.append('f_name', this.state.fName)
 		formData.append('l_name', this.state.lName)
-		formData.append('city', this.props.city)
+		formData.append('city', this.state.city)
 		formData.append('gender', this.state.gender)
 		formData.append('photo', file, file.name)
 
