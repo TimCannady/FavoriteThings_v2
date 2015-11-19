@@ -20,8 +20,12 @@ ActiveRecord::Schema.define(version: 20151115230100) do
     t.string   "name"
     t.string   "description"
     t.string   "photo_url"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "items", force: :cascade do |t|
