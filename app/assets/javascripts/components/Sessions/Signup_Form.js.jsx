@@ -9,30 +9,30 @@ var SignupForm = React.createClass({
 			lName: "",
 			city: "",
 			gender: "",
-			photoUrl: ""
+			photo: ""
 		}
 	},
 
 	submit: function(e){
-		// var self 
 		e.preventDefault()
-		// self = this
 
-		var data = {
-		   email: this.state.email,
-		   password: this.state.password,
-		   f_name: this.state.fName,
-		   l_name: this.state.lName,
-		   city: this.state.city,
-		   gender: this.state.gender,
-		   photo_url: this.state.photoUrl,
-		}
+		var file = document.getElementById('photo_upload').files[0]	
+		var formData = new FormData();
+		formData.append('email', this.state.email)
+		formData.append('password', this.state.password)
+		formData.append('f_name', this.state.fName)
+		formData.append('l_name', this.state.lName)
+		formData.append('city', this.state.city)
+		formData.append('gender', this.state.gender)
+		formData.append('photo', file, file.name)
 
 		 // Submit form via jQuery/AJAX
 		$.ajax({
 			type: 'POST',
 			url: '/users',
-			data: data
+			data: formData,
+			contentType: false,
+			processData: false,
 			})
 			.done(function(data) {
 				App.logIn(data.email)
@@ -69,8 +69,8 @@ var SignupForm = React.createClass({
 	handleGenderChange: function(event) {
 	    this.setState({gender: event.target.value});
 	},  
-	handlePhotoUrlChange: function(event) {
-	    this.setState({photoUrl: event.target.value});
+	handlePhotoChange: function(event) {
+	    this.setState({photo: event.target.value});
 	},
 
 	render: function(){
@@ -91,7 +91,8 @@ var SignupForm = React.createClass({
 				 	<br/>
 				 	Gender: <input label="Gender:" type="text" onChange={this.handleGenderChange} />
 				 	<br/>
-				 	Headshot URL: <input label="photoUrl:" type="text" onChange={this.handlePhotoUrlChange} />
+				 	Headshot: <input label="photo:" type="file" onChange={this.handlePhotoChange} multiple={true} id={"photo_upload"}/>
+
 				 	<br/>
 				 	<button type="submit">Submit</button>
 				</form>

@@ -173,7 +173,7 @@ TO-DO:
 
 * TDD
 
-* Create_Item -> popup? React-Modal gem?
+* Responsive
 
 * Convert to ES6
 
