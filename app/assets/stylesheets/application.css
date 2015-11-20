@@ -92,6 +92,7 @@ a{
 			border-radius: 10%;
 			text-decoration: none;
 			border: 2px solid lightgrey;
+			background-color: transparent;
 			color: white;
 			font-size: 12px;
 			font-family: Helvetica Neue;

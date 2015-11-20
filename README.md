@@ -165,6 +165,8 @@ Changing CSS classes with React (instead of jQuery). Created a boolean state to 
 In regards to creating a new *Item*, Ajax uploads were tricky. HTML *formData* bundles the form's data in a way that Rails knows how to handle. Paperclip helps with instantiating a new *Item* with the correct attributes. Paperclip, sends the image to Amazon S3, and it also provivdes a *.url* method to retrieve the URL for the newly-hosted image and store it in the *photo_url* attribute of the new *Item*. Issues regarding how different regions give different URLS and how they have to match..
 
 Popup modal for new_item_form.
+
+Tried to create an *Uploadable* Ruby mixin for Item.rb, User.rb and Category.rb, but it didn't play well with Paperclip.
 <!--
 
 TO-DO:
@@ -184,7 +186,6 @@ BUGS/TO-FIX
 * close modal when clicking outside the form
 
 * Ruby module: uploadable (item.rb, user.rb, category.rb)
-
 
 * header category cards on non-user-show pages
 
