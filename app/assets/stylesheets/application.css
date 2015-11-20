@@ -100,6 +100,9 @@ a{
 			text-align: center;
 			padding: 10px;
 		}
+		.add-item-button{
+			/*color: red;*/
+		}
 		.modal-wrapper{
 			position: absolute;
 			margin: 0 auto;
