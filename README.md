@@ -181,9 +181,10 @@ TO-DO:
 
 BUGS/TO-FIX
 
+* close modal when clicking outside the form
+
 * Ruby module: uploadable (item.rb, user.rb, category.rb)
 
-* convert Category's photo_URL to photo, like Item. Just for seed since we don't crud categories (yet..)
 
 * header category cards on non-user-show pages
 

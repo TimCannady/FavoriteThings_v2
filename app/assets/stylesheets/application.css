@@ -87,18 +87,33 @@ a{
 		align-self: flex-start;
 		/*border: 1px solid red;*/
 	}
-	.nav-button{
-		display: inline-block;
-		border-radius: 10%;
-		text-decoration: none;
-		border: 2px solid lightgrey;
-		color: white;
-		font-size: 12px;
-		font-family: Helvetica Neue;
-		margin: 3px;
-		text-align: center;
-		padding: 10px;
-	}
+		.nav-button{
+			display: inline-block;
+			border-radius: 10%;
+			text-decoration: none;
+			border: 2px solid lightgrey;
+			color: white;
+			font-size: 12px;
+			font-family: Helvetica Neue;
+			margin: 3px;
+			text-align: center;
+			padding: 10px;
+		}
+		.modal-wrapper{
+			position: absolute;
+			margin: 0 auto;
+			top: 300%;
+			right: 100%;
+
+			height: 250px;
+			width: 500px;
+			background-color: grey;
+			opacity: 0.98;
+			border: 2px solid white;
+			border-radius: 2%;
+			padding: 2%;
+			color : red
+		}
 .header-menu-wrapper{
 	display: flex;
 	justify-content: center;
@@ -181,22 +196,6 @@ a{
 }
 .show-card-img{
 	height: 500px;
-}
-.modal-wrapper{
-	position: absolute;
-	margin: auto;
-/*	top                   : 50%;
-	left                  : 50%;*/
-	height: 500px;
-	width: 500px;
-	background-color: grey;
-	opacity: 0.9;
-/*	right                 : auto;
-	bottom                : auto;*/
-	border: 2px solid white;
-	border-radius: 2%;
-	padding: 2%;
-	color : red
 }
 /*============End Body============*/
 
