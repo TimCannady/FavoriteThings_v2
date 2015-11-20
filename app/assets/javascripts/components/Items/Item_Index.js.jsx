@@ -3,7 +3,6 @@ var ItemIndex = React.createClass({
 	getInitialState: function(){
 		return {
 			didFetchData: false,
-			modalOpen: false,
 			items: [],
 			userID: localStorage.getItem('userID'),
 			headerImage: "http://www.w3schools.com/html/html5.gif"
@@ -33,27 +32,14 @@ var ItemIndex = React.createClass({
 		})
 	},
 
-	openModal: function() {
-		this.setState({modalOpen: true});
-	},
-
-	closeModal: function() {
-		this.setState({modalOpen: false});
-	},
-
 	render: function(){
 		var itemArray = this.state.items.map(function(item){
 			return <ItemCard name={item.name} key={item.id} id={item.id} photo_url={item.photo_url} description={item.description} userID={localStorage.getItem('userID')} like_status={item.like_status}  />
 		})
 
-		var modalOpen = this.state.modalOpen
-
 		return(
 			<div>
 				<Header img_src={this.state.headerImage} />
-
-					<button onClick={this.openModal}> Open the Modal </button>
-					{modalOpen ? <NewItemForm userID={this.state.userID} closeModal={this.closeModal} /> : ''}
 
 				<section className="body-wrapper">
 					{itemArray}
